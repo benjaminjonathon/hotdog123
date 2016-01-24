@@ -15,17 +15,17 @@ _role2names = ["Custom 4.0 Altis Life RPG"];
 _role3 = "Owners:";
 _role3names = ["Apollo"];
 _role4 = "Developer:";
-_role4names = ["Liquid"];
-_role5 = "Dev Staff:";
-_role5names = ["Staff"];
+_role4names = ["Liquid, Apollo & Twist"];
+_role5 = "Staff:";
+_role5names = ["Stuart,Cerberus & Jupiter"];
 _role6 = "Website:";
-_role6names = ["ServerName.enjin.com"];
+_role6names = ["http://atlanta-entertainment.com/"];
 _role7 = "TeamSpeak:";
-_role7names = ["ServerName.teamspeak3.com"];
-_role8 = "Restarts:";
-_role8names = ["Restarts every 6 hours starting at Noon EST."];
+_role7names = ["atlantaentertainment.teamspeak3.com:7853"];
+_role8 = "A wise man ask me when i was a noob:";
+_role8names = ["Would You Rather Live 70 Years As A Lamb Or 30 Years As A Lion? You think about it."];
 _role9 = "Features:";
-_role9names = ["Lots To Do","Side Chat Punishment","100,000$ Start","Friendly Admins"];
+_role9names = ["Lots To Do","Side Chat Punishment","$100,000 Start","Active Admins"];
 
 {
 sleep 2;
