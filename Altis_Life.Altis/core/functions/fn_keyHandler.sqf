@@ -79,7 +79,7 @@ switch (_code) do {
 		};
 	};
 	
-	//F1
+	//minus 
 	case 74: {
 		if(!_shift && !_alt) then {
 			_handled = true;
@@ -220,6 +220,25 @@ switch (_code) do {
 		};
 	};
 
+	case 73: {
+		if (life_inv_redgull > 1) then {
+			if(([false,redgull,1] call life_fnc_handleInv)) then {
+				life_thirst = 100;
+				if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 0;};
+				if(EQUAL(_item,"redgull") && {EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)}) then {
+					[] spawn {
+						life_redgull_effect = time;
+						titleText[localize "STR_ISTR_RedGullEffect","PLAIN"];
+						player enableFatigue false;
+						waitUntil {!alive player OR ((time - life_redgull_effect) > (3 * 60))};
+						player enableFatigue true;
+					};
+				};
+			};
+		};
+	};
+
+	
 	//U Key
 	case 22: {
 		if(!_alt && !_ctrlKey) then {
