@@ -351,5 +351,6 @@ class Life_Client_Core
 		class vehicleGarage {};
 		class gangDeposit {};
 		class wireTransfer {};
+		class statusBar {};
 	};
 };
