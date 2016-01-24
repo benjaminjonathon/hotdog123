@@ -177,7 +177,7 @@ class Life_RscText {
 	tooltipColorShade[] = {0,0,0,0.65};
 };
 
-class Life_RscButtonInvisible : Life_RscButtonMenu {
+class TextMsgButton : Life_RscButtonMenu {
 	animTextureNormal = "#(argb,8,8,3)color(1,1,1,0)";
 	animTextureDisabled = "#(argb,8,8,3)color(1,1,1,0)";
 	animTextureOver = "#(argb,8,8,3)color(1,1,1,0)";
