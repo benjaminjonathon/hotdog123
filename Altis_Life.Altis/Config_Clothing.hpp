@@ -100,7 +100,7 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_police", "", 75, { "life_coplevel", "SCALAR", 1 } },
-            { "H_MilCap_blue", "", 120, { "life_coplevel", "SCALAR", 4 } },
+            { "H_MilCap_blue", "", 120, { "life_coplevel", "SCALAR", 1 } },
 			{ "H_Beret_blk_POLICE", "", 120, { "life_coplevel", "SCALAR", 4 } },
 			{ "H_Beret_02", "", 120, { "life_coplevel", "SCALAR", 5 } },
 			{ "H_Beret_Colonel", "", 120, { "life_coplevel", "SCALAR", 6 } },
