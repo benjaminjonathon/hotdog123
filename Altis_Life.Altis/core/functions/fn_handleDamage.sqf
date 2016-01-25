@@ -1,3 +1,4 @@
+
 #include "..\..\script_macros.hpp"
 /*
 	File: fn_handleDamage.sqf
@@ -6,13 +7,12 @@
 	Description:
 	Handles damage, specifically for handling the 'tazer' pistol and nothing else.
 */
-private["_unit","_damage","_source","_projectile","_part","_curWep","_leathalTaz"];
+private["_unit","_damage","_source","_projectile","_part","_curWep"];
 _unit = SEL(_this,0);
 _part = SEL(_this,1);
 _damage = SEL(_this,2);
 _source = SEL(_this,3);
 _projectile = SEL(_this,4);
-_leathalTaz = life_leathaltazer;
 
 //Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
