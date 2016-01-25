@@ -159,7 +159,7 @@ class WeaponShops {
         name = "Altis Cop Shop";
         side = "cop";
         license = "";
-        level[] = { "1" };
+        level[] = { "-1" };
         items[] = {
             { "hgun_P07_F", "Stungun", 1000, 0, { "life_coplevel", "SCALAR", 1 } },
 			{ "SMG_02_F", "", 10000, 0, { "life_coplevel", "SCALAR", 2 } },
