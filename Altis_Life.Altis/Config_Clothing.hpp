@@ -178,13 +178,13 @@ class Clothing {
 			{ "U_O_CombatUniform_ocamo", "Guerilla Fatigues (Hex) [CSAT]", 2000, { "", "", -1 } },
 			{ "U_I_CombatUniform", "Combat Fatigues AAF", 2000, { "", "", -1 } },
 			{ "U_I_CombatUniform_shortsleeve", "Combat Fatigues AAF Rolled Up", 1800, { "", "", -1 } },
-			{ "U_B_CTRG_1", "CTRG Combat Uniform", 5000, { "", "", -1 } },
-			{ "U_B_CTRG_3", "CTRG Combat Uniform Rolled Up", 5000, { "", "", -1 } },
+			{ "U_B_CTRG_1", "CTRG Combat Uniform", 2000, { "", "", -1 } },
+			{ "U_B_CTRG_3", "CTRG Combat Uniform Rolled Up", 2000, { "", "", -1 } },
 			{ "", "Guerilla Leader", 750, { "", "", -1 } },
 			{ "U_B_CTRG_2", "CTRG Tee", 1500, { "", "", -1 } },
-			{ "U_I_FullGhillie_ard", "Ghillie Suit AAF", 25000, { "", "", -1 } },
-			{ "U_O_FullGhillie_ard", "Ghillie Suit CSAT", 25000, { "", "", -1 } },
-			{ "U_B_FullGhillie_ard", "Guillie Suit NATO", 25000, { "", "", -1 } },			
+			{ "U_I_FullGhillie_ard", "Ghillie Suit AAF", 5000, { "", "", -1 } },
+			{ "U_O_FullGhillie_ard", "Ghillie Suit CSAT", 5000, { "", "", -1 } },
+			{ "U_B_FullGhillie_ard", "Guillie Suit NATO", 5000, { "", "", -1 } },			
             { "U_O_GhillieSuit", "", 15000, { "", "", -1 } }
         };
         headgear[] = {
@@ -238,24 +238,24 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_khk", "", 10000, { "", "", -1 } },
             { "V_TacVest_oli", "", 10000, { "", "", -1 } },
-			{ "V_HarnessO_brn", "", 5000, { "", "", -1 } },
-			{ "V_HarnessOSpec_brn", "", 5000, { "", "", -1 } },
+			{ "V_HarnessO_brn", "", 2000, { "", "", -1 } },
+			{ "V_HarnessOSpec_brn", "", 200, { "", "", -1 } },
 			{ "V_PlateCarrier_Kerry", "", 18750, { "", "", -1 } },
 			{ "	V_PlateCarrierL_CTRG", "", 18750, { "", "", -1 } },
-			{ "	V_PlateCarrier1_rgr", "", 25000, { "", "", -1 } },
+			{ "	V_PlateCarrier1_rgr", "", 2000, { "", "", -1 } },
 			{ "V_PlateCarrier2_rgr", "", 20000, { "", "", -1 } },
 			{ "V_PlateCarrier1_blk", "", 20000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             {"B_AssaultPack_cbr", "", 2500, { "", "", -1 }},
-            { "B_Kitbag_mcamo", "", 4500, { "", "", -1 } },
-            { "B_TacticalPack_oli", "", 3500, { "", "", -1 } },
+            { "B_Kitbag_mcamo", "", 2500, { "", "", -1 } },
+            { "B_TacticalPack_oli", "", 2500, { "", "", -1 } },
             { "B_FieldPack_ocamo", "", 3000, { "", "", -1 } },
-            { "B_Bergen_sgg", "", 4500, { "", "", -1 } },
-            { "B_Kitbag_cbr", "", 4500, { "", "", -1 } },
-            { "B_Carryall_oli", "", 5000, { "", "", -1 } },
-            { "B_Carryall_khk", "", 5000, { "", "", -1 } }
+            { "B_Bergen_sgg", "", 500, { "", "", -1 } },
+            { "B_Kitbag_cbr", "", 500, { "", "", -1 } },
+            { "B_Carryall_oli", "", 2000, { "", "", -1 } },
+            { "B_Carryall_khk", "", 2000, { "", "", -1 } }
         };
     };
 
