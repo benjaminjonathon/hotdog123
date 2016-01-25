@@ -122,7 +122,7 @@ _adminUIDandAccess =
 		]
 	],
 	[
-		['76561198128922686','UID2','UID3','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
+		['UID1','UID2','UID3','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
 		[
 			'spectating','AdminConsole','Delete Vehicle','EjectTarget','AdminLog','Freeze Target','UnFreeze Target',
 			'Remove Gear','Revive','Kick (Silent)','Kick (Announce)','Ban (Silent)','Ban (Announce)'

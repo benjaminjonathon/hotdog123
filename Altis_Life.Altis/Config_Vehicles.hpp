@@ -792,7 +792,10 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = {
-            { "Cop", "cop", {
+            { "Green", "civ", {
+                "textures\civ\hellcat.paa"
+			} },
+			{ "Cop", "cop", {
                 "textures\cop\apd_hellcat.paa"
 			} },
             { "EMS White", "med", {
