@@ -92,8 +92,7 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 1, { "", "", 1 } },
-            { "U_Rangemaster", "Cop Uniform", 25, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_B_CombatUniform_mcam_vest", "Cop Uniform", 25, { "life_coplevel", "SCALAR", 5 } },
+            { "U_B_CombatUniform_mcam_vest", "Cop Uniform", 25, { "life_coplevel", "SCALAR", 1 } },
             { "U_MillerBody", "", 25, { "life_coplevel", "SCALAR", 6 } },
 			{ "U_B_Wetsuit", "Cop Uniform", 25, { "", "", 1 } },
             
