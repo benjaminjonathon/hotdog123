@@ -159,10 +159,10 @@ class WeaponShops {
         name = "Altis Cop Shop";
         side = "cop";
         license = "";
-        level[] = { "", "", 0, "" };
+        level[] = { "1" };
         items[] = {
             { "hgun_P07_F", "Stungun", 1000, 0, { "life_coplevel", "SCALAR", 1 } },
-			{ "SMG_02_F", "", 1000, 0, { "life_coplevel", "SCALAR", 2 } },
+			{ "SMG_02_F", "", 10000, 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "16Rnd_9x21_Mag", "", 10, 0, { "life_coplevel", "SCALAR", 1 } },
 			{ "30Rnd_9x21_Mag", "", 10, 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "arifle_SDAR_F", "", 5500, 0, { "life_coplevel", "SCALAR", 3 } },
@@ -171,9 +171,9 @@ class WeaponShops {
 			{ "arifle_MX_Black_F", "", 10, 0, { "life_coplevel", "SCALAR", 4 } },
 			{ "arifle_MXM_Black_F", "", 10, 0, { "life_coplevel", "SCALAR", 5 } },
 			{ "30Rnd_65x39_caseless_mag", "", 10, 0, { "life_coplevel", "SCALAR", 3 } },
-			{ "arifle_MX_SW_Black_F", "", 10, 0, { "life_coplevel", "SCALAR", 6 } },
+			{ "arifle_MX_SW_Black_F", "", 10000, 0, { "life_coplevel", "SCALAR", 6 } },
 			{ "100Rnd_65x39_caseless_mag", "", 10, 0, { "life_coplevel", "SCALAR", 6 } },
-			{ "srifle_EBR_MRCO_LP_BI_F", "", 10, 0, { "life_coplevel", "SCALAR", 6 } },
+			{ "srifle_EBR_MRCO_LP_BI_F", "", 10000, 0, { "life_coplevel", "SCALAR", 6 } },
 			{ "20Rnd_762x51_Mag", "", 10, 0, { "life_coplevel", "SCALAR", 6 } },
 			{ "optic_Aco_smg", "", 10, 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "optic_ACO_grn_smg", "", 10, 0, { "life_coplevel", "SCALAR", 2 } },
