@@ -20,7 +20,7 @@ if(isNull _ui) then {
 	_ui = GVAR_UINS ["Life_HUD_nameTags",displayNull];
 };
 
-_units = nearestObjects[(visiblePosition player),["Man","Land_Pallet_MilBoxes_F","Land_Sink_F"],50];
+_units = nearestObjects[(visiblePosition player),["Man","Land_Pallet_MilBoxes_F","Land_Sink_F"],8];
 
 SUB(_units,[player]);
 
@@ -35,17 +35,18 @@ SUB(_units,[player]);
 		};
 		_sPos = worldToScreen _pos;
 		_distance = _pos distance player;
-		if(count _sPos > 1 && {_distance < 15}) then {
+		if(count _sPos > 1 && {_distance < 25}) then {
 			_text = switch (true) do {
 				case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x GVAR ["realname",name _x])];};
 				case (!isNil {(_x GVAR "rank")}): {format["<img image='%1' size='1'></img> %2",switch ((_x GVAR "rank")) do {
-					case 2: {"\a3\ui_f\data\gui\cfg\Ranks\corporal_gs.paa"}; 
-					case 3: {"\a3\ui_f\data\gui\cfg\Ranks\sergeant_gs.paa"};
-					case 4: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
-					case 5: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
-					case 6: {"\a3\ui_f\data\gui\cfg\Ranks\major_gs.paa"};
-					case 7: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
-					case 8: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
+					case 2: {"textures\rank\1.paa"}; 
+					case 3: {"textures\rank\2.paa"};
+					case 4: {"textures\rank\2.paa"};
+					case 5: {"textures\rank\3.paa"};
+					case 6: {"textures\rank\10.paa"};
+					case 7: {"textures\rank\11.paa"};
+					case 8: {"textures\rank\13.paa"};
+					case 9: {"textures\rank\14.paa"};
 					default {"\a3\ui_f\data\gui\cfg\Ranks\private_gs.paa"};
 					},_x GVAR ["realname",name _x]]};
 				case ((!isNil {_x GVAR "name"} && playerSide == independent)): {format["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x GVAR ["name","Unknown Player"]]};
