@@ -15,6 +15,9 @@ switch(playerSide) do {
         if(uniform player == "U_MillerBody") then {
             player setObjectTextureGlobal [0, "textures\cop\lieutenant.paa"];
         };
+		if(uniform player == "U_Rangemaster") then {
+            player setObjectTextureGlobal [0, "textures\cop\Cadet_Uni2.jpg"];
+        };
     };
    
     case west: {
@@ -23,7 +26,7 @@ switch(playerSide) do {
         if(uniform player == "U_B_CombatUniform_mcam_vest") then {
             if (_copUniformlvl == 5) then {player setObjectTextureGlobal [0, "textures\cop\police_uniform.paa"];};
 			if (_copUniformlvl == 6) then {player setObjectTextureGlobal [0, "textures\cop\police_uniform.paa"];};
-			 if (_copUniformlvl > 6) then {removeUniform player; hint "Please wear the correct Uniform";};
+			if (_copUniformlvl > 6) then {removeUniform player; hint "Please wear the correct Uniform";};
         };
        
         if(uniform player == "U_MillerBody") then {
@@ -38,7 +41,8 @@ switch(playerSide) do {
             if (_copUniformlvl == 2) then {player setObjectTextureGlobal [0, "textures\cop\Officer_Uni3.jpg"];};
 			if (_copUniformlvl == 3) then {player setObjectTextureGlobal [0, "textures\cop\Officer_Uni3.jpg"];};
 			if (_copUniformlvl == 4) then {player setObjectTextureGlobal [0, "textures\cop\Uniform_Corporal4.jpg"];};
-    };
+			if (_copUniformlvl > 4) then {removeUniform player; hint "Please wear the correct Uniform";};
+		};
     case independent: {
         if(uniform player == "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "textures\med\ems_uniform.paa"];
