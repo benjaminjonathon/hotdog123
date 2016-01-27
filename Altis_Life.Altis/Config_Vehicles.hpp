@@ -553,19 +553,19 @@ class LifeCfgVehicles {
             } },
 			{ "shark", "civ", {
                 "texture\civ\hb_shark.paa"
-			 } },
+			} },
 			{ "Graffiti", "civ", {
                 "texture\civ\graffiti.paa"
-			 } },
+			} },
 			{ "Hyperbeast", "civ", {
                 "texture\civ\hyperbeast.paa"
-			 } },
+			} },
 			{ "HyperWolf", "civ", {
                 "texture\civ\HyperWolf.paa"
-			 } },
+			} },
 			{ "Jupite", "civ", {
                 "texture\civ\jupiter.paa"
-			 } },
+			} },
 			{ "Vulcan", "civ", {
                 "texture\civ\vulcan.paa"	
             } }
@@ -735,7 +735,7 @@ class LifeCfgVehicles {
 			{ "needforspeed", "civ", {
                 "textures\civ\suv_needforspeed.paa"
 			} },		
-			{ "stormtrooper", "med", {
+			{ "stormtrooper", "civ", {
                 "textures\civ\suv_stormtrooper.paa"
 			} },		
 			{ "subaru", "civ", {
