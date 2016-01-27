@@ -76,7 +76,7 @@ _announce_adminstate_changed = false;	/* true or false */
 _adminUIDandAccess =
 [
 	[
-		['76561198203109908','76561198133887807','76561198045959529','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
+		['76561198203109908','76561198045959529','UID3','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
 		[
 			'Teleport On Map Click','Teleport - Target To Me','Teleport - Me To Target','Teleport In Facing Direction (10m steps)',
 			'spectating','AdminConsole','Delete Vehicle','FlyUp','EjectTarget','ToggleVehLock','UpgradeBuilding','ShowGear',
@@ -122,7 +122,7 @@ _adminUIDandAccess =
 		]
 	],
 	[
-		['76561198068181860','76561198145279941','76561198128922686','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
+		['76561198128922686','76561198114129195','76561198118327319','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
 		[
 			'spectating','AdminConsole','Delete Vehicle','EjectTarget','AdminLog','Freeze Target','UnFreeze Target',
 			'Remove Gear','Revive','Kick (Silent)','Kick (Announce)','Ban (Silent)','Ban (Announce)'
