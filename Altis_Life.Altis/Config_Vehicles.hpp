@@ -448,14 +448,14 @@ class LifeCfgVehicles {
 			{ "vipergreyblue", "civ", {
                 "texture\civ\offroad_vipergreyblue.paa"
             } },
-			{ "repsol", "civ", {
-                "texture\civ\hb_repsol.paa"
+			{ "iron", "civ", {
+                "texture\civ\iron_man.paa"
             } },
-			{ "rockstar", "civ", {
-                "texture\civ\hb_rockstar.paa"
-            } },
-			{ "shark", "civ", {
-                "texture\civ\hb_shark.paa"
+			{ "asiimov", "civ", {
+                "texture\civ\asiimov.paa"
+			} },
+			{ "batman", "civ", {
+                "texture\civ\batman.paa"
             } }
         };
     };
@@ -553,6 +553,21 @@ class LifeCfgVehicles {
             } },
 			{ "shark", "civ", {
                 "texture\civ\hb_shark.paa"
+			 } },
+			{ "Graffiti", "civ", {
+                "texture\civ\graffiti.paa"
+			 } },
+			{ "Hyperbeast", "civ", {
+                "texture\civ\hyperbeast.paa"
+			 } },
+			{ "HyperWolf", "civ", {
+                "texture\civ\HyperWolf.paa"
+			 } },
+			{ "Jupite", "civ", {
+                "texture\civ\jupiter.paa"
+			 } },
+			{ "Vulcan", "civ", {
+                "texture\civ\vulcan.paa"	
             } }
         };
     };
@@ -727,13 +742,22 @@ class LifeCfgVehicles {
                 "textures\civ\suv_subaru.paa"
 			} },		
 			{ "subaruoriginal", "civ", {
-                "textures\civ\suv_subaruoriginal.paa"
+                "textures\civ\graffiti.paa"
 			} },		
 			{ "viperblackred", "civ", {
-                "textures\civ\suv_viperblackred.paa"
+                "textures\civ\redline.paa"
 			} },		
 			{ "viperblackwhite", "civ", {
-                "textures\civ\suv_viperblackwhite.paa"	
+                "textures\civ\suvcamo.paa"
+			} },		
+			{ "viperblackwhite", "civ", {
+                "textures\civ\cartoon.paa"
+			} },		
+			{ "viperblackwhite", "civ", {
+                "textures\civ\atlanta.paa"
+			} },		
+			{ "viperblackwhite", "civ", {
+                "textures\civ\blitz.paa"
 			} }
 		};
     };
