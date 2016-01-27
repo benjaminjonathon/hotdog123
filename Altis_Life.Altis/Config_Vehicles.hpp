@@ -431,31 +431,16 @@ class LifeCfgVehicles {
                 "textures\med\ems_offroad.paa"
 			} },
 			{ "johndeere", "civ", {
-                "texture\offroad\offroad_johndeere.paa"
-            } },
-			{ "orangewolf", "civ", {
-                "texture\offroad\offroad_orangewolf.paa"
+                "texture\offroad\offroad_facetjohndeere.paa"
             } },
 			{ "pokemon", "civ", {
-                "texture\offroad\offroad_pokemon.paa"
-            } },
-			{ "viperblackred", "civ", {
-                "texture\offroad\offroad_viperblackred.paa"
-            } },
-			{ "viperbluewhite", "civ", {
-                "texture\offroad\offroad_viperbluewhite.paa"
-            } },
-			{ "vipergreyblue", "civ", {
-                "texture\offroad\offroad_vipergreyblue.paa"
+                "texture\offroad\offroad_facetpokemon.paa"
             } },
 			{ "iron", "civ", {
-                "texture\offroad\offroad_ironman.paa"
-            } },
-			{ "whitecline", "civ", {
-                "texture\offroad\offroad_asiimov.paa"
+                "texture\offroad\offroad_facetironman.paa"
 			} },
 			{ "batman", "civ", {
-                "texture\offroad\offroad_batman.paa"
+                "texture\offroad\offroad_facetbatman.paa"
             } }
         };
     };
@@ -528,22 +513,10 @@ class LifeCfgVehicles {
                 "textures\med\ems_hatchback.paa"
 			} },
 			{ "abudhabi", "civ", {
-                "texture\hatchbacks\hb_abudhabi.paa"
-            } },
-			{ "continental", "civ", {
-                "texture\hatchbacks\hb_continental.paa"
-            } },
-			{ "hellokitty", "civ", {
-                "texture\hatchbacks\hb_hellokitty.paa"
-            } },
-			{ "metallica", "civ", {
-                "texture\hatchbacks\hb_metallica.paa"
+                "texture\hatchbacks\hb_racecar.paa"
             } },
 			{ "monster", "civ", {
                 "texture\hatchbacks\hb_monster.paa"
-            } },
-			{ "redbull", "civ", {
-                "texture\hatchbacks\hb_redsull.paa"
             } },
 			{ "repsol", "civ", {
                 "texture\hatchbacks\hb_repsol.paa"
@@ -716,43 +689,16 @@ class LifeCfgVehicles {
 			} },		
 			{ "batman", "civ", {
                 "textures\suv\suv_batman.paa"
-			} },		
-			{ "boba", "civ", {
-                "textures\suv\suv_boba.paa"
-			} },		
-			{ "fireball", "civ", {
-                "textures\suv\suv_fireball.paa"
-			} },		
-			{ "greyrace", "civ", {
-                "textures\suv\suv_greyrace.paa"
-			} },		
+			} },							
 			{ "mario", "civ", {
                 "textures\suv\suv_mario.paa"
 			} },		
 			{ "monster", "civ", {
                 "textures\suv\suv_monster.paa"
-			} },		
-			{ "needforspeed", "civ", {
-                "textures\suv\suv_needforspeed.paa"
-			} },		
-			{ "stormtrooper", "civ", {
-                "textures\suv\suv_stormtrooper.paa"
-			} },		
+			} },						
 			{ "subaru", "civ", {
                 "textures\suv\suv_subaru.paa"
-			} },		
-			{ "subaruoriginal", "civ", {
-                "textures\suv\suv_graffiti.paa"
-			} },		
-			{ "redcline", "civ", {
-                "textures\suv\suv_redcline.paa"
-			} },		
-			{ "suvcamo", "civ", {
-                "textures\suv\suv_suvcamo.paa"
-			} },		
-			{ "cartoon", "civ", {
-                "textures\suv\suv_cartoon.paa"
-			} },		
+			} },									
 			{ "atlanta", "civ", {
                 "textures\suv\suv_atlanta.paa"
 			} },		

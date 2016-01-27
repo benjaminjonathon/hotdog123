@@ -57,10 +57,14 @@ class WeaponShops {
 			{ "30Rnd_556x45_Stanag", "", 450, -1 },
 			{ "arifle_SDAR_F", "", 25000, -1 },
 			{ "20Rnd_556x45_UW_mag", "", 450, -1 },
+			{ "srifle_DMR_01_F", "", 45000, -1 },
+			{ "10Rnd_762x54_Mag", "", 450, -1 },
 			{ "arifle_Katiba_F", "", 65000, -1 },
 			{ "30Rnd_65x39_caseless_green", "", 450, -1 },
+			{ "srifle_DMR_06_olive_F", "", 95000, -1 },
 			{ "srifle_EBR_F", "", 115000, -1 },
 			{ "20Rnd_762x51_Mag", "", 450, -1 },
+			{ "LMG_Mk200_F", "", 215000, -1 },
 			{ "optic_ACO_grn_smg", "", 2500, -1 },
 			{ "optic_Aco", "", 2500, -1 },
 			{ "optic_ACO_grn", "", 2500, -1 },
@@ -151,17 +155,15 @@ class WeaponShops {
         };
     };
 
-    //Cop Shops
+    //AMC Shops
     class cop_basic {
-        name = "Altis Cop Shop";
+        name = "Altis AMC Shop";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
             { "hgun_P07_F", "Stungun", 450, 0, { "life_coplevel", "SCALAR", 1 } },
-			{ "SMG_02_F", "", 750, 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "16Rnd_9x21_Mag", "", 10, 0, { "life_coplevel", "SCALAR", 1 } },
-			{ "30Rnd_9x21_Mag", "", 20, 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "arifle_SDAR_F", "", 5500, 0, { "life_coplevel", "SCALAR", 3 } },
 			{ "20Rnd_556x45_UW_mag", "", 100, 0, { "life_coplevel", "SCALAR", 3 } },
 			{ "arifle_MXC_Black_F", "", 1010, 0, { "life_coplevel", "SCALAR", 3 } },
@@ -169,7 +171,7 @@ class WeaponShops {
 			{ "arifle_MXM_Black_F", "", 4200, 0, { "life_coplevel", "SCALAR", 5 } },
 			{ "arifle_MX_GL_Black_F", "", 4200, 0, { "life_coplevel", "SCALAR", 6 } },
 			{ "30Rnd_65x39_caseless_mag", "", 110, 0, { "life_coplevel", "SCALAR", 3 } },
-			{ "srifle_EBR_MRCO_LP_BI_F", "", 20000, 0, { "life_coplevel", "SCALAR", 6 } },
+			{ "srifle_DMR_03_F", "", 20000, 0, { "life_coplevel", "SCALAR", 6 } },
 			{ "1Rnd_SmokeBlue_Grenade_shell", "", 20000, 0, { "life_coplevel", "SCALAR", 6 } },
 			{ "1Rnd_Smoke_Grenade_shell", "", 20000, 0, { "life_coplevel", "SCALAR", 6 } },
 			{ "20Rnd_762x51_Mag", "", 110, 0, { "life_coplevel", "SCALAR", 6 } },
@@ -194,9 +196,9 @@ class WeaponShops {
         };
     };
 
-    //Medic Shops
+    //Judges Shops
     class med_basic {
-        name = "Medic Store";
+        name = "Judges Store";
         side = "med";
         license = "";
         level[] = { "", "", -1, "" };
@@ -206,10 +208,9 @@ class WeaponShops {
             { "Binocular", "", 1, 0 },
             { "ToolKit", "", 1, 0 },
             { "FirstAidKit", "", 1, 0 },
-            { "Medikit", "", 1, 0 },
             { "NVGoggles_OPFOR", "", 100, 0 },
-            { "B_Carryall_oli", "", 100, 0 },
-			{ "U_I_CombatUniform", "", 100, 0 }
+			{ "U_NikosAgedBody", "", 100, 0 }
+			{ "U_Marshal", "", 100, 0 }
         };
     };
 };
