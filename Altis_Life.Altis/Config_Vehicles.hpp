@@ -431,31 +431,31 @@ class LifeCfgVehicles {
                 "textures\med\ems_offroad.paa"
 			} },
 			{ "johndeere", "civ", {
-                "texture\civ\offroad_johndeere.paa"
+                "texture\offroad\offroad_johndeere.paa"
             } },
 			{ "orangewolf", "civ", {
-                "texture\civ\offroad_orangewolf.paa"
+                "texture\offroad\offroad_orangewolf.paa"
             } },
 			{ "pokemon", "civ", {
-                "texture\civ\offroad_pokemon.paa"
+                "texture\offroad\offroad_pokemon.paa"
             } },
 			{ "viperblackred", "civ", {
-                "texture\civ\offroad_viperblackred.paa"
+                "texture\offroad\offroad_viperblackred.paa"
             } },
 			{ "viperbluewhite", "civ", {
-                "texture\civ\offroad_viperbluewhite.paa"
+                "texture\offroad\offroad_viperbluewhite.paa"
             } },
 			{ "vipergreyblue", "civ", {
-                "texture\civ\offroad_vipergreyblue.paa"
+                "texture\offroad\offroad_vipergreyblue.paa"
             } },
 			{ "iron", "civ", {
-                "texture\civ\iron_man.paa"
+                "texture\offroad\offroad_ironman.paa"
             } },
-			{ "asiimov", "civ", {
-                "texture\civ\asiimov.paa"
+			{ "whitecline", "civ", {
+                "texture\offroad\offroad_asiimov.paa"
 			} },
 			{ "batman", "civ", {
-                "texture\civ\batman.paa"
+                "texture\offroad\offroad_batman.paa"
             } }
         };
     };
@@ -528,46 +528,46 @@ class LifeCfgVehicles {
                 "textures\med\ems_hatchback.paa"
 			} },
 			{ "abudhabi", "civ", {
-                "texture\civ\hb_abudhabi.paa"
+                "texture\hatchbacks\hb_abudhabi.paa"
             } },
 			{ "continental", "civ", {
-                "texture\civ\hb_continental.paa"
+                "texture\hatchbacks\hb_continental.paa"
             } },
 			{ "hellokitty", "civ", {
-                "texture\civ\hb_hellokitty.paa"
+                "texture\hatchbacks\hb_hellokitty.paa"
             } },
 			{ "metallica", "civ", {
-                "texture\civ\hb_metallica.paa"
+                "texture\hatchbacks\hb_metallica.paa"
             } },
 			{ "monster", "civ", {
-                "texture\civ\hb_monster.paa"
+                "texture\hatchbacks\hb_monster.paa"
             } },
 			{ "redbull", "civ", {
-                "texture\civ\hb_redbull.paa"
+                "texture\hatchbacks\hb_redsull.paa"
             } },
 			{ "repsol", "civ", {
-                "texture\civ\hb_repsol.paa"
+                "texture\hatchbacks\hb_repsol.paa"
             } },
 			{ "rockstar", "civ", {
-                "texture\civ\hb_rockstar.paa"
+                "texture\hatchbacks\hb_rockstar.paa"
             } },
 			{ "shark", "civ", {
-                "texture\civ\hb_shark.paa"
+                "texture\hatchbacks\hb_shark.paa"
 			} },
 			{ "Graffiti", "civ", {
-                "texture\civ\graffiti.paa"
+                "texture\hatchbacks\hb_graffiti.paa"
 			} },
-			{ "Hyperbeast", "civ", {
-                "texture\civ\hyperbeast.paa"
+			{ "beast", "civ", {
+                "texture\hatchbacks\hb_beast.paa"
 			} },
-			{ "HyperWolf", "civ", {
-                "texture\civ\HyperWolf.paa"
+			{ "Wolf", "civ", {
+                "texture\hatchbacks\hb_Wolf.paa"
 			} },
 			{ "Jupite", "civ", {
-                "texture\civ\jupiter.paa"
+                "texture\hatchbacks\hb_jupiter.paa"
 			} },
-			{ "Vulcan", "civ", {
-                "texture\civ\vulcan.paa"	
+			{ "hulcan", "civ", {
+                "texture\hatchbacks\hb_hulcan.paa"	
             } }
         };
     };
@@ -706,58 +706,58 @@ class LifeCfgVehicles {
                 "textures\cop\apd_suv.paa"
 			} },	
 			{ "Taxi", "civ", {
-                "textures\civ\suv_taxi.paa"
+                "textures\suv\suv_taxi.paa"
 			} },	
 			{ "EMS White", "med", {
                 "textures\med\ems_suv.paa"
 			} },		
 			{ "abudhabi", "civ", {
-                "textures\civ\suv_abudhabi.paa"
+                "textures\suv\suv_abudhabi.paa"
 			} },		
 			{ "batman", "civ", {
-                "textures\civ\suv_batman.paa"
+                "textures\suv\suv_batman.paa"
 			} },		
 			{ "boba", "civ", {
-                "textures\civ\suv_boba.paa"
+                "textures\suv\suv_boba.paa"
 			} },		
 			{ "fireball", "civ", {
-                "textures\civ\suv_fireball.paa"
+                "textures\suv\suv_fireball.paa"
 			} },		
 			{ "greyrace", "civ", {
-                "textures\civ\suv_greyrace.paa"
+                "textures\suv\suv_greyrace.paa"
 			} },		
 			{ "mario", "civ", {
-                "textures\civ\suv_mario.paa"
+                "textures\suv\suv_mario.paa"
 			} },		
 			{ "monster", "civ", {
-                "textures\civ\suv_monster.paa"
+                "textures\suv\suv_monster.paa"
 			} },		
 			{ "needforspeed", "civ", {
-                "textures\civ\suv_needforspeed.paa"
+                "textures\suv\suv_needforspeed.paa"
 			} },		
 			{ "stormtrooper", "civ", {
-                "textures\civ\suv_stormtrooper.paa"
+                "textures\suv\suv_stormtrooper.paa"
 			} },		
 			{ "subaru", "civ", {
-                "textures\civ\suv_subaru.paa"
+                "textures\suv\suv_subaru.paa"
 			} },		
 			{ "subaruoriginal", "civ", {
-                "textures\civ\graffiti.paa"
+                "textures\suv\suv_graffiti.paa"
 			} },		
-			{ "viperblackred", "civ", {
-                "textures\civ\redline.paa"
+			{ "redcline", "civ", {
+                "textures\suv\suv_redcline.paa"
 			} },		
-			{ "viperblackwhite", "civ", {
-                "textures\civ\suvcamo.paa"
+			{ "suvcamo", "civ", {
+                "textures\suv\suv_suvcamo.paa"
 			} },		
-			{ "viperblackwhite", "civ", {
-                "textures\civ\cartoon.paa"
+			{ "cartoon", "civ", {
+                "textures\suv\suv_cartoon.paa"
 			} },		
-			{ "viperblackwhite", "civ", {
-                "textures\civ\atlanta.paa"
+			{ "atlanta", "civ", {
+                "textures\suv\suv_atlanta.paa"
 			} },		
-			{ "viperblackwhite", "civ", {
-                "textures\civ\blitz.paa"
+			{ "blitz", "civ", {
+                "textures\suv\suv_blitz.paa"
 			} }
 		};
     };
