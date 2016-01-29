@@ -6,7 +6,7 @@ wreckLimit = 0;
 wreckRemovalMinTime = 60;
 wreckRemovalMaxTime = 360;
 corpseManagerMode = 1;
-corpseLimit = 10;
+corpseLimit = 999;
 corpseRemovalMinTime = 1800;
 corpseRemovalMaxTime = 3600;
 scriptedPlayer = 1;
@@ -138,7 +138,7 @@ class CfgSounds
 	class spraycan
 	{
 		name = "spraycan";	
-		sound[] = {"sounds\spraycan.ogg", db-20, 1};
+		sound[] = {"sounds\spraycan.ogg", 1.0, 1};
 		titles[] = {};
 	};
 	class alert
