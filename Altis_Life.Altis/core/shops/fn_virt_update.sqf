@@ -2,7 +2,7 @@
 /*
 	File: fn_virt_update.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+	edited by worldtrade1101
 	Description:
 	Update and fill the virtual shop menu.
 */
@@ -25,10 +25,12 @@ _sender = player;
 _uid = getPlayerUID _sender;
 
 [[0,_sender,life_shop_type],"TON_fnc_getprices",false,false] spawn life_fnc_MP;
+
+
 /*
 {
 	_name = [([_x,0] call life_fnc_varHandle)] call life_fnc_vartostr;
-	_index = [_x,__GETC__(buy_array)] call TON_fnc_index;
+	_index = [_x,__GETC__(buy_array)] call fnc_index;
 	if(_index != -1) then
 	{
 		_price = (__GETC__(buy_array) select _index) select 1;
@@ -49,4 +51,5 @@ _uid = getPlayerUID _sender;
 		_gear_list lbSetData [(lbSize _gear_list)-1,_x];
 	};
 } foreach (_shop_data select 1);
+
 */
