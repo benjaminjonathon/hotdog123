@@ -1,6 +1,7 @@
 /*
 	Master UI Resource File
 */
+#include "market.hpp"
 #include "common.hpp"
 #include "shop_items.hpp"
 #include "player_inv.hpp"
@@ -30,7 +31,6 @@
 #include "smartphone.hpp"
 #include "statusBar.hpp"
 #include "veh_repaint.hpp"
-#include "market.hpp"
 #include "revoke_license.h"
 #include "LicensesDialog.hpp"
 #include "craft.hpp"

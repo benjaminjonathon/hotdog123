@@ -1,6 +1,6 @@
 #include <macro.h>
 /*
-	File: fn_addSubstract.sqf
+	File: fn_virt_update.sqf
 	Author: Worldtrade1101
 	Base on Tonic script
 	Description:
@@ -19,13 +19,13 @@ if (_type == -1) exitwith {};
 
 
 
-//if(!([_amount] call fnc_isnumber)) exitWith {hintSilent localize "STR_Shop_Virt_NoNum";};
+//if(!([_amount] call fnc_isnumber)) exitWith {hint localize "STR_Shop_Virt_NoNum";};
 
 switch (_add) do {
 	case 0 : {
 	if (_type == 0 ) then {
 	_amount = ctrlText 2404;
-	if(!([_amount] call TON_fnc_isnumber)) exitWith {hintSilent localize "STR_Shop_Virt_NoNum";};
+	if(!([_amount] call TON_fnc_isnumber)) exitWith {hint localize "STR_Shop_Virt_NoNum";};
 	_amount = parseNumber _amount + 1;
 	_display = findDisplay 2400;
 	_amounttext = _display displayCtrl 2404;
@@ -33,7 +33,7 @@ switch (_add) do {
 
 	 } else {
 	_amount = ctrlText 2405;
-	if(!([_amount] call TON_fnc_isnumber)) exitWith {hintSilent localize "STR_Shop_Virt_NoNum";};
+	if(!([_amount] call TON_fnc_isnumber)) exitWith {hint localize "STR_Shop_Virt_NoNum";};
 	_amount = parseNumber _amount + 1;
 	_display = findDisplay 2400;
 	_amounttext = _display displayCtrl 2405;
@@ -44,14 +44,14 @@ switch (_add) do {
 	case 1 : {
 	if (_type == 0 ) then {
 	_amount = ctrlText 2404;
-	if(!([_amount] call TON_fnc_isnumber)) exitWith {hintSilent localize "STR_Shop_Virt_NoNum";};
+	if(!([_amount] call TON_fnc_isnumber)) exitWith {hint localize "STR_Shop_Virt_NoNum";};
 	_amount = parseNumber _amount - 1;
 	_display = findDisplay 2400;
 	_amounttext = _display displayCtrl 2404;
 	_amounttext ctrlSetText format ["%1",_amount];
 	 } else {
 	_amount = ctrlText 2405;
-	if(!([_amount] call TON_fnc_isnumber)) exitWith {hintSilent localize "STR_Shop_Virt_NoNum";};
+	if(!([_amount] call TON_fnc_isnumber)) exitWith {hint localize "STR_Shop_Virt_NoNum";};
 	
 	if (parseNumber _amount == 0) exitwith {};
 	_amount = parseNumber _amount - 1;
