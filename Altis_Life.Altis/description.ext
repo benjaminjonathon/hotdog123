@@ -1,6 +1,6 @@
-author = "Tonic | DEADP4XEL | Xor";
+author = "Tonic | DEADP4XEL | Xor | Apollo";
 onLoadName = "AtlantaEntertainment";
-onLoadMission = "Developed by Tonic modified by DEADP4XEL and the AE Dev Team";
+onLoadMission = "Developed by Tonic modified by DEADP4XEL and the AS Dev Team";
 wreckManagerMode = 1;
 wreckLimit = 0;
 wreckRemovalMinTime = 60;

@@ -164,7 +164,7 @@ switch(_shop) do
 						["SMG_02_F",nil,10],
 						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
 						["30Rnd_9x21_Mag","9mm-Gummi",10],
-						["20Rnd_556x45_UW_mag","Taser Waffe Magazin",10]
+						["20Rnd_556x45_UW_mag","Taser Magazin",10]
 					]
 				];
 			};
