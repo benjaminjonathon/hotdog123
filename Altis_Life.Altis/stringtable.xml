@@ -851,7 +851,7 @@
 		<Key ID="STR_Garage_Title">
 			<Original>Vehicle Garage</Original>
 			<English>Vehicle Garage</English>
-			<German>Fahrzeug Garage</German>
+			<German>Vehicle Garage</German>
 			<French>Garage Vehicule</French>
 			<Italian>Garage Veicoli</Italian>			
 			<Portuguese>Garagem de Veículos</Portuguese>
@@ -859,7 +859,7 @@
 		<Key ID="STR_Garage_GetVehicle">
 			<Original>Get Vehicle</Original>
 			<English>Get Vehicle</English>
-			<German>Ausparken</German>	
+			<German>Get Vehiclle</German>	
 			<French>Récupérer</French>
 			<Italian>Ritira Veicolo</Italian>
 			<Portuguese>Pegar Veiculo</Portuguese>
@@ -867,7 +867,7 @@
 		<Key ID="STR_Garage_SellVehicle">
 			<Original>Sell Vehicle</Original>
 			<English>Sell Vehicle</English>
-			<German>Fahrzeug verkaufen</German>
+			<German>Sell Vehicle</German>
 			<French>Vendre</French>
 			<Italian>Vendi Veicolo</Italian>
 			<Portuguese>Vender Veiculo</Portuguese>
@@ -875,7 +875,7 @@
 		<Key ID="STR_Garage_SellPrice">
 			<Original>Sell Price</Original>
 			<English>Sell Price</English>
-			<German>Verkaufspreis</German>
+			<German>Sell Price</German>
 			<French>Prix de vente</French>
 			<Italian>Prezzo di vendita</Italian>
 			<Portuguese>Preço de Venda</Portuguese>
@@ -883,7 +883,7 @@
 		<Key ID="STR_Garage_SFee">
 			<Original>Storage Fee</Original>
 			<English>Storage Fee</English>
-			<German>Lagergebühr</German>
+			<German>Storage Fee</German>
 			<French>Frais de Stockage</French>
 			<Italian>Costo ritiro</Italian>
 			<Portuguese>Taxa de Armazenamento</Portuguese>
@@ -891,7 +891,7 @@
 		<Key ID="STR_Garage_NoVehicles">
 			<Original>No vehicles found in garage.</Original>
 			<English>No vehicles found in garage.</English>
-			<German>Keine Fahrzeuge in der Garage gefunden.</German>
+			<German>No vehicles in garge.</German>
 			<French>Aucuns Vehicules.</French>	
 			<Italian>Non hai veicoli nel Garage.</Italian>			
 			<Portuguese>Nenhum veiculo encontrado na garagem.</Portuguese>
@@ -907,13 +907,13 @@
 		<Key ID="STR_Garage_SpawningVeh">
 			<Original>Spawning vehicle please wait...</Original>
 			<English>Spawning vehicle please wait...</English>
-			<German>Fahrzeug wird bereitgestellt, bitte warten...</German>
+			<German>Spawning vehicle please wait....</German>
 			<French>Mise en place du Véhicule, merci de patienter...</French>
 			<Italian>Creazione veicolo attendere...</Italian>
 			<Portuguese>Obtendo veiculo, aguarde por favor...</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_SQLError_Destroyed">
-			<Original>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</Original>
+			<Original>Sorry but %1 was classified as a destroyed vehicle and was sent to the scrap yard.</Original>
 			<English>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</English>
 			<German>Entschuldigung, aber dein %1 wurde zerstört und auf den Schrottplatz geschickt.</German>
 			<French>Désolé mais votre %1 à été détruit et vendu à la casse.</French>
@@ -4382,7 +4382,7 @@
 		<Key ID="STR_pInAct_StoreVeh">
 			<Original>Store Vehicle</Original>
 			<English>Store Vehicle</English>
-			<German>Fahrzeug parken</German>
+			<German>Store Vehicle</German>
 			<French>Ranger le vehicule</French>
 			<Italian>Parcheggia Veicolo</Italian>
 			<Portuguese>Guardar Veículo</Portuguese>
