@@ -49,7 +49,7 @@ switch (_mode) do
                         };
                         if(life_sex_ill > 0) exitWith
                         {
-                            hint "Geschlechtskrankheit? Geh erstmal zum Arzt bevor du hier rum vögelst!";
+                            hint "Sexually transmitted disease? Go first to a doctor before you shagging around here!";
                         };
                         hint format["That was fun :* \n You have to pay $ %1. \n\n I would also goto the doctor",_playercosts];
                         life_cash = life_cash - _playercosts;
