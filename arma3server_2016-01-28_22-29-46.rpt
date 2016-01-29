@@ -1,0 +1,1955 @@
+=====================================================================
+== C:\bluefang\servers\server11884\arma3server.exe
+== C:\bluefang\servers\server11884\arma3server.exe -ip=104.243.44.138 -port=21234 -config=server.cfg -profiles=Profile
+
+Original output filename: Arma3Retail_Server
+Exe timestamp: 2015/12/15 16:30:43
+Current time:  2016/01/28 22:29:46
+
+Type: Public
+Build: Stable
+Version: 1.54.133741
+
+Allocator: C:\bluefang\servers\server11884\dll\tbb4malloc_bi.dll
+=====================================================================
+
+22:29:46 SteamAPI initialization failed. Steam features wont's be accessible!
+22:29:55 Updating base class ->Base, by a3\dubbing_radio_f\config.bin/CfgHQIdentities/PAPA_BEAR/
+22:29:55 Updating base class ->Base, by a3\dubbing_radio_f\config.bin/CfgHQIdentities/AirBase/
+22:29:55 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayEditObject/Controls/B_OK/
+22:29:55 Updating base class RscSliderH->RscXSliderH, by a3\editor_f\config.bin/RscDisplayEditObject/Slider/
+22:29:55 Updating base class RscText->RscPicture, by a3\editor_f\config.bin/RscDisplayEditObject/Preview/
+22:29:55 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionLoad/Controls/B_OK/
+22:29:55 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionSave/Controls/B_OK/
+22:29:55 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoScrollbars/
+22:29:55 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoHScrollbars/
+22:29:55 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoVScrollbars/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/RscLine/
+22:29:55 Updating base class ->RscActiveText, by a3\ui_f\config.bin/RscActivePicture/
+22:29:55 Updating base class ->RscButton, by a3\ui_f\config.bin/RscButtonTextOnly/
+22:29:55 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscShortcutButtonMain/
+22:29:55 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonEditor/
+22:29:55 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscIGUIShortcutButton/
+22:29:55 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscGearShortcutButton/
+22:29:55 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonMenu/
+22:29:55 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuOK/
+22:29:55 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuCancel/
+22:29:55 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuSteam/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/RscLoadingText/
+22:29:55 Updating base class ->RscListBox, by a3\ui_f\config.bin/RscIGUIListBox/
+22:29:55 Updating base class ->RscListNBox, by a3\ui_f\config.bin/RscIGUIListNBox/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackground/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUI/
+22:29:55 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUILeft/
+22:29:55 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIRight/
+22:29:55 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIBottom/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUITop/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUIDark/
+22:29:55 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/RscBackgroundLogo/
+22:29:55 Updating base class ->RscMapControl, by a3\ui_f\config.bin/RscMapControlEmpty/
+22:29:55 Updating base class ->RscPicture, by a3\ui_f\config.bin/CA_Mainback/
+22:29:55 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Back/
+22:29:55 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Title_Back/
+22:29:55 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Black_Back/
+22:29:55 Updating base class ->RscTitle, by a3\ui_f\config.bin/CA_Title/
+22:29:55 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/CA_Logo/
+22:29:55 Updating base class ->CA_Logo, by a3\ui_f\config.bin/CA_Logo_Small/
+22:29:55 Updating base class ->RscButton, by a3\ui_f\config.bin/CA_RscButton/
+22:29:55 Updating base class ->CA_RscButton, by a3\ui_f\config.bin/CA_RscButton_dialog/
+22:29:55 Updating base class ->RscActiveText, by a3\ui_f\config.bin/CA_Ok/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image2/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_text/
+22:29:55 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscVignette/
+22:29:55 Updating base class ->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscMapControlTooltip/
+22:29:55 Updating base class RscUnitInfo->RscUnitInfoAirNoWeapon, by a3\ui_f\config.bin/RscInGameUI/RscUnitInfoAir/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_OK/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Cancel/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Clear/
+22:29:55 Updating base class ->RscText, by a3\ui_f\config.bin/RscDisplayCapture/controls/TimeLines/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonAverages/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonSavePreviousData/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonPreviousData/
+22:29:55 Updating base class RscControlsGroup->RscControlsGroupNoHScrollbars, by a3\ui_f\config.bin/RscDisplayMain/controls/ModIcons/
+22:29:55 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/IconPicture/
+22:29:55 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcOwnedIconPicture/
+22:29:55 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcIconPicture/
+22:29:55 Updating base class RscListBox->RscCombo, by a3\ui_f\config.bin/RscDisplayCustomizeController/Steepness/
+22:29:55 Updating base class ->RscStandardDisplay, by a3\ui_f\config.bin/RscDisplayControlSchemes/
+22:29:55 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonCancel/
+22:29:55 Updating base class RscButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonOK/
+22:29:55 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayFileSelectImage/controls/OverviewPicture/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayFieldManual/controls/ButtonCancel/
+22:29:55 Cannot delete class B_KickOff, it is referenced somewhere (used as a base class probably).
+22:29:55 Updating base class RscButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMission/controls/ButtonCancel/
+22:29:55 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonOK/
+22:29:55 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonCancel/
+22:29:55 Updating base class ->RscSubmenu, by a3\ui_f\config.bin/RscMainMenu/
+22:29:55 Cannot update non class from class a3\ui_f\config.bin/RscCallSupport/Items/
+22:29:55 Cannot update non class from class a3\ui_f\config.bin/RscRadio/Items/
+22:29:55 Updating base class RscStandardDisplay->, by a3\ui_f_mp_mark\config.bin/RscDisplayRespawn/
+22:29:55 Updating base class ->GrenadeLauncher, by a3\weapons_f\config.bin/cfgWeapons/UGL_F/
+22:29:55 Updating base class ->Rifle, by a3\weapons_f\config.bin/cfgWeapons/Rifle_Base_F/
+22:29:55 Updating base class ->SlotInfo, by a3\weapons_f_mark\config.bin/UnderBarrelSlot/
+22:29:55 Texture header "a3\missions_f_exp_a\data\img\marksmen_scenario02_overview_ca.paa" already in the manager and new header is different! Removing header from the manager.
+22:29:55 Texture header "a3\missions_f_exp_a\data\img\marksmen_scenario03_overview_ca.paa" already in the manager and new header is different! Removing header from the manager.
+22:29:55 ragdollHitDmgLimit (0.000000) is lower than minimum (0.010000) and it was set to min.
+22:29:55 Initializing Steam Manager
+22:29:55 Steam Manager initialized.
+22:29:55 
+22:29:55 ==== Loaded addons ====
+22:29:55 
+22:29:55 dta\bin.pbo - unknown
+22:29:55 dta\core.pbo - 84186
+22:29:55 dta\languagecore_f.pbo - 90788
+22:29:55 C:\bluefang\servers\server11884\@life_server\addons\life_server.pbo - unknown
+22:29:55 C:\bluefang\servers\server11884\@infiSTAR_A3\addons\a3_infistar.pbo - unknown
+22:29:55 C:\bluefang\servers\server11884\mark\addons\anims_f_mark.pbo - 87643
+22:29:55 C:\bluefang\servers\server11884\mark\addons\characters_f_mark.pbo - 87766
+22:29:55 C:\bluefang\servers\server11884\mark\addons\data_f_mark.pbo - 84958
+22:29:55 C:\bluefang\servers\server11884\mark\addons\dubbing_f_mark.pbo - 81923
+22:29:55 C:\bluefang\servers\server11884\mark\addons\dubbing_f_mp_mark.pbo - 81923
+22:29:55 C:\bluefang\servers\server11884\mark\addons\functions_f_mark.pbo - 89836
+22:29:55 C:\bluefang\servers\server11884\mark\addons\functions_f_mp_mark.pbo - 89727
+22:29:55 C:\bluefang\servers\server11884\mark\addons\languagemissions_f_mark.pbo - 90154
+22:29:55 C:\bluefang\servers\server11884\mark\addons\languagemissions_f_mp_mark.pbo - 90154
+22:29:55 C:\bluefang\servers\server11884\mark\addons\language_f_mark.pbo - 90137
+22:29:55 C:\bluefang\servers\server11884\mark\addons\language_f_mp_mark.pbo - 90137
+22:29:55 C:\bluefang\servers\server11884\mark\addons\missions_f_mark.pbo - 86807
+22:29:55 C:\bluefang\servers\server11884\mark\addons\missions_f_mark_data.pbo - 88838
+22:29:55 C:\bluefang\servers\server11884\mark\addons\missions_f_mark_video.pbo - 81429
+22:29:55 C:\bluefang\servers\server11884\mark\addons\missions_f_mp_mark.pbo - 89854
+22:29:55 C:\bluefang\servers\server11884\mark\addons\missions_f_mp_mark_data.pbo - 90131
+22:29:55 C:\bluefang\servers\server11884\mark\addons\modules_f_mark.pbo - 81710
+22:29:55 C:\bluefang\servers\server11884\mark\addons\modules_f_mp_mark.pbo - 90253
+22:29:55 C:\bluefang\servers\server11884\mark\addons\music_f_mark.pbo - 81958
+22:29:55 C:\bluefang\servers\server11884\mark\addons\music_f_mark_music.pbo - 81930
+22:29:55 C:\bluefang\servers\server11884\mark\addons\sounds_f_mark.pbo - 89184
+22:29:55 C:\bluefang\servers\server11884\mark\addons\static_f_mark.pbo - 84104
+22:29:55 C:\bluefang\servers\server11884\mark\addons\structures_f_mark.pbo - 88393
+22:29:55 C:\bluefang\servers\server11884\mark\addons\supplies_f_mark.pbo - 79552
+22:29:55 C:\bluefang\servers\server11884\mark\addons\ui_f_mark.pbo - 84397
+22:29:55 C:\bluefang\servers\server11884\mark\addons\ui_f_mp_mark.pbo - 89077
+22:29:55 C:\bluefang\servers\server11884\mark\addons\weapons_f_mark.pbo - 89288
+22:29:55 C:\bluefang\servers\server11884\heli\addons\air_f_heli.pbo - 88401
+22:29:55 C:\bluefang\servers\server11884\heli\addons\anims_f_heli.pbo - 80475
+22:29:55 C:\bluefang\servers\server11884\heli\addons\boat_f_heli.pbo - 88261
+22:29:55 C:\bluefang\servers\server11884\heli\addons\cargoposes_f_heli.pbo - 89489
+22:29:55 C:\bluefang\servers\server11884\heli\addons\data_f_heli.pbo - 87643
+22:29:55 C:\bluefang\servers\server11884\heli\addons\dubbing_f_heli.pbo - 75138
+22:29:55 C:\bluefang\servers\server11884\heli\addons\functions_f_heli.pbo - 87176
+22:29:55 C:\bluefang\servers\server11884\heli\addons\languagemissions_f_heli.pbo - 90151
+22:29:55 C:\bluefang\servers\server11884\heli\addons\language_f_heli.pbo - 90135
+22:29:55 C:\bluefang\servers\server11884\heli\addons\missions_f_heli.pbo - 89582
+22:29:55 C:\bluefang\servers\server11884\heli\addons\missions_f_heli_data.pbo - 75977
+22:29:55 C:\bluefang\servers\server11884\heli\addons\missions_f_heli_video.pbo - 75065
+22:29:55 C:\bluefang\servers\server11884\heli\addons\modules_f_heli.pbo - 87759
+22:29:55 C:\bluefang\servers\server11884\heli\addons\music_f_heli.pbo - 87643
+22:29:55 C:\bluefang\servers\server11884\heli\addons\music_f_heli_music.pbo - 87643
+22:29:55 C:\bluefang\servers\server11884\heli\addons\soft_f_heli.pbo - 82564
+22:29:55 C:\bluefang\servers\server11884\heli\addons\sounds_f_heli.pbo - 79398
+22:29:55 C:\bluefang\servers\server11884\heli\addons\structures_f_heli.pbo - 88707
+22:29:55 C:\bluefang\servers\server11884\heli\addons\supplies_f_heli.pbo - 89173
+22:29:55 C:\bluefang\servers\server11884\heli\addons\ui_f_heli.pbo - 76986
+22:29:55 C:\bluefang\servers\server11884\kart\addons\anims_f_kart.pbo - 80475
+22:29:55 C:\bluefang\servers\server11884\kart\addons\characters_f_kart.pbo - 87805
+22:29:55 C:\bluefang\servers\server11884\kart\addons\data_f_kart.pbo - 84958
+22:29:55 C:\bluefang\servers\server11884\kart\addons\languagemissions_f_kart.pbo - 90154
+22:29:55 C:\bluefang\servers\server11884\kart\addons\language_f_kart.pbo - 90135
+22:29:55 C:\bluefang\servers\server11884\kart\addons\missions_f_kart.pbo - 89758
+22:29:55 C:\bluefang\servers\server11884\kart\addons\missions_f_kart_data.pbo - 75687
+22:29:55 C:\bluefang\servers\server11884\kart\addons\modules_f_kart.pbo - 86933
+22:29:55 C:\bluefang\servers\server11884\kart\addons\modules_f_kart_data.pbo - 74588
+22:29:55 C:\bluefang\servers\server11884\kart\addons\soft_f_kart.pbo - 88426
+22:29:55 C:\bluefang\servers\server11884\kart\addons\sounds_f_kart.pbo - 79398
+22:29:55 C:\bluefang\servers\server11884\kart\addons\structures_f_kart.pbo - 88393
+22:29:55 C:\bluefang\servers\server11884\kart\addons\ui_f_kart.pbo - 73106
+22:29:55 C:\bluefang\servers\server11884\kart\addons\weapons_f_kart.pbo - 83573
+22:29:55 C:\bluefang\servers\server11884\curator\addons\data_f_curator.pbo - 84958
+22:29:55 C:\bluefang\servers\server11884\curator\addons\functions_f_curator.pbo - 86837
+22:29:55 C:\bluefang\servers\server11884\curator\addons\language_f_curator.pbo - 90133
+22:29:55 C:\bluefang\servers\server11884\curator\addons\missions_f_curator.pbo - 89107
+22:29:55 C:\bluefang\servers\server11884\curator\addons\modules_f_curator.pbo - 90088
+22:29:55 C:\bluefang\servers\server11884\curator\addons\ui_f_curator.pbo - 90180
+22:29:55 addons\a3.pbo - unknown
+22:29:55 addons\air_f.pbo - 88337
+22:29:55 addons\air_f_beta.pbo - 88256
+22:29:55 addons\air_f_epb.pbo - 86810
+22:29:55 addons\air_f_epc.pbo - 89315
+22:29:55 addons\air_f_gamma.pbo - 89315
+22:29:55 addons\animals_f.pbo - 88948
+22:29:55 addons\animals_f_beta.pbo - 88949
+22:29:55 addons\anims_f.pbo - 90876
+22:29:55 addons\anims_f_bootcamp.pbo - 88948
+22:29:55 addons\anims_f_data.pbo - 90994
+22:29:55 addons\anims_f_epa.pbo - 89360
+22:29:55 addons\anims_f_epc.pbo - 79126
+22:29:55 addons\anims_f_exp_a.pbo - 89148
+22:29:55 addons\armor_f.pbo - 82564
+22:29:55 addons\armor_f_beta.pbo - 86856
+22:29:55 addons\armor_f_epb.pbo - 86110
+22:29:55 addons\armor_f_epc.pbo - 86840
+22:29:55 addons\armor_f_gamma.pbo - 86121
+22:29:55 addons\baseconfig_f.pbo - 73106
+22:29:55 addons\boat_f.pbo - 88259
+22:29:55 addons\boat_f_beta.pbo - 88261
+22:29:55 addons\boat_f_epc.pbo - 89049
+22:29:55 addons\boat_f_gamma.pbo - 88260
+22:29:55 addons\cargoposes_f.pbo - 89336
+22:29:55 addons\characters_f.pbo - 90080
+22:29:55 addons\characters_f_beta.pbo - 87767
+22:29:55 addons\characters_f_bootcamp.pbo - 87769
+22:29:55 addons\characters_f_epa.pbo - 87767
+22:29:55 addons\characters_f_epb.pbo - 87767
+22:29:55 addons\characters_f_epc.pbo - 87767
+22:29:55 addons\characters_f_gamma.pbo - 87766
+22:29:55 addons\data_f.pbo - 91002
+22:29:55 addons\data_f_bootcamp.pbo - 88074
+22:29:55 addons\data_f_exp_a.pbo - 89062
+22:29:55 addons\data_f_exp_b.pbo - 86189
+22:29:55 addons\drones_f.pbo - 88544
+22:29:55 addons\dubbing_f.pbo - 73106
+22:29:55 addons\dubbing_f_beta.pbo - 73106
+22:29:55 addons\dubbing_f_bootcamp.pbo - 87093
+22:29:55 addons\dubbing_f_epa.pbo - 73106
+22:29:55 addons\dubbing_f_epb.pbo - 76110
+22:29:55 addons\dubbing_f_epc.pbo - 87001
+22:29:55 addons\dubbing_f_gamma.pbo - 73106
+22:29:55 addons\dubbing_radio_f.pbo - 89312
+22:29:55 addons\dubbing_radio_f_data_eng.pbo - 89121
+22:29:55 addons\dubbing_radio_f_data_engb.pbo - 89130
+22:29:55 addons\dubbing_radio_f_data_gre.pbo - 89130
+22:29:55 addons\dubbing_radio_f_data_per.pbo - 89130
+22:29:55 addons\dubbing_radio_f_data_vr.pbo - 89130
+22:29:55 addons\editor_f.pbo - 82563
+22:29:55 addons\functions_f.pbo - 90854
+22:29:55 addons\functions_f_bootcamp.pbo - 90131
+22:29:55 addons\functions_f_epa.pbo - 84402
+22:29:55 addons\functions_f_epc.pbo - 84400
+22:29:55 addons\functions_f_exp_a.pbo - 90131
+22:29:55 addons\languagemissions_f.pbo - 90138
+22:29:55 addons\languagemissions_f_beta.pbo - 90138
+22:29:55 addons\languagemissions_f_bootcamp.pbo - 90138
+22:29:55 addons\languagemissions_f_epa.pbo - 90138
+22:29:55 addons\languagemissions_f_epb.pbo - 90139
+22:29:55 addons\languagemissions_f_epc.pbo - 90143
+22:29:55 addons\languagemissions_f_exp_a.pbo - 90145
+22:29:55 addons\languagemissions_f_gamma.pbo - 90148
+22:29:55 addons\language_f.pbo - 90131
+22:29:55 addons\language_f_beta.pbo - 90133
+22:29:55 addons\language_f_bootcamp.pbo - 90133
+22:29:55 addons\language_f_epa.pbo - 90133
+22:29:55 addons\language_f_epb.pbo - 90134
+22:29:55 addons\language_f_epc.pbo - 90135
+22:29:55 addons\language_f_exp_a.pbo - 90135
+22:29:55 addons\language_f_gamma.pbo - 90135
+22:29:55 addons\map_altis.pbo - 90788
+22:29:55 addons\map_altis_data.pbo - 89494
+22:29:55 addons\map_altis_data_layers.pbo - 88773
+22:29:55 addons\map_altis_data_layers_00_00.pbo - 88773
+22:29:55 addons\map_altis_data_layers_00_01.pbo - 88773
+22:29:55 addons\map_altis_data_layers_01_00.pbo - 88773
+22:29:55 addons\map_altis_data_layers_01_01.pbo - 88773
+22:29:55 addons\map_altis_scenes_f.pbo - 73106
+22:29:55 addons\map_data.pbo - 89207
+22:29:55 addons\map_stratis.pbo - 89277
+22:29:55 addons\map_stratis_data.pbo - 89242
+22:29:55 addons\map_stratis_data_layers.pbo - 89343
+22:29:55 addons\map_stratis_scenes_f.pbo - 73106
+22:29:55 addons\map_vr.pbo - 90059
+22:29:55 addons\map_vr_scenes_f.pbo - 82252
+22:29:55 addons\misc_f.pbo - 85025
+22:29:55 addons\missions_f.pbo - 89118
+22:29:55 addons\missions_f_beta.pbo - 90059
+22:29:55 addons\missions_f_beta_data.pbo - 85005
+22:29:55 addons\missions_f_beta_video.pbo - 73106
+22:29:55 addons\missions_f_bootcamp.pbo - 89836
+22:29:55 addons\missions_f_bootcamp_data.pbo - 72362
+22:29:55 addons\missions_f_bootcamp_video.pbo - 75065
+22:29:55 addons\missions_f_data.pbo - 73106
+22:29:55 addons\missions_f_epa.pbo - 90317
+22:29:55 addons\missions_f_epa_data.pbo - 73106
+22:29:55 addons\missions_f_epa_video.pbo - 73106
+22:29:55 addons\missions_f_epb.pbo - 89713
+22:29:55 addons\missions_f_epb_data.pbo - 73106
+22:29:55 addons\missions_f_epb_video.pbo - 73106
+22:29:55 addons\missions_f_epc.pbo - 89644
+22:29:55 addons\missions_f_epc_data.pbo - 84724
+22:29:55 addons\missions_f_epc_video.pbo - 84725
+22:29:55 addons\missions_f_exp_a.pbo - 89975
+22:29:55 addons\missions_f_exp_a_data.pbo - 90131
+22:29:55 addons\missions_f_gamma.pbo - 87683
+22:29:55 addons\missions_f_gamma_data.pbo - 86243
+22:29:55 addons\missions_f_gamma_video.pbo - 73106
+22:29:55 addons\missions_f_video.pbo - 73106
+22:29:55 addons\modules_f.pbo - 88899
+22:29:55 addons\modules_f_beta.pbo - 86933
+22:29:55 addons\modules_f_beta_data.pbo - 80976
+22:29:55 addons\modules_f_bootcamp.pbo - 89147
+22:29:55 addons\modules_f_data.pbo - 85167
+22:29:55 addons\modules_f_epb.pbo - 87643
+22:29:55 addons\modules_f_exp_a.pbo - 88829
+22:29:55 addons\music_f.pbo - 73106
+22:29:55 addons\music_f_bootcamp.pbo - 73106
+22:29:55 addons\music_f_bootcamp_music.pbo - 73106
+22:29:55 addons\music_f_epa.pbo - 73106
+22:29:55 addons\music_f_epa_music.pbo - 73106
+22:29:55 addons\music_f_epb.pbo - 73106
+22:29:55 addons\music_f_epb_music.pbo - 73106
+22:29:55 addons\music_f_epc.pbo - 87643
+22:29:55 addons\music_f_epc_music.pbo - 73106
+22:29:55 addons\music_f_music.pbo - 73106
+22:29:55 addons\plants_f.pbo - 88907
+22:29:55 addons\props_f_exp_a.pbo - 88816
+22:29:55 addons\roads_f.pbo - 88389
+22:29:55 addons\rocks_f.pbo - 88391
+22:29:55 addons\signs_f.pbo - 88240
+22:29:55 addons\soft_f.pbo - 88735
+22:29:55 addons\soft_f_beta.pbo - 89976
+22:29:55 addons\soft_f_bootcamp.pbo - 85752
+22:29:55 addons\soft_f_epc.pbo - 88812
+22:29:55 addons\soft_f_gamma.pbo - 89836
+22:29:55 addons\sounds_f.pbo - 89836
+22:29:55 addons\sounds_f_arsenal.pbo - 90180
+22:29:55 addons\sounds_f_bootcamp.pbo - 82576
+22:29:55 addons\sounds_f_characters.pbo - 90106
+22:29:55 addons\sounds_f_environment.pbo - 88851
+22:29:55 addons\sounds_f_epb.pbo - 88761
+22:29:55 addons\sounds_f_epc.pbo - 86933
+22:29:55 addons\sounds_f_exp_a.pbo - 88829
+22:29:55 addons\sounds_f_sfx.pbo - 88881
+22:29:55 addons\sounds_f_vehicles.pbo - 89294
+22:29:55 addons\sounds_f_weapons.pbo - 84865
+22:29:55 addons\static_f.pbo - 85125
+22:29:55 addons\static_f_beta.pbo - 79398
+22:29:55 addons\static_f_gamma.pbo - 82090
+22:29:55 addons\structures_f.pbo - 89516
+22:29:55 addons\structures_f_bootcamp.pbo - 88393
+22:29:55 addons\structures_f_data.pbo - 88393
+22:29:55 addons\structures_f_epa.pbo - 88393
+22:29:55 addons\structures_f_epb.pbo - 88761
+22:29:55 addons\structures_f_epc.pbo - 88393
+22:29:55 addons\structures_f_exp_a.pbo - 88816
+22:29:55 addons\structures_f_households.pbo - 88393
+22:29:55 addons\structures_f_ind.pbo - 88393
+22:29:55 addons\structures_f_mil.pbo - 89836
+22:29:55 addons\structures_f_wrecks.pbo - 88393
+22:29:55 addons\uifonts_f.pbo - 87643
+22:29:55 addons\uifonts_f_data.pbo - 73106
+22:29:55 addons\ui_f.pbo - 90200
+22:29:55 addons\ui_f_bootcamp.pbo - 76325
+22:29:55 addons\ui_f_data.pbo - 90198
+22:29:55 addons\ui_f_exp_a.pbo - 89891
+22:29:55 addons\weapons_f.pbo - 90180
+22:29:55 addons\weapons_f_beta.pbo - 88797
+22:29:55 addons\weapons_f_bootcamp.pbo - 86841
+22:29:55 addons\weapons_f_epa.pbo - 83667
+22:29:55 addons\weapons_f_epb.pbo - 80958
+22:29:55 addons\weapons_f_epc.pbo - 80374
+22:29:55 addons\weapons_f_gamma.pbo - 89424
+22:29:55 
+22:29:55 =======================
+22:29:55 
+22:29:56 ============================================================================================= List of mods ===============================================================================================
+22:29:56 modsReadOnly = true
+22:29:56 safeModsActivated = false
+22:29:56 customMods = true
+22:29:56 hash = '0B1395AF6F94B56D31A6A9C0D338EA2E8F723FB0'
+22:29:56 hashShort = '3526cde6'
+22:29:56                                               name |               modDir |    default |               origin |                                     hash | hashShort | fullPath
+22:29:56 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22:29:56                                       @life_server |         @life_server |      false |             GAME DIR | 20eea374a34d9f92ee76564783b7c943a6cde9c5 |  73e01ea1 | C:\bluefang\servers\server11884\@life_server
+22:29:56                                       @infiSTAR_A3 |         @infiSTAR_A3 |      false |             GAME DIR | 1dfeea4239645febf154ebbfb8458ea33c005e33 |  1990cc97 | C:\bluefang\servers\server11884\@infiSTAR_A3
+22:29:56                                            @extDB2 |              @extDB2 |      false |             GAME DIR |                                          |           | C:\bluefang\servers\server11884\@extDB2
+22:29:56                                  Arma 3 DLC Bundle |            dlcbundle |       true |            NOT FOUND |                                          |           | 
+22:29:56                                    Arma 3 Marksmen |                 mark |       true |             GAME DIR | bca3f585133621c38245a861ea0e695aa5f1d151 |  98bd0c48 | C:\bluefang\servers\server11884\mark
+22:29:56                                 Arma 3 Helicopters |                 heli |       true |             GAME DIR | 41e93958bcee08e6e6275a458a506af9d0d25ab6 |   6558b1b | C:\bluefang\servers\server11884\heli
+22:29:56                                       Arma 3 Karts |                 kart |       true |             GAME DIR | 4ec5b8ee3e065dc60dc98d30e948796fc01e89df |  120b6924 | C:\bluefang\servers\server11884\kart
+22:29:56                                        Arma 3 Zeus |              curator |       true |             GAME DIR | 8f6f1df09c4707fa080e397861ca67fb1a7d1f09 |  fef5ffff | C:\bluefang\servers\server11884\curator
+22:29:56                                             Arma 3 |                   A3 |       true |            NOT FOUND |                                          |           | 
+22:29:56 ==========================================================================================================================================================================================================
+22:29:56 InitSound ...
+22:29:56 InitSound - complete
+22:29:56 PhysX3 SDK Init started ...
+22:29:56 PhysX3 SDK Init ended.
+22:29:56 Attempt to override final function - rscminimap_script
+22:29:56 Attempt to override final function - rscdisplayloading_script
+22:29:56 Attempt to override final function - rscdisplayloading_script
+22:29:56 Attempt to override final function - rscdisplayloading_script
+22:29:56 Attempt to override final function - rscdiary_script
+22:29:56 Attempt to override final function - rscdisplaysinglemission_script
+22:29:56 Attempt to override final function - rscdiary_script
+22:29:56 Attempt to override final function - rscdisplayremotemissions_script
+22:29:56 Attempt to override final function - rscdisplayloading_script
+22:29:56 Attempt to override final function - rscdiary_script
+22:29:56 Attempt to override final function - rscdiary_script
+22:29:56 Attempt to override final function - rscdisplaystrategicmap_script
+22:29:56 Attempt to override final function - rscdisplaycommon_script
+22:29:56 Attempt to override final function - rscdisplaygarage_script
+22:29:56 Attempt to override final function - rscdisplayloading_script
+22:29:57 Attempt to override final function - rscdisplaycurator_script
+22:29:57 Attempt to override final function - rscdisplayattributes_script
+22:29:57 Attempt to override final function - rscdisplayattributes_script
+22:29:57 Attempt to override final function - rscdisplayattributes_script
+22:29:57 Attempt to override final function - rscdisplaycommon_script
+22:29:57 Attempt to override final function - rscdisplaydebriefing_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:57 Attempt to override final function - rscunitinfo_script
+22:29:58 'restart' voteThreshold must be in 0..1 range. Using global voteThreshold
+Initializing Steam server - Game Port: 21234, Steam Query Port: 21235
+Connected to Steam servers
+Unsupported language English in stringtable
+Unsupported language English in stringtable
+Unrecognized CfgVehicles simulation  in bin\config.bin/CfgVehicles/Sound_BattlefieldExplosions/
+Unrecognized CfgVehicles simulation  in bin\config.bin/CfgVehicles/Sound_BattlefieldFirefight/
+Mission Altis_Life.Altis: Number of roles (115) is different from 'description.ext::Header::maxPlayer' (99)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Server error: Player without identity [MM] AnimeDrugDealer (id 1824334639)
+Starting mission:
+ Mission file: Altis_Life (__cur_mp)
+ Mission world: Altis
+ Mission directory: mpmissions\__cur_mp.Altis\
+Attempt to override final function - bis_functions_list
+Attempt to override final function - bis_functions_listpreinit
+Attempt to override final function - bis_functions_listpostinit
+Attempt to override final function - bis_functions_listrecompile
+Attempt to override final function - bis_fnc_missiontaskslocal
+Attempt to override final function - bis_fnc_missionconversationslocal
+Attempt to override final function - bis_fnc_missionflow
+"<infiSTAR.de> 0 - run.sqf - finaled EPOCH_server_isPAdmin: {true}"
+"<infiSTAR.de> 0 - run.sqf - including AntiHack"
+"<infiSTAR.de> VERSION: 15012016 infiSTAR.de AHAT (v0228B)"
+"<infiSTAR.de> 0 - STARTING"
+Attempt to override final function - bis_fnc_call
+Attempt to override final function - bis_fnc_spawn
+Attempt to override final function - bis_fnc_parsenumber
+"<infiSTAR.de> _fnc_RandomGen: {  _fnc_actualGen = {   _abc = ['z','y','x','w','v','u','t','s','r','q','p','o','n','m','l','k','j','i','h','g','f','e','d','c','b','a'];   _gen = _abc select (random ((count _abc)-1));   _arr = ['U','A','U','3','j','Y','m','q','g','p','H','b','c','b','d','g','c','F','n','l','B','9','k','b','w','I','R','C','P','0'];   _randmax = {((round(random _randminval)) + (round(random _randmaxval))) max _randminval};   for '_i' from 0 to (call _randmax)do   {    _gen = _gen + str(round(random 9)) + (_arr select (random ((count _arr)-1)));   };  };  _gen = '';  while{_gen=='' || _gen in _allRandomGenVars}do{   call _fnc_actualGen;  };  _allRandomGenVars pushBack _gen;  _gen }"
+Unable to get file version size: .\ARMA_LOG.dll
+"<infiSTAR.de>RandomVarLog| ----START-LINE----   (15012016-v0228B) (v0228B)"
+"<infiSTAR.de>RandomVarLog| _adminbox: i9q8b7b3I0q5C6c93 (v0228B)"
+"<infiSTAR.de>RandomVarLog| _fnc_mpPackets: p6H6l33494I8j4g2U3U797g7g4b3c5c933k2R (v0228B)"
+"<infiSTAR.de>RandomVarLog| _FNC_AH1567_KICKLOG: o4p293B4k8j538c3c6P9c6w2j7q4U2d1n1U4b1n (v0228B)"
+"<infiSTAR.de>RandomVarLog| _FNC_AH1567_KICKLOGSPAWN: t696b1C5j294c1C4A4b4k3C6c8n8c7b6C (v0228B)"
+"<infiSTAR.de>RandomVarLog| _FNC_PVAH_AdminReq: n3c2B9b2c5b6I9n2B4Y3j538g6P (v0228B)"
+"<infiSTAR.de>RandomVarLog| _BigTokenArray: b5w9j5c7c3b491U192c7g0w0b1j5b7w (v0228B)"
+"<infiSTAR.de>RandomVarLog| _connectedArray: r7d8k1U1H7n7b5k435I6Y9c1g (v0228B)"
+"<infiSTAR.de>RandomVarLog| _tokenSentArray: i2b9p405P2P3k5w6g8g3p7F4P8F9g2b3c (v0228B)"
+"<infiSTAR.de>RandomVarLog| _server_setTokenR: r7g4P3b8Y7g5H0w2Y2c7d2B7b (v0228B)"
+"<infiSTAR.de>RandomVarLog| _fnc_pvc_token: d7C9B2U8c6H7Y3c4k0b0b3c (v0228B)"
+"<infiSTAR.de>RandomVarLog| _server_checkTokenR: c5U7j531l4b1A1B2Y8k (v0228B)"
+"<infiSTAR.de>RandomVarLog| _YourPlayerToken: x1C3b1g7B3B8d4A5A5H3m9n60 (v0228B)"
+"<infiSTAR.de>RandomVarLog| _TokenCT: n232B7w2A102b1n29 (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AH_MAIN_BLOCK: x7b932k8g3F4n4g5d3B695F4k (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AHKickOFF: b5R8n5b4m2c1l4U8b2I2C7b (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AH1567KICKLOG: n5I4d7m4d9R0I4d6q4I7Y8B7c9k2g9m5b8b2w (v0228B)"
+"<infiSTAR.de>RandomVarLog| _FiredCheck: r3R5C6c4Y3n7C7c8c4I1p0b7c9R493b7B2P8c4c (v0228B)"
+"<infiSTAR.de>RandomVarLog| _clientdo: h0d7c6c2b0A4U5m4B3l4A2b8j (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AH_RunCheckENDVAR: g0w7d4A7Y8B9U6q5I5w3Y9U4c (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AH_HackLogArrayRND: d7F2b7b6U1d2P0l9p7m6H (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AH_SurvLogArrayRND: g1H1F3l2b3n8k8p9A8l7k (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AH_AdmiLogArrayRND: z6m6n7b5c8b1U5F2F4j9U9H6A (v0228B)"
+"<infiSTAR.de>RandomVarLog| _TMPBAN: b1R1j8B3b3H4I9F0U (v0228B)"
+"<infiSTAR.de>RandomVarLog| _massMessage: o8k0b1R7j3p1c70436C0d6c5p1n9l6k1c4n (v0228B)"
+"<infiSTAR.de>RandomVarLog| _massSysMessage: l7B0C6Y9A7p2p3g1c6A535F291w5k408c8q1g3g (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AHpos: x9339907k5U507g8p2w6F3b (v0228B)"
+"<infiSTAR.de>RandomVarLog| _ninetwo: p234d1p6m9j2c5A7g3H3I6U (v0228B)"
+"<infiSTAR.de>RandomVarLog| _ninetwothread: c1l4I8p8d492H5I0g4Y1c2w7q4g701g7q4g (v0228B)"
+"<infiSTAR.de>RandomVarLog| _adminsA: c4U4Y8F791R7w7R3B5P1C6b8m3w (v0228B)"
+"<infiSTAR.de>RandomVarLog| _MC: k2c5I1g4I5F8b5b0P6b6p (v0228B)"
+"<infiSTAR.de>RandomVarLog| _MCS: y6l9g7q5Y197I1c4g8B8F3m4P4m2R3F5B4C7w295p5g (v0228B)"
+"<infiSTAR.de>RandomVarLog| _oneachframe: c735d592A2c4H1q5b5g597C8c4g5p6g4g2l (v0228B)"
+"<infiSTAR.de>RandomVarLog| _checkidicheckcheck: w1B5b290I8F1j0R1c8j (v0228B)"
+"<infiSTAR.de>RandomVarLog| _lastshotmade: e5H1p5m235I6A3b8c6A6c4k0F3B937F8m9b4p3b5I4l1b (v0228B)"
+"<infiSTAR.de>RandomVarLog| _dellocveh: q89192g331b5b0b2F (v0228B)"
+"<infiSTAR.de>RandomVarLog| _inCombatTime: s3l1j2I5w7H2d2U1q (v0228B)"
+"<infiSTAR.de>RandomVarLog| _inCombatArray: b5B2P2g1d5d7U6P505C4g8H5H1P7Y5m9C (v0228B)"
+"<infiSTAR.de>RandomVarLog| _fnc_infiKeyHandler: b6m9k9c4R6d7g4d3g (v0228B)"
+"<infiSTAR.de>RandomVarLog| _ButtonDownCnt: t9b3j4g633C5p2d4g3I5c0m (v0228B)"
+"<infiSTAR.de>RandomVarLog| _ButtonDownTime: n6b5p6I3d9k5B6U2C (v0228B)"
+"<infiSTAR.de>RandomVarLog| _clickOnMapTimer: x6c899b8g3C9k1H5j6R8c7P2g8b59 (v0228B)"
+"<infiSTAR.de>RandomVarLog| _clickOnMapCaught: z104P5m3p1g1H6n8R9k9Y7k1F0I3p9B6F6j9U6Y1d (v0228B)"
+"<infiSTAR.de>RandomVarLog| _MAKE_VAR_DUMP_RANDOM: l335m1Y3Y2p1b2l7F501A3B5A0j1w7b4A8b2w6p6w7I5R (v0228B)"
+"<infiSTAR.de>RandomVarLog| _MAKE_VAR_DUMP_CLIENT: m8C5g3P8m1l5q0g7A (v0228B)"
+"<infiSTAR.de>RandomVarLog| _DUMPINGPLAYERUIDARRAY: f5I5q3H1U6I2w3g0d (v0228B)"
+"<infiSTAR.de>RandomVarLog| _CURRENTLYDUMPING: r4c7m4979507j9n0B2b2H3p3U8w4w2m7b433A2B1n6j8k (v0228B)"
+"<infiSTAR.de>RandomVarLog| _customcommandingMenu: s6B5U9P9b4b735b894C5l7j2Y2R7B6k (v0228B)"
+"<infiSTAR.de>RandomVarLog| _customcommandingMenuOpen: e6k5k2q5g2l6g9b7d7g4j3c1b5b2C1P5l (v0228B)"
+"<infiSTAR.de>RandomVarLog| _LogicVariable: q536p4U594q6b0g3c2l3b7p3c6I6c (v0228B)"
+"<infiSTAR.de>RandomVarLog| _antiantihack_rndvar: n8F4w4F606P1c2A8k (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t1: k8Y8U1b4p6R4F7g1R2C7k8g2g8R3R8A7b2p (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t2: g3B6U3w3d5I0m3U2F1F (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t3: n4U5w4l1U1H8c434d3q5m5g3k9H (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t4: x1q2l2B1m7F4F4n1b (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t5: q6q0n1b8P1R7j4d897d0H1d4R3A2k0q6B1l1g9l4p3R (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t6: q7U4n3n7g6l6d6k0n3P491B (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t7: m1B7l2c8A5H4g0U0U9H5p7g3P2c199C2U2l (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t8: i8b038c3q6c4j3A4g8Y5m4R (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t9: i2I2g5k4A8g2b3m7g6c9F (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t10: z1p1d0Y7p8n7Y3Y4l1P9n390g6A2q5H431j5B (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t11: w2U634A4C1B0k7g8P8w8j5H6b7B3w3b5F6d8R0H5j3q (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t12: t995R5A2n6U5n2F40 (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t13: a3Y1m2k8g4g1m8A9b7A2q1k7w (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t14: y9Y7P5m2b7j3Y832b (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t15: f1b4H5j5c3U7F1l3m5c9R7c7b9g3j (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t16: e1Y1U7b3d4p1m2A6I2R6g (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t17: o3H6q6p5d2q1w5n3c5B7P006Y2b1b4g (v0228B)"
+"<infiSTAR.de>RandomVarLog| _t18: x8m537P696H003A5p7n2d6U8w9U097b (v0228B)"
+"<infiSTAR.de>RandomVarLog| _AH1567_KICKLOG: PVAHR_8w3h1o5j2v3l (v0228B)"
+"<infiSTAR.de>RandomVarLog| _RequestToken: PVAHR_4m8c9l6g7c5y (v0228B)"
+"<infiSTAR.de>RandomVarLog| ----END-LINE----   (15012016-v0228B) (v0228B)"
+"<infiSTAR.de> 0 - loading AntiHack.."
+"<infiSTAR.de> 0 - Thread MAIN: starting!"
+"<infiSTAR.de> 0 - Thread MAIN: loading...!"
+"<infiSTAR.de> 0 - Thread MAIN: compiling and/or sending none-threaded code!"
+"<infiSTAR.de> 0 - Thread MAIN: none-threaded code compiled and/or sent!"
+"<infiSTAR.de> 0 - AntiHack loaded!"
+"<infiSTAR.de> 0 - run.sqf - AntiHack included!"
+"<infiSTAR.de> 0 - run.sqf - including AdminTools"
+"<infiSTAR.de> 0 - run.sqf - AdminTools included!"
+No speaker given for Spencer Santorum
+No speaker given for Luke Thompson
+No speaker given for Spencer Davis
+No speaker given for Ashton Cooper
+No speaker given for Wallace Robinson
+No speaker given for Ryan Martin
+No speaker given for Harrison Allen
+No speaker given for Brian Baker
+No speaker given for Ben Brown
+No speaker given for Harrison MacDonald
+No speaker given for Paul Johnson
+No speaker given for Thomas Campbell
+No speaker given for Chad Taylor
+No speaker given for Benjamin Thomson
+No speaker given for Callum Brown
+No speaker given for William Edwards
+No speaker given for Benjamin Moore
+No speaker given for Jake Thomas
+No speaker given for Mike Robinson
+No speaker given for Ryan Turner
+soldier[B_diver_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+No speaker given for Douglas Wilson
+No speaker given for Brian King
+No speaker given for Conor Ward
+No speaker given for Finlay Clarke
+No speaker given for Donnan Moore
+No speaker given for Joseph Blackburn
+No speaker given for Jacob Abbey
+No speaker given for Geoff Newton
+No speaker given for Thomas Jackson
+No speaker given for Zev Sesse-Seko
+No speaker given for Omari Egwu
+No speaker given for Shaan Igwe
+No speaker given for Callum Bennett
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 1c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 2c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 3c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 4c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 5c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 6c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 7c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 8c not found
+Wrong geometry convex component mapping  for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Convex component number 3. not found
+No speaker given for Giannis Roumpesi
+soldier[B_diver_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+No speaker given for Jake Halliwell
+No speaker given for Lucas Clarke
+No speaker given for Ian Lee
+No speaker given for Max Robertson
+No speaker given for Ali Ngige
+No speaker given for Nathan Wright
+No speaker given for Adam Anderson
+No speaker given for Mao Hwang
+No speaker given for Pan Ng
+No speaker given for Ian Wilson
+No speaker given for Ben Ryan
+No speaker given for Thomas Morgan
+No speaker given for Tan Suan
+No speaker given for Ashton Campbell
+No speaker given for Lucas Bennett
+No speaker given for Thomas Williams
+soldier[B_diver_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+No speaker given for Harrison Burr
+No speaker given for Zahur Okonkwo
+No speaker given for Lewis Smith
+No speaker given for Shen Lin
+No speaker given for Muhammad Mbanefo
+No speaker given for Zaim Ekwensi
+No speaker given for Hasan Inouyie
+No speaker given for Shaan Madaki
+No speaker given for Idi Ngige
+No speaker given for Gamba Madaki
+No speaker given for Dembe Tinibu
+No speaker given for Kuang Chen
+No speaker given for Azibo Inouyie
+No speaker given for Lu Ximi
+Strange convex component322 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+Strange convex component327 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+SW keep height animation used for a3\structures_f_epb\civ\accessories\woodpile_large_f.p3d
+class HitPoints::HitFuel not found in RoadCone_L_F
+class HitPoints::HitFuel not found in Land_Camping_Light_F
+class HitPoints::HitFuel not found in Land_BuoyBig_F
+"<infiSTAR.de> 0 - Thread #1: Server Loop #1 starting now!"
+"<infiSTAR.de> 0 - Thread #1: Server Loop #1 looping now!"
+Error: Object(2 : 211) not found
+Error: Object(2 : 215) not found
+Error: Object(2 : 217) not found
+Error: Object(2 : 219) not found
+Error: Object(2 : 221) not found
+Error: Object(2 : 223) not found
+Error: Object(2 : 225) not found
+Error: Object(2 : 227) not found
+Error: Object(2 : 229) not found
+Error: Object(2 : 231) not found
+Error: Object(2 : 233) not found
+Error: Object(2 : 235) not found
+Error: Object(2 : 237) not found
+Error: Object(2 : 239) not found
+Error: Object(2 : 241) not found
+Error: Object(2 : 245) not found
+Error: Object(2 : 247) not found
+Error: Object(2 : 249) not found
+Error: Object(2 : 251) not found
+Error: Object(2 : 253) not found
+Error: Object(2 : 255) not found
+Error: Object(2 : 257) not found
+Error: Object(2 : 259) not found
+Error: Object(2 : 261) not found
+Error: Object(2 : 263) not found
+Error: Object(2 : 265) not found
+Error: Object(2 : 267) not found
+Error: Object(2 : 269) not found
+Error: Object(2 : 271) not found
+Error: Object(2 : 273) not found
+Error: Object(2 : 275) not found
+Error: Object(2 : 277) not found
+Error: Object(2 : 279) not found
+Error: Object(2 : 281) not found
+Error: Object(2 : 283) not found
+Error: Object(2 : 285) not found
+Error: Object(2 : 287) not found
+Error: Object(2 : 289) not found
+Error: Object(2 : 291) not found
+Error: Object(2 : 293) not found
+Error: Object(2 : 295) not found
+Error: Object(2 : 297) not found
+Error: Object(2 : 299) not found
+Error: Object(2 : 301) not found
+Error: Object(2 : 321) not found
+Error: Object(2 : 323) not found
+Error: Object(2 : 325) not found
+Error: Object(2 : 333) not found
+Error: Object(2 : 335) not found
+Error: Object(2 : 337) not found
+Error: Object(2 : 339) not found
+Error: Object(2 : 341) not found
+Error: Object(2 : 343) not found
+Error: Object(2 : 345) not found
+Error: Object(2 : 347) not found
+Error: Object(2 : 351) not found
+Error: Object(2 : 353) not found
+Error: Object(2 : 355) not found
+Error: Object(2 : 357) not found
+Error: Object(2 : 359) not found
+Error: Object(2 : 361) not found
+Error: Object(2 : 369) not found
+Error: Object(2 : 371) not found
+Error: Object(2 : 418) not found
+c:\w\stable\futura\lib\network\networkserver.cpp NetworkServer::OnClientStateChanged:NOT IMPLEMENTED - briefing!
+Unable to get file version size: .\extDB.dll
+"extDB: Version: 35"
+"extDB: Connected to Database"
+Client: Local object 2:5070 not found
+Server: Object info 2:5070 not found during Changing Owner
+"------------- Client Query Request -------------"
+"QUERY: SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, civ_licenses, arrested, civ_gear FROM players WHERE playerid='76561198151557863'"
+"Time to complete: 0.0400009 (in seconds)"
+"Result: ["76561198151557863","Intel",699,1.06611e+006,"0","0","[[`license_civ_driver`,1],[`license_civ_air`,0],[`license_civ_heroin`,1],[`license_civ_marijuana`,0],[`license_civ_gang`,0],[`license_civ_boat`,0],[`license_civ_oil`,0],[`license_civ_dive`,0],[`license_civ_truck`,0],[`license_civ_gun`,0],[`license_civ_rebel`,1],[`license_civ_coke`,0],[`license_civ_diamond`,0],[`license_civ_copper`,0],[`license_civ_iron`,0],[`license_civ_sand`,0],[`license_civ_salt`,0],[`license_civ_cement`,0],[`license_civ_grapes`,0],[`license_civ_moonshine`,0],[`license_civ_meth`,0],[`license_civ_home`,1],[`license_civ_stiller`,0],[`license_civ_liquor`,0],[`license_civ_bottler`,0],[`license_civ_uranium`,0]]",0,"[`U_O_GhillieSuit`,`V_PlateCarrier2_rgr`,`B_Carryall_khk`,`G_Aviator`,`H_StrawHat`,[`ItemMap`,`ItemCompass`,`ItemWatch`,`ItemGPS`,`NVGoggles_INDEP`,`Binocular`],`arifle_Katiba_F`,``,[`FirstAidKit`,`FirstAidKit`,`FirstAidKit`,`FirstAidKit`],[`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`],[`ToolKit`,`ToolKit`,`ToolKit`,`ToolKit`],[],[],[`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`,`30Rnd_65x39_caseless_green`],[``,``,``,``],[``,``,``,``],[]]"]"
+"------------------------------------------------"
+Server: Object 2:4850 not found (message Type_119)
+Error: Object(4 : 17) not found
+Error: Object(4 : 18) not found
+Server: Object 2:4854 not found (message Type_91)
+Error: Object(4 : 19) not found
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+"<infiSTAR.de> RequestToken: Intel(76561198151557863) Requested a Token!   _clientID: 4"
+"<infiSTAR.de>ConnectLog| 1123h 7min | Runtime: 27s | SENT TOKEN [gv8yauxoex6ewjqd5] TO ID [Intel(76561198151557863) - 4] (v0228B)"
+"<infiSTAR.de> server_setToken: SENT TOKEN [gv8yauxoex6ewjqd5] TO Intel(76561198151557863)"
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+"[Display #24]"
+Web address 'http://infistar.eu/sa3.php?sn=atlanta entertainment&sp=&um=broland278@aol.com&i=15012016-v0228b&s=["arma 3","arma3",154,133741,"stable",true,"windows"]/' won't be open. Current restrictions do not allow it.
+Server: Object 2:4858 not found (message Type_154)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Client: Local object 2:5080 not found
+Server: Object info 2:5080 not found during Changing Owner
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_154)
+"------------- Client Query Request -------------"
+"QUERY: SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, civ_licenses, arrested, civ_gear FROM players WHERE playerid='76561198203109908'"
+"Time to complete: 0.0390015 (in seconds)"
+"Result: ["76561198203109908","[AS] Apollo",3.92968e+006,3.2264e+008,"5","5","[[`license_civ_driver`,1],[`license_civ_air`,0],[`license_civ_heroin`,0],[`license_civ_marijuana`,0],[`license_civ_gang`,0],[`license_civ_boat`,1],[`license_civ_oil`,0],[`license_civ_dive`,0],[`license_civ_truck`,0],[`license_civ_gun`,0],[`license_civ_rebel`,1],[`license_civ_coke`,0],[`license_civ_diamond`,0],[`license_civ_copper`,0],[`license_civ_iron`,0],[`license_civ_sand`,0],[`license_civ_salt`,0],[`license_civ_cement`,0],[`license_civ_grapes`,0],[`license_civ_moonshine`,0],[`license_civ_meth`,0],[`license_civ_home`,1],[`license_civ_stiller`,0],[`license_civ_liquor`,0],[`license_civ_bottler`,0],[`license_civ_uranium`,0]]",0,"[`U_C_Poloshirt_burgundy`,``,``,``,``,[`ItemMap`,`ItemCompass`,`ItemWatch`],``,``,[],[],[],[],[],[],[``,``,``,``],[``,``,``,``],[]]"]"
+"------------------------------------------------"
+Server: Object 2:4852 not found (message Type_91)
+Error: Object(6 : 16) not found
+"<infiSTAR.de> RequestToken: [AS] Apollo(76561198203109908) Requested a Token!   _clientID: 6"
+"<infiSTAR.de>ConnectLog| 1123h 8min | Runtime: 1m 11s | SENT TOKEN [w4wwdkhzqd9thuu2bv] TO ID [[AS] Apollo(76561198203109908) - 6] (v0228B)"
+"<infiSTAR.de> server_setToken: SENT TOKEN [w4wwdkhzqd9thuu2bv] TO [AS] Apollo(76561198203109908)"
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+"civ_1   0    economy"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+"<infiSTAR.de> ******ADMIN-LOGIN******: [AS] Apollo(76561198203109908) (v0228B)"
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4856 not found (message Type_91)
+Client: Local object 2:5085 not found
+Server: Object info 2:5085 not found during Changing Owner
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, civ_licenses, arrested, civ_gear FROM players WHERE playerid='76561198091820939'"
+"Time to complete: 0.0399933 (in seconds)"
+"Result: ["76561198091820939","[MM] AnimeDrugDealer",0,11550,"0","0","[[`license_civ_driver`,1],[`license_civ_air`,0],[`license_civ_heroin`,1],[`license_civ_marijuana`,0],[`license_civ_gang`,0],[`license_civ_boat`,0],[`license_civ_oil`,0],[`license_civ_dive`,0],[`license_civ_truck`,0],[`license_civ_gun`,0],[`license_civ_rebel`,1],[`license_civ_coke`,0],[`license_civ_diamond`,0],[`license_civ_copper`,0],[`license_civ_iron`,0],[`license_civ_sand`,0],[`license_civ_salt`,0],[`license_civ_cement`,0],[`license_civ_grapes`,0],[`license_civ_moonshine`,0],[`license_civ_meth`,0],[`license_civ_home`,0],[`license_civ_stiller`,0],[`license_civ_liquor`,0],[`license_civ_bottler`,0],[`license_civ_uranium`,0]]",0,"[`U_Marshal`,``,``,``,``,[`ItemMap`,`ItemCompass`,`ItemWatch`,`ItemGPS`],``,``,[],[],[],[],[],[],[``,``,``,``],[``,``,``,``],[]]"]"
+"------------------------------------------------"
+Error: Object(7 : 16) not found
+Server: Object 2:4858 not found (message Type_154)
+"<infiSTAR.de> RequestToken: [MM] AnimeDrugDealer(76561198091820939) Requested a Token!   _clientID: 7"
+"<infiSTAR.de>ConnectLog| 1123h 9min | Runtime: 2m 3s | SENT TOKEN [mz47ogpcomtmlc0wju4] TO ID [[MM] AnimeDrugDealer(76561198091820939) - 7] (v0228B)"
+"<infiSTAR.de> server_setToken: SENT TOKEN [mz47ogpcomtmlc0wju4] TO [MM] AnimeDrugDealer(76561198091820939)"
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_154)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_91)
+Error: Object(4 : 22) not found
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+"civ_5   0    market"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+"civ_1   0    market"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+"civ_2   0    economy"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4858 not found (message Type_154)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+"civ_1   0    pharmacy"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_154)
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 1c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 2c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 3c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 4c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 5c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 6c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 7c not found
+Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 8c not found
+Wrong geometry convex component mapping  for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Convex component number 3. not found
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_154)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198203109908' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.0200195 (in seconds)"
+"Result: [[147,"civ","C_SUV_01_F","Car","76561198203109908",1,0,389189,4],[171,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,997188,10],[176,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,190396,10],[253,"civ","C_Hatchback_01_F","Car","76561198203109908",1,0,820839,0],[271,"civ","C_SUV_01_F","Car","76561198203109908",1,0,392902,8]]"
+"------------------------------------------------"
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE id='253' AND pid='76561198203109908'"
+"Time to complete: 0.0209961 (in seconds)"
+"Result: [253,"civ","C_Hatchback_01_F","Car","76561198203109908",1,0,820839,0]"
+"------------------------------------------------"
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198151557863' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.0209961 (in seconds)"
+"Result: [[111,"civ","C_SUV_01_F","Car","76561198151557863",1,0,237414,0],[132,"civ","C_Offroad_01_F","Car","76561198151557863",1,0,958644,5],[191,"civ","C_Hatchback_01_sport_F","Car","76561198151557863",1,0,976351,10]]"
+"------------------------------------------------"
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE id='191' AND pid='76561198151557863'"
+"Time to complete: 0.00997925 (in seconds)"
+"Result: [191,"civ","C_Hatchback_01_sport_F","Car","76561198151557863",1,0,976351,10]"
+"------------------------------------------------"
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198151557863' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.0200195 (in seconds)"
+"Result: [[111,"civ","C_SUV_01_F","Car","76561198151557863",1,0,237414,0],[132,"civ","C_Offroad_01_F","Car","76561198151557863",1,0,958644,5],[191,"civ","C_Hatchback_01_sport_F","Car","76561198151557863",1,0,976351,10]]"
+"------------------------------------------------"
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> ["w4wwdkhzqd9thuu2bv",["[AS] Apollo","76561198203109908","ALOG",[68,101,108,101,116,105,110,103,32,67,95,72,97,116,99,104,98,97,99,107,95,48,49,95,115,112,111,114,116,95,70,32,64,48,51,54,49,51,49,46,46]],"2:5081"]"
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> [AS] Apollo(76561198203109908) Token w4wwdkhzqd9thuu2bv - objByNetID civ_1"
+"<infiSTAR.de>AdminLog| 0h 7min | [AS] Apollo(76561198203109908) | Deleting C_Hatchback_01_sport_F @036131.. (v0228B)"
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_154)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE id='191' AND pid='76561198151557863'"
+"Time to complete: 0.0400085 (in seconds)"
+"Result: [191,"civ","C_Hatchback_01_sport_F","Car","76561198151557863",1,0,976351,10]"
+"------------------------------------------------"
+Error in expression <e = _texture select _index;
+if(typeName _texture == "ARRAY") then { _texture = _>
+  Error position: <_texture == "ARRAY") then { _texture = _>
+  Error Undefined variable in expression: _texture
+File mpmissions\__cur_mp.Altis\core\vehicle\fn_colorVehicle.sqf, line 33
+Server: Object 2:4856 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198203109908' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.00698853 (in seconds)"
+"Result: [[147,"civ","C_SUV_01_F","Car","76561198203109908",1,0,389189,4],[171,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,997188,10],[176,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,190396,10],[253,"civ","C_Hatchback_01_F","Car","76561198203109908",1,0,820839,0],[271,"civ","C_SUV_01_F","Car","76561198203109908",1,0,392902,8]]"
+"------------------------------------------------"
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198203109908' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.0200195 (in seconds)"
+"Result: [[147,"civ","C_SUV_01_F","Car","76561198203109908",1,0,389189,4],[171,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,997188,10],[176,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,190396,10],[253,"civ","C_Hatchback_01_F","Car","76561198203109908",1,0,820839,0],[271,"civ","C_SUV_01_F","Car","76561198203109908",1,0,392902,8]]"
+"------------------------------------------------"
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE id='253' AND pid='76561198203109908'"
+"Time to complete: 0.00701904 (in seconds)"
+"Result: [253,"civ","C_Hatchback_01_F","Car","76561198203109908",1,0,820839,0]"
+"------------------------------------------------"
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> ["w4wwdkhzqd9thuu2bv",["[AS] Apollo","76561198203109908","ALOG",[84,101,108,101,112,111,114,116,32,116,111,32,91,57,49,53,54,46,57,54,44,50,49,54,49,49,46,50,44,48,93,40,71,80,83,58,32,48,57,49,50,49,54,41]],"2:5081"]"
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> [AS] Apollo(76561198203109908) Token w4wwdkhzqd9thuu2bv - objByNetID civ_1"
+"<infiSTAR.de>AdminLog| 0h 8min | [AS] Apollo(76561198203109908) | Teleport to [9156.96,21611.2,0](GPS: 091216) (v0228B)"
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198151557863' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.0189819 (in seconds)"
+"Result: [[111,"civ","C_SUV_01_F","Car","76561198151557863",1,0,237414,0],[132,"civ","C_Offroad_01_F","Car","76561198151557863",1,0,958644,5]]"
+"------------------------------------------------"
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_154)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198091820939' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.00897217 (in seconds)"
+"Result: [[161,"civ","C_Hatchback_01_sport_F","Car","76561198091820939",1,0,303142,5],[177,"civ","C_Hatchback_01_sport_F","Car","76561198091820939",1,0,365294,18],[185,"civ","C_Van_01_transport_F","Car","76561198091820939",1,0,95729,0],[192,"civ","C_SUV_01_F","Car","76561198091820939",1,0,56578,11],[193,"civ","C_SUV_01_F","Car","76561198091820939",1,0,566486,7],[219,"civ","O_Truck_03_transport_F","Car","76561198091820939",1,0,141551,0],[222,"civ","O_MRAP_02_F","Car","76561198091820939",1,0,37061,0],[254,"civ","C_SUV_01_F","Car","76561198091820939",1,0,736326,14],[255,"civ","C_Offroad_01_F","Car","76561198091820939",1,0,121909,15],[256,"civ","C_SUV_01_F","Car","76561198091820939",1,0,470326,12],[257,"civ","C_SUV_01_F","Car","76561198091820939",1,0,876699,0]]"
+"------------------------------------------------"
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE id='256' AND pid='76561198091820939'"
+"Time to complete: 0.0189819 (in seconds)"
+"Result: [256,"civ","C_SUV_01_F","Car","76561198091820939",1,0,470326,12]"
+"------------------------------------------------"
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Error: Object(4 : 26) not found
+Ragdoll - loading of ragdoll source "Soldier" started.
+Ragdoll - loading of ragdoll source "Soldier" finished successfully.
+Error: Object(4 : 28) not found
+Error: Object(4 : 32) not found
+Server: Object 2:4856 not found (message Type_91)
+"civ_2   0    market"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Error: Object(6 : 33) not found
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_154)
+"civ_1   0    market"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+"civ_2   0    pharmacy"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198203109908' AND alive='1' AND active='0' AND side='civ' AND type='Air'"
+"Time to complete: 0.0379639 (in seconds)"
+"Result: [[15,"civ","B_Heli_Light_01_F","Air","76561198203109908",1,0,764980,13],[140,"civ","I_Heli_light_03_unarmed_F","Air","76561198203109908",1,0,504093,0]]"
+"------------------------------------------------"
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_154)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198151557863' AND alive='1' AND active='0' AND side='civ' AND type='Air'"
+"Time to complete: 0.019043 (in seconds)"
+"Result: [[151,"civ","I_Heli_light_03_unarmed_F","Air","76561198151557863",1,0,277960,0],[163,"civ","B_Heli_Light_01_F","Air","76561198151557863",1,0,155974,0]]"
+"------------------------------------------------"
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198151557863' AND alive='1' AND active='0' AND side='civ' AND type='Air'"
+"Time to complete: 0.0220337 (in seconds)"
+"Result: [[151,"civ","I_Heli_light_03_unarmed_F","Air","76561198151557863",1,0,277960,0],[163,"civ","B_Heli_Light_01_F","Air","76561198151557863",1,0,155974,0]]"
+"------------------------------------------------"
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE id='163' AND pid='76561198151557863'"
+"Time to complete: 0.0189819 (in seconds)"
+"Result: [163,"civ","B_Heli_Light_01_F","Air","76561198151557863",1,0,155974,0]"
+"------------------------------------------------"
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_154)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+"<infiSTAR.de> RequestToken: keith(76561198097035047) Requested a Token!   _clientID: 10"
+"<infiSTAR.de>ConnectLog| 0h 10min | Runtime: 8m 12s | SENT TOKEN [l8zsntox2dgbm0pg] TO ID [keith(76561198097035047) - 10] (v0228B)"
+"<infiSTAR.de> server_setToken: SENT TOKEN [l8zsntox2dgbm0pg] TO keith(76561198097035047)"
+"------------- Client Query Request -------------"
+"QUERY: SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist FROM players WHERE playerid='76561198097035047'"
+"Time to complete: 0.0209961 (in seconds)"
+"Result: ["76561198097035047","keith",0,413477,"0","0","[[`license_cop_air`,0],[`license_cop_swat`,0],[`license_cop_cg`,0]]","1","[`U_I_G_Story_Protagonist_F`,``,``,``,``,[`ItemMap`,`ItemCompass`,`ItemWatch`,`ItemGPS`],``,``,[],[],[],[],[],[],[``,``,``,``],[``,``,``,``],[]]",0]"
+"------------------------------------------------"
+Server: Object 2:4854 not found (message Type_119)
+Error: Object(10 : 16) not found
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_154)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> ["w4wwdkhzqd9thuu2bv",["[AS] Apollo","76561198203109908","ALOG",[84,101,108,101,112,111,114,116,32,116,111,32,91,50,51,53,51,56,46,54,44,50,49,49,48,55,46,50,44,48,93,40,71,80,83,58,32,50,51,53,50,49,49,41]],"2:5081"]"
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> [AS] Apollo(76561198203109908) Token w4wwdkhzqd9thuu2bv - objByNetID civ_1"
+"<infiSTAR.de>AdminLog| 0h 11min | [AS] Apollo(76561198203109908) | Teleport to [23538.6,21107.2,0](GPS: 235211) (v0228B)"
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_154)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Error: Object(4 : 34) not found
+Server: Object 7:3 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198097035047' AND alive='1' AND active='0' AND side='cop' AND type='Car'"
+"Time to complete: 0.0410156 (in seconds)"
+"Result: [[229,"cop","C_Offroad_01_F","Car","76561198097035047",1,0,301949,6]]"
+"------------------------------------------------"
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Error: Object(6 : 37) not found
+Error: Object(6 : 36) not found
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+"civ_1   0    market"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_154)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> ["w4wwdkhzqd9thuu2bv",["[AS] Apollo","76561198203109908","ALOG",[84,101,108,101,112,111,114,116,32,116,111,32,91,52,49,54,56,46,49,55,44,49,49,56,48,51,46,53,44,48,93,40,71,80,83,58,32,48,52,49,49,49,56,41]],"2:5081"]"
+"<infiSTAR.de FNC_AH1567_KICKLOGSPAWN> [AS] Apollo(76561198203109908) Token w4wwdkhzqd9thuu2bv - objByNetID civ_1"
+"<infiSTAR.de>AdminLog| 0h 13min | [AS] Apollo(76561198203109908) | Teleport to [4168.17,11803.5,0](GPS: 041118) (v0228B)"
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198203109908' AND alive='1' AND active='0' AND side='civ' AND type='Air'"
+"Time to complete: 0.0200195 (in seconds)"
+"Result: [[15,"civ","B_Heli_Light_01_F","Air","76561198203109908",1,0,764980,13],[140,"civ","I_Heli_light_03_unarmed_F","Air","76561198203109908",1,0,504093,0]]"
+"------------------------------------------------"
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+"------------- Client Query Request -------------"
+"QUERY: SELECT id, side, classname, type, pid, alive, active, plate, color FROM vehicles WHERE pid='76561198203109908' AND alive='1' AND active='0' AND side='civ' AND type='Car'"
+"Time to complete: 0.0200195 (in seconds)"
+"Result: [[147,"civ","C_SUV_01_F","Car","76561198203109908",1,0,389189,4],[171,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,997188,10],[176,"civ","C_Offroad_01_F","Car","76561198203109908",1,0,190396,10],[253,"civ","C_Hatchback_01_F","Car","76561198203109908",1,0,820839,0],[271,"civ","C_SUV_01_F","Car","76561198203109908",1,0,392902,8]]"
+"------------------------------------------------"
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_154)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 4:9 not found (message Type_91)
+Server: Object 4:2 not found (message Type_91)
+Server: Object 4:3 not found (message Type_91)
+Server: Object 4:5 not found (message Type_91)
+Server: Object 4:7 not found (message Type_91)
+Server: Object 4:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Client: Remote object 6:14 not found
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 4:7 not found (message Type_119)
+Server: Object 4:9 not found (message Type_119)
+Server: Object 4:1 not found (message Type_119)
+Server: Object 4:5 not found (message Type_119)
+Server: Object 4:3 not found (message Type_119)
+Server: Object 4:2 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Error: Object(10 : 18) not found
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_119)
+Error: Object(10 : 20) not found
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_154)
+"cop_16   0    pharmacy"
+Error in expression <{[]};
+_return = (_queryResult select 1) select 0;
+if(_multiarr) then {
+_return =>
+  Error position: <select 0;
+if(_multiarr) then {
+_return =>
+  Error Generic error in expression
+File life_server\Functions\MySQL\fn_asyncCall.sqf, line 49
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_154)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_154)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_154)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 7:2 not found (message Type_119)
+Server: Object 7:5 not found (message Type_119)
+Server: Object 7:7 not found (message Type_119)
+Server: Object 7:1 not found (message Type_119)
+Server: Object 7:9 not found (message Type_119)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_154)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4854 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4860 not found (message Type_119)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_119)
+Server: Object 2:4856 not found (message Type_91)
+Server: Object 2:4856 not found (message Type_119)
+Server: Object 7:9 not found (message Type_91)
+Server: Object 7:2 not found (message Type_91)
+Server: Object 7:3 not found (message Type_91)
+Server: Object 7:5 not found (message Type_91)
+Server: Object 7:7 not found (message Type_91)
+Server: Object 7:1 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_119)
+Server: Object 2:4854 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_119)
+Server: Object 2:4860 not found (message Type_154)
+Server: Object 2:4860 not found (message Type_91)
+Server: Object 2:4850 not found (message Type_91)
+Server: Object 2:4858 not found (message Type_91)
+Server: Object 2:4852 not found (message Type_91)
+Server: Object 7:3 not found (message Type_119)
