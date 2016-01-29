@@ -1,6 +1,6 @@
 #include <macro.h>
 /*
-	File: fn_cellphone.sqf
+	File: fn_OpenEconomy.sqf
 	Author: Alan
 	
 	Description:
@@ -19,19 +19,3 @@ lbClear _venteliste;
 lbClear _achatliste;
 
 [[0,player,"economy"],"TON_fnc_getprices",false,false] spawn life_fnc_MP;
-/*
-{
-	if(alive _x && _x != player) then
-	{
-		switch (side _x) do
-		{
-			case west: {_type = "Cop"};
-			case civilian: {_type = "Civ"};
-			case independent: {_type = "Med"};
-		};
-		_units lbAdd format["%1 (%2)",_x getVariable["realname",name _x],_type];
-		_units lbSetData [(lbSize _units)-1,str(_x)];
-	};
-} foreach playableUnits;
-
-lbSetCurSel [3004,0];*/
