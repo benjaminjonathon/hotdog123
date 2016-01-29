@@ -27,7 +27,7 @@ switch(_shop) do
 			case (playerSide !=west): {"You're not a cop"};
 			default
 			{
-				["Praktikanten Polizei Shop",
+				["Basic Police Shop",
 					[
 						["Rangefinder",nil,10]
 					]
@@ -41,10 +41,10 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 1): {"You can only as a policeman here Access !"};
+			case (__GETC__(life_coplevel) < 1): {"You are not a high enough rank to access this shop !"};
 			default
 			{
-				["Altis Visiere & Sonstiges",
+				["Misc Items and Scopes",
 					[
 						["ItemMap",nil,10],
 						["ItemWatch",nil,10],
@@ -81,10 +81,10 @@ switch(_shop) do
 	{
 		switch (true) do 
 		{
-			case (playerSide != independent): {"You're not a ADAC"};
-			case (__GETC__(life_mediclevel) < 2): {"Du kannst erst als ADAC hier Zugreifen !"}; 
+			case (playerSide != independent): {"You're not a medic"};
+			case (__GETC__(life_mediclevel) < 2): {"You are not a high enough medic to access !"}; 
 			default {
-				["ADAC Shop",
+				["Medic Shop",
 					[
 						["ItemGPS",nil,10],
 						["Binocular",nil,10],
@@ -107,7 +107,7 @@ switch(_shop) do
 		switch (true) do 
 		{
 			case (playerSide != independent): {"You're not a MEDIC"};
-			case (__GETC__(life_mediclevel) < 1): {"Du kannst erst als MEDIC hier Zugreifen !"}; 
+			case (__GETC__(life_mediclevel) < 1): {"You are not a high enough medic !"}; 
 			default {
 				["Hospital EMS Shop",
 					[
@@ -132,16 +132,16 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"You're not a cop"};
-			case (__GETC__(life_coplevel) < 2): {"Du bist noch kein Komissar !"};
+			case (__GETC__(life_coplevel) < 2): {"You are not a high enough level !"};
 			default
 			{
-				["Official gun shop",
+				["Weapon Shop",
 					[
-						["arifle_sdar_F","Taser Sturmgewehr",10],
-						["hgun_Rook40_F","Taser-Pistole",10],
-						["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
-						["16Rnd_9x21_Mag","16er Magazin",10],
-						["20Rnd_556x45_UW_mag","556er Magazin",10]
+						["arifle_sdar_F","Taser Rifle",10],
+						["hgun_Rook40_F","Taser Rook",10],
+						["hgun_Rook40_snds_F","Taser Rook Silenced",10],
+						["16Rnd_9x21_Mag","16rnd 9mm Mag",10],
+						["20Rnd_556x45_UW_mag","5.56mm 20rnd Mag",10]
 					]
 				];
 			};
@@ -156,15 +156,15 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 3): {"Du bist noch kein Kommissar"};
 			default
 			{
-				["Commissioner weapons Shop",
+				["Sergeant Weapon Shop",
 					[
-						["arifle_MXC_F",nil,10],
-						["arifle_MX_F",nil,10],
-						["arifle_sdar_F","Taser Sturmgewehr",10],
-						["SMG_02_F",nil,10],
-						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
-						["30Rnd_9x21_Mag","9mm-Gummi",10],
-						["20Rnd_556x45_UW_mag","Taser Magazin",10]
+						["arifle_MXC_F","Taser MXC",10],
+						["arifle_MX_F","Taser MX",10],
+						["arifle_sdar_F","Taser SDAR",10],
+						["SMG_02_F","Taser SMG",10],
+						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",10],
+						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["20Rnd_556x45_UW_mag","5.56 20rnd Mag",10]
 					]
 				];
 			};
@@ -176,19 +176,20 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"You're not a cop"};
-			case (__GETC__(life_coplevel) < 4): {"Du bist kein HauptKommissar"};
+			case (__GETC__(life_coplevel) < 4): {"Why would you be allowed in here?"};
 			default
 			{
-				["Police Chief Weapons Shop",
+				["High Rank Police Shop",
 					[
-						["SMG_02_F",nil,10],
-						["arifle_TRG20_F",nil,10],
-						["arifle_MX_F",nil,10],
-						["arifle_MXC_F",nil,10],
-						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
-						["30Rnd_9x21_Mag",nil,10],
-						["30Rnd_556x45_Stanag",nil,10],
-						["SmokeShellOrange","Rauchgranate",10]
+						["SMG_02_F","SMG",10],
+						["arifle_TRG20_F","TRG",10],
+						["arifle_MX_F","MX",10],
+						["arifle_MXM_Black_F","MXM",10],
+						["arifle_MXC_F","MXC",10],
+						["30Rnd_65x39_caseless_mag","6.5mm 30rnd Caseless Mag",10],
+						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["30Rnd_556x45_Stanag","5.56 30rnd Mag",10],
+						["SmokeShellOrange","Orange Smoke Shell",10]
 					]
 				];
 			};
@@ -205,17 +206,15 @@ switch(_shop) do
 			{
 				["Swat Weapons Shop",
 					[
-						["arifle_MXM_Black_F",nil,10],
-						["arifle_MX_Black_F",nil,10],
-						["arifle_MXC_Black_F",nil,10],
-						["SMG_02_F",nil,10],
-						["arifle_TRG21_F",nil,10],
-						["SmokeShellBlue","CE-Gas",10],
-						["HandGrenade_Stone","Blendgranate",10],
-						["SmokeShellOrange","Rauchgranate",10],
-						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
-						["30Rnd_9x21_Mag",nil,10],
-						["30Rnd_556x45_Stanag",nil,10]
+						["SMG_02_F","SMG",10],
+						["arifle_TRG20_F","TRG",10],
+						["arifle_MX_F","MX",10],
+						["arifle_MXM_Black_F","MXM",10],
+						["arifle_MXC_F","MXC",10],
+						["30Rnd_65x39_caseless_mag","6.5mm 30rnd Caseless Mag",10],
+						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["30Rnd_556x45_Stanag","5.56 30rnd Mag",10],
+						["SmokeShellOrange","Orange Smoke Shell",10]
 					]
 				];
 			};
@@ -226,27 +225,21 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Du bist kein Polizist"};
-			case (__GETC__(life_coplevel) < 6): {"You're not in the SOI"};
+			case (playerSide !=west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 6): {"You're not in the Spec Ops"};
 			default
 			{
-				["special operations firearms instructor",
+				["Special Ops Shop",
 					[
-						["arifle_MXM_Black_F",nil,10],
-						["arifle_MX_Black_F",nil,10],
-						["arifle_MXC_Black_F",nil,10],
-						["arifle_MX_SW_Black_F",nil,10],
-						["SMG_02_F",nil,10],
-						["srifle_EBR_F",nil,10],
-						["arifle_TRG21_F",nil,10],
-						["arifle_TRG20_F",nil,10],
-						["SmokeShellBlue","CE-Gas",10],
-						["HandGrenade_Stone","Blendgranate",10],
-						["SmokeShellOrange","Rauchgranaten",10],
-						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
-						["20Rnd_762x51_Mag",nil,10],
-						["30Rnd_9x21_Mag",nil,10],
-						["100Rnd_65x39_caseless_mag",nil,10]
+						["SMG_02_F","SMG",10],
+						["arifle_TRG20_F","TRG",10],
+						["arifle_MX_F","MX",10],
+						["arifle_MXM_Black_F","MXM",10],
+						["arifle_MXC_F","MXC",10],
+						["30Rnd_65x39_caseless_mag","6.5mm 30rnd Caseless Mag",10],
+						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["30Rnd_556x45_Stanag","5.56 30rnd Mag",10],
+						["SmokeShellOrange","Orange Smoke Shell",10]
 					]
 				];
 			};
@@ -258,37 +251,35 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_civ_rebel): {"Du besitz keine Rebel Traning cost!"};
+			case (!license_civ_rebel): {"You cant afford rebel training!"};
 			default
 			{
 				["Rebels Gun Shop",
 					[
-						["arifle_TRG20_F",nil,350000],
-						["arifle_Katiba_F",nil,300000],
-						["srifle_EBR_F",nil,375000],
-						["SMG_01_F",nil,100000],
-						["hgun_Pistol_heavy_01_MRD_F",nil,25000],
 						["hgun_P07_F",nil,15000],
-						["srifle_DMR_01_F",nil,300000],
-						["arifle_SDAR_F",nil,75000],
-						["acc_flashlight",nil,7500],
-						["acc_pointer_IR",nil,15000],
+						["arifle_TRG20_F",nil,50000],
+						["SMG_01_F",nil,60000],
+						["arifle_Katiba_F",nil,75000],
+						["arifle_SDAR_F",nil,90000],
+						["arifle_MXM_F","Xor Cannon",100000],
+						["srifle_DMR_01_F",nil,100000],
+						["srifle_EBR_F",nil,115000],
+						["acc_flashlight",nil,2000],
+						["acc_pointer_IR",nil,2500],
 						["optic_ACO_grn",nil,5000],
 						["optic_Aco_smg",nil,5000],
 						["optic_Holosight",nil,3600],
 						["optic_Hamr",nil,10500],
 						["optic_NVS",nil,20000],
-						["optic_DMS",nil,40000],
+						["optic_DMS",nil,25000],
 						["30Rnd_9x21_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,150],
-						["SmokeShellGreen",nil,2500],
-						["muzzle_snds_M",nil,10000],
+						["30Rnd_65x39_caseless_mag","Xor Ammo",200],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_45ACP_Mag_SMG_01",nil,500],
-						["20Rnd_762x51_Mag","MK18 Magazin",500],
+						["20Rnd_762x51_Mag","MK18 Mag",500],
 						["11Rnd_45ACP_Mag",nil,1000],
 						["30Rnd_556x45_Stanag",nil,300],
-						["10Rnd_762x51_Mag","Rahim Magazin",500],
 						["30Rnd_65x39_caseless_green",nil,275]
 					]
 				];
@@ -304,7 +295,7 @@ switch(_shop) do
 			case (!license_civ_gun): {"You have no gun license!"};
 			default
 			{
-				["Billy Joe's Firearms",
+				["Gun Store",
 					[
 						["hgun_P07_F",nil,15000],
 						["hgun_Pistol_heavy_02_F",nil,20000],
@@ -414,7 +405,7 @@ switch(_shop) do
 	
 	case "genstore":
 	{
-		["Altis Genstore Handler",
+		["General Store",
 			[
 				["Binocular",nil,150],
 				["ItemGPS",nil,100],
