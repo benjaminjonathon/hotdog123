@@ -9,5 +9,5 @@ while {true} do {
 	if(isNull _this OR !alive _this) exitWith {};
 	if(isNil {_this getVariable "mining"}) exitWith {};
 	_this say3D "Device_disassembled_loop";
-	sleep 28.6;
+	uiSleep 28.6;
 };

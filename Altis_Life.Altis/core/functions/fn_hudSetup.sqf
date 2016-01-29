@@ -1,4 +1,3 @@
-#include "..\..\script_macros.hpp"
 /*
 	File: fn_hudSetup.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -6,15 +5,15 @@
 	Description:
 	Setups the hud for the player?
 */
-private["_alpha","_version","_p","_pg"];
+private["_display","_alpha","_version","_p","_pg"];
 disableSerialization;
-_alpha = CONTROL(46,1001);
-_version = CONTROL(46,1000);
+_display = findDisplay 46;
+_alpha = _display displayCtrl 1001;
+_version = _display displayCtrl 1000;
 
 2 cutRsc ["playerHUD","PLAIN"];
 _version ctrlSetText format["BETA: 0.%1.%2",(productVersion select 2),(productVersion select 3)];
 [] call life_fnc_hudUpdate;
-[] spawn life_fnc_statusBar;
 
 [] spawn
 {

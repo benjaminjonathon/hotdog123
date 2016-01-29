@@ -32,7 +32,7 @@ then
          _relativePosModel = _thingToPush worldToModel _posCaller;
          
          
-         // hint format ["Position of _mineHead = %1\nSpawn distance from _mineHead = %2\nPlayer direction = %3\nModel offset = %4\nNearest Ship = %5\nShip Distance = %6\nBounding Box = %7",_pos,_dist,_dir,_relativePosModel,_nearestVehicle,_vehicleDistance,_boxLimits];
+         // hintSilent format ["Position of _mineHead = %1\nSpawn distance from _mineHead = %2\nPlayer direction = %3\nModel offset = %4\nNearest Ship = %5\nShip Distance = %6\nBounding Box = %7",_pos,_dist,_dir,_relativePosModel,_nearestVehicle,_vehicleDistance,_boxLimits];
          
          // boundingBox returns the following [[minX, minY, minZ], [maxX, maxY, maxZ]]
          
@@ -54,7 +54,7 @@ then
          _zRPM = _relativePosModel select 2;
          
          
-         // hint format ["minX: %1 \nminY: %2 \nminZ: %3 \nmaxX: %4 \nmaxY: %5\nmaxZ: %6 \n_mineHead: %7 , %8 , %9 \n_mineHead: %10",_minX,_minY,_minZ,_maxX,_maxY,_maxZ,_xRPM,_yRPM,_zRPM,_relativePosModel];
+         // hintSilent format ["minX: %1 \nminY: %2 \nminZ: %3 \nmaxX: %4 \nmaxY: %5\nmaxZ: %6 \n_mineHead: %7 , %8 , %9 \n_mineHead: %10",_minX,_minY,_minZ,_maxX,_maxY,_maxZ,_xRPM,_yRPM,_zRPM,_relativePosModel];
          
          if (((_xRPM > _minX) and (_xRPM < _maxX) and (_yRPM > _minY) and (_yRPM < _maxY) and (_zRPM > _minZ) and (_zRPM < _maxZ)) or (_targetDistance <= 3.5)) then
          
@@ -95,15 +95,15 @@ then
                   
                   if (_thingToPush isKindOf "Ship") then
                   {
-                           //hint "vehicle is kind of ship...slowing down";
-                           sleep 1;
+                           //hintSilent "vehicle is kind of ship...slowing down";
+                           uiSleep 1;
                            _thingToPush setVelocity [0,0,0];
                   };
                   
          } else
          {
                //   _textString = format ["Approach closer to %1, distance is %2",_nameOfThingToPush,_targetDistance];
-                  // hint format ["weight: %1",_weightOfThing];
+                  // hintSilent format ["weight: %1",_weightOfThing];
                  // 6000 cutText [_textString,"PLAIN DOWN",0];
          };
          
@@ -114,6 +114,6 @@ then
 else
 {
        //  _textString = format ["Can not push that %1",_nameOfThingToPush];
-         // hint format ["weight: %1",_weightOfThing];
+         // hintSilent format ["weight: %1",_weightOfThing];
         // 6000 cutText [_textString,"PLAIN DOWN",0];
 };

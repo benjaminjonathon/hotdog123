@@ -1,4 +1,3 @@
-#include "..\..\script_macros.hpp"
 /*
 	File: fn_shopMenus.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -10,11 +9,12 @@ private["_shop"];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
 if(_shop == "") exitWith {closeDialog 0;};
 
-if(!dialog) then {
+if(!dialog) then
+{
 	if(!(createDialog "shop_menu")) exitWith {};
 };
 disableSerialization;
-ctrlSetText[601,format["Cash: $%1",[CASH] call life_fnc_numberText]];
+ctrlSetText[601,format["Cash: $%1",[life_cash] call life_fnc_numberText]];
 
 switch (_shop) do
 {
@@ -60,6 +60,24 @@ switch (_shop) do
 	case "donator":
 	{
 		ctrlSetText[2505,"Donator Shop"];
+	};
+	
+	case "sergeant":
+	{
+		ctrlSetText[2505,"Sergeants Shop"];
+		ctrlShow[2503,false];
+	};
+	
+	case "gen":
+	{
+		ctrlSetText[2505,"Altis General Store"];
+		ctrlShow[2503,false];
+	};
+	
+	case "officer":
+	{
+		ctrlSetText[2505,"Patrol Officer Shop"];
+		ctrlShow[2503,false];
 	};
 	
 	case "admin":

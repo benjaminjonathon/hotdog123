@@ -38,7 +38,7 @@ if(__GETC__(SPY_cfg_runPatchCheck)) then {
 			if(!((configName _patchEntry) in (call SPY_cfg_patchList))) exitWith {
 				[[profileName,getPlayerUID player,(configName _patchEntry)],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
 				[[profileName,format["Unknown Addon Patch: %1",(configName _patchEntry)]],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-				sleep 0.5;
+				uiSleep 0.5;
 				["SpyGlass",false,false] call BIS_fnc_endMission;
 			};
 		};
@@ -57,7 +57,7 @@ _allowedChildren = [
 	if(!((configName _x) in _allowedChildren)) exitWith {
 		[[profileName,getPlayerUID player,"Modified_MPInterrupt"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
 		[[profileName,"Devcon like executor detected"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-		sleep 0.5;
+		uiSleep 0.5;
 		["SpyGlass",false,false] call BIS_fnc_endMission;
 	};
 } foreach _children;
@@ -70,13 +70,13 @@ _onUnload = getText(configFile >> "RscDisplayInventory" >> "onUnload");
 if(_onLoad != "[""onLoad"",_this,""RscDisplayInventory"",'IGUI'] call compile preprocessfilelinenumbers ""A3\ui_f\scripts\initDisplay.sqf""") exitWith {
 	[[profileName,getPlayerUID player,"Modified_RscDisplayInventory_onLoad"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
 	[[profileName,"Modified RscDisplayInventory_onLoad (CheatEngine injection)"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-	sleep 0.5;
+	uiSleep 0.5;
 	["SpyGlass",false,false] call BIS_fnc_endMission;
 };
 if(_onUnload != "[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call compile preprocessfilelinenumbers ""A3\ui_f\scripts\initDisplay.sqf""") exitWith {
 	[[profileName,getPlayerUID player,"Modified_RscDisplayInventory_onUnload"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
 	[[profileName,"Modified RscDisplayInventory_onUnload (CheatEngine injection)"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-	sleep 0.5;
+	uiSleep 0.5;
 	["SpyGlass",false,false] call BIS_fnc_endMission;
 };
 
@@ -93,9 +93,9 @@ if(_onUnload != "[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call compil
 		if((unitRecoilCoefficient player) < 1) then {
 			[[profileName,getPlayerUID player,"No_recoil_hack"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
 			[[profileName,"No recoil hack"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-			sleep 0.5;
+			uiSleep 0.5;
 			["SpyGlass",false,false] call BIS_fnc_endMission;
 		};
-		sleep 1.5;
+		uiSleep 1.5;
 	};
 };

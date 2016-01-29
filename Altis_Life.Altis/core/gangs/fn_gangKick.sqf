@@ -1,4 +1,4 @@
-#include "..\..\script_macros.hpp"
+#include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
 	
@@ -8,20 +8,18 @@
 private["_unit","_unitID","_members"];
 disableSerialization;
 
-if(EQUAL((lbCurSel 2621),-1)) exitWith {hint localize "STR_GNOTF_SelectKick"};
-_unit = call compile format["%1",CONTROL_DATA(2621)];
-
+if((lbCurSel 2621) == -1) exitWith {hintSilent localize "STR_GNOTF_SelectKick"};
+_unit = call compile format["%1",getSelData(2621)];
 if(isNull _unit) exitWith {}; //Bad unit?
-if(_unit == player) exitWith {hint localize "STR_GNOTF_KickSelf"};
+if(_unit == player) exitWith {hintSilent localize "STR_GNOTF_KickSelf"};
 
 _unitID = getPlayerUID _unit;
-_members = grpPlayer GVAR "gang_members";
+_members = grpPlayer getVariable "gang_members";
 if(isNil "_members") exitWith {};
-if(!(EQUAL(typeName _members,"ARRAY"))) exitWith {};
+if(typeName _members != "ARRAY") exitWith {};
+_members = _members - [_unitID];
+grpPlayer setVariable["gang_members",_members,true];
 
-SUB(_members,[_unitID]);
-grpPlayer SVAR ["gang_members",_members,true];
-
-[_unit,grpPlayer] remoteExec ["TON_fnc_clientGangKick",_unit]; //Boot that bitch!
-[4,grpPlayer] remoteExec ["TON_fnc_updateGang",RSERV]; //Update the database.
+[[_unit,grpPlayer],"TON_fnc_clientGangKick",_unit,false] spawn life_fnc_MP; //Boot that bitch!
+[[4,grpPlayer],"TON_fnc_updateGang",false,false] spawn life_fnc_MP; //Update the database.
 [] call life_fnc_gangMenu;

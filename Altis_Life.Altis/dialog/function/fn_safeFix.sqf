@@ -1,14 +1,9 @@
-#include "..\..\script_macros.hpp"
 /*
-	File: fn_safeFix.sqf
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	Piece of functionality for the cops to close the safe (lock it)
+	I am so tired of writing this.
 */
-private "_vault";
-_vault = SEL(_this,0);
-if(!(_vault GVAR ["safe_open",false])) exitWith {hint localize "STR_Cop_VaultLocked"};
+private["_vault"];
+_vault = _this select 0;
+if(!(_vault getVariable["safe_open",false])) exitWith {hintSilent localize "STR_Cop_VaultLocked"};
 
 life_action_inUse = true;
 
@@ -16,25 +11,23 @@ life_action_inUse = true;
 disableSerialization;
 _title = localize "STR_Cop_RepairVault";
 5 cutRsc ["life_progress","PLAIN"];
-_ui = GVAR_UINS "life_progress";
+_ui = uiNamespace getVariable "life_progress";
 _progressBar = _ui displayCtrl 38201;
 _titleText = _ui displayCtrl 38202;
 _titleText ctrlSetText format["%2 (1%1)...","%",_title];
 _progressBar progressSetPosition 0.01;
 _cP = 0.01;
 
-while {true} do {
+while {true} do
+{
 	if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
-		[player,"AinvPknlMstpSnonWnonDnon_medic_1",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
-		player switchMove "AinvPknlMstpSnonWnonDnon_medic_1";
+		[[player,"AinvPknlMstpSnonWnonDnon_medic_1"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
 	};
-	
-	sleep 0.26;
-	
+	uiSleep 0.26;
 	if(isNull _ui) then {
 		5 cutRsc ["life_progress","PLAIN"];
-		_ui = GVAR_UINS "life_progress";
+		_ui = uiNamespace getVariable "life_progress";
 		_progressBar = _ui displayCtrl 38201;
 		_titleText = _ui displayCtrl 38202;
 	};
@@ -53,5 +46,5 @@ if(life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR
 
 life_action_inUse = false;
 
-_vault SVAR ["safe_open",false,true];
-hint localize "STR_Cop_VaultRepaired";
+_vault setVariable["safe_open",false,true];
+hintSilent localize "STR_Cop_VaultRepaired";

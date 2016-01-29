@@ -1,8 +1,8 @@
-#include "..\..\script_macros.hpp"
+#include <macro.h>
 /*
 	File: fn_wantedMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Opens the Wanted menu and connects to the APD.
 */
@@ -16,10 +16,6 @@ _list = _display displayCtrl 2401;
 lbClear _list;
 _units = [];
 
-ctrlSetText[2404,"Establishing connection..."];
+ctrlSetText[2404,"Verbindung herstellen..."];
 
-if(FETCH_CONST(life_coplevel) < 1 && FETCH_CONST(life_adminlevel) == 0) then {
-	ctrlShow[2405,false];
-};
-
-[player] remoteExec ["life_fnc_wantedFetch",RSERV];
+[[player],"life_fnc_wantedFetch",false,false] spawn life_fnc_MP;

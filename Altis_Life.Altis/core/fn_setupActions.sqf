@@ -4,13 +4,29 @@
 	Description:
 	Master addAction file handler for all client-based actions.
 */
-switch (playerSide) do {
-	case civilian: {
-		//Drop fishing net
-		life_actions = [player addAction[localize "STR_pAct_DropFishingNet",life_fnc_dropFishingNet,"",0,false,false,"",'
-		(surfaceisWater (getPos vehicle player)) && (vehicle player isKindOf "Ship") && life_carryWeight < life_maxWeight && speed (vehicle player) < 2 && speed (vehicle player) > -1 && !life_net_dropped ']];
-		//Rob person
-		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
-		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
+switch (playerSide) do
+{
+	case west:
+	{
+		//Straßensperren aufheben
+		life_actions = life_actions + [player addAction["Block Pick-up",life_fnc_packupmauer,"",0,false,false,"",' _mauer = nearestObjects[getPos player,["RoadBarrier_F"],8] select 0; !isNil "_mauer" && !isNil {(_mauer getVariable "item")}']];
+		//Nagelbänder aufheben
+		life_actions = life_actions + [player addAction["SpikeStrip Pick-up",life_fnc_packupSpikes,"",0,false,false,"",' _spikes = nearestObjects[getPos player,["Land_Razorwire_F"],8] select 0; !isNil "_spikes" && !isNil {(_spikes getVariable "item")}']];
+		//Aussteigen aus Fahrzeugen
+		life_actions = life_actions + [player addAction["Get out",life_fnc_copEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
+		//Hinsetzen
+		life_actions = life_actions + [player addAction["Sitdown",life_fnc_sitDown,cursorTarget,10,false,false,"",' !isNull cursorTarget && (player distance cursorTarget) < 3 && (cursorTarget isKindOf "Land_CampingChair_V1_F" || cursorTarget isKindOf "Land_ChairWood_F" || cursorTarget isKindOf "Land_ChairPlastic_F")']];
+		//Aufstehen
+		life_actions = life_actions + [player addAction["Standup", life_fnc_sitDown,cursorTarget,10,false,false,"",'life_sitting']];
+	};
+	
+	case civilian:
+	{
+		//Take The Organs
+		life_actions = life_actions + [player addAction["Steal Organs",life_fnc_takeOrgans,"",0,false,false,"",'!isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable ["missingOrgan",FALSE]) && !(player getVariable "Escorting") && !(player getVariable "hasOrgan") && !(player getVariable "transporting") && animationState cursorTarget == "Incapacitated"']];
+		//Hinsetzen
+		life_actions = life_actions + [player addAction["Sitdown",life_fnc_sitDown,cursorTarget,10,false,false,"",' !isNull cursorTarget && (player distance cursorTarget) < 3 && (cursorTarget isKindOf "Land_CampingChair_V1_F" || cursorTarget isKindOf "Land_ChairWood_F" || cursorTarget isKindOf "Land_ChairPlastic_F")']];
+		//Aufstehen
+		life_actions = life_actions + [player addAction["Standup", life_fnc_sitDown,cursorTarget,10,false,false,"",'life_sitting']];
 	};
 };

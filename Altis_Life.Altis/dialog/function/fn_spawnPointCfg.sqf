@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_spawnPointCfg.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -17,11 +18,13 @@ switch (_side) do
 	case west:
 	{
 		_return = [
-			["cop_spawn_1","Kavala HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_2","Pyrgos HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
-			["cop_spawn_3","Athira HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["cop_spawn_4","Air HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
-			["cop_spawn_5","HW Patrol","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+			["cop_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+			["cop_spawn_3","Athria AMC Base","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_Charlie","Charlie","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_Alpha_1","Alpha","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_Echo","Echo","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_bane","Foxtrot","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
 	
@@ -31,8 +34,30 @@ switch (_side) do
 			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 		];
+		
+		if(__GETC__(life_donator) == 3) then 
+		{
+			_return = _return + [
+				["so_spawn_1","Söldner HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["don_spawn_1","Donator HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(__GETC__(life_donator) == 1) then
+		{
+			_return = _return + [
+				["don_spawn_1","Donator HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(__GETC__(life_donator) == 2) then
+		{
+			_return = _return + [
+				["don_spawn_1","Donator HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
 		
 		if(count life_houses > 0) then {
 			{
@@ -40,16 +65,17 @@ switch (_side) do
 				_house = nearestBuilding _pos;
 				_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
 				
-				_return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"];
+				_return set[count _return,[format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"]];
 			} foreach life_houses;
 		};	
 	};
 	
 	case independent: {
 		_return = [
-			["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_2","Athira Regional","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_3","Pygros Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_1","Arzt HQ","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["medic_spawn_2","Arzt Luftrettung","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["adac_spawn_1","ADAC West","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
+			["adac_spawn_2","ADAC Ost","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
 		];
 	};
 };

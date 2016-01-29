@@ -282,7 +282,7 @@ class playerSettings {
 		class ButtonCell : Life_RscButtonMenu {
 			idc = 2014;
 			text = "$STR_PM_CellPhone";
-			onButtonClick = "createDialog ""Life_cell_phone"";";
+			onButtonClick = "[] call life_fnc_callCellPhone";
 			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
@@ -293,7 +293,38 @@ class playerSettings {
 			idc = 2021;
 			text = "$STR_PM_AdminMenu";
 			onButtonClick = "createDialog ""life_admin_menu"";";
+			x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.805;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		
+		class ButtonSupportMenu : Life_RscButtonMenu {
+			idc = 9658;
+			text = "$STR_PM_SupportMenu";
+			onButtonClick = "createDialog ""life_support_menu"";";
+			x = 0.26;
+			y = 0.805;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		
+		class ButtonCraft : Life_RscButtonMenu {
+			idc = 2025;
+			text = "$STR_PM_Craft";
+			onButtonClick = "createDialog ""Life_craft"";";
 			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.805;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		
+		class ButtonWantedAdd : life_RscButtonMenu {
+			idc = 9800;
+			//shortcuts[] = {0x00050000 + 2};
+			text = "Wanted+";
+			onButtonClick = "createDialog ""life_wantedadd2"";";
+			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.805;
 			w = (6.25 / 40);
 			h = (1 / 25);
@@ -303,8 +334,19 @@ class playerSettings {
 			idc = -1;
 			//shortcuts[] = {0x00050000 + 2};
 			text = "$STR_PM_SyncData";
-			onButtonClick = "[] call SOCK_fnc_syncData;";
+			onButtonClick = "[] call SOCK_fnc_syncData";
 			x = 0.1;
+			y = 0.805;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+
+		class ButtonMarket : Life_RscButtonMenu {
+			idc = -1;
+			text = "Economy";
+			onButtonClick = "[] call life_fnc_OpenEconomy;";
+			//x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+			x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.805;
 			w = (6.25 / 40);
 			h = (1 / 25);

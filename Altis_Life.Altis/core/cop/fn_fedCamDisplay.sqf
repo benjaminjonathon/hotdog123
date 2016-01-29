@@ -1,14 +1,13 @@
-#include "..\..\script_macros.hpp"
 /*
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
 	Turns on and displays a security cam like feed via PiP to the laptop display.
 */
-_laptop = SEL(_this,0);
-_mode = SEL(_this,3);
+_laptop = _this select 0;
+_mode = _this select 3;
 
-if(!isPiPEnabled) exitWith {hint localize "STR_Cop_EnablePiP";};
+if(!isPiPEnabled) exitWith {hintSilent localize "STR_Cop_EnablePiP";};
 if(isNil "life_fed_scam") then {
 	life_fed_scam = "camera" camCreate [0,0,0];
 	life_fed_scam camSetFov 0.5;

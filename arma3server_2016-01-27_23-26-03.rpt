@@ -1,0 +1,726 @@
+=====================================================================
+== C:\bluefang\servers\server11884\arma3server.exe
+== C:\bluefang\servers\server11884\arma3server.exe -ip=104.243.44.138 -port=21234 -config=server.cfg -profiles=Profile
+
+Original output filename: Arma3Retail_Server
+Exe timestamp: 2015/12/15 16:30:43
+Current time:  2016/01/27 23:26:03
+
+Type: Public
+Build: Stable
+Version: 1.54.133741
+
+Allocator: C:\bluefang\servers\server11884\dll\tbb4malloc_bi.dll
+=====================================================================
+
+23:26:03 SteamAPI initialization failed. Steam features wont's be accessible!
+23:26:12 Updating base class ->Base, by a3\dubbing_radio_f\config.bin/CfgHQIdentities/PAPA_BEAR/
+23:26:12 Updating base class ->Base, by a3\dubbing_radio_f\config.bin/CfgHQIdentities/AirBase/
+23:26:12 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayEditObject/Controls/B_OK/
+23:26:12 Updating base class RscSliderH->RscXSliderH, by a3\editor_f\config.bin/RscDisplayEditObject/Slider/
+23:26:12 Updating base class RscText->RscPicture, by a3\editor_f\config.bin/RscDisplayEditObject/Preview/
+23:26:12 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionLoad/Controls/B_OK/
+23:26:12 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionSave/Controls/B_OK/
+23:26:12 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoScrollbars/
+23:26:12 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoHScrollbars/
+23:26:12 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoVScrollbars/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/RscLine/
+23:26:12 Updating base class ->RscActiveText, by a3\ui_f\config.bin/RscActivePicture/
+23:26:12 Updating base class ->RscButton, by a3\ui_f\config.bin/RscButtonTextOnly/
+23:26:12 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscShortcutButtonMain/
+23:26:12 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonEditor/
+23:26:12 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscIGUIShortcutButton/
+23:26:12 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscGearShortcutButton/
+23:26:12 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonMenu/
+23:26:12 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuOK/
+23:26:12 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuCancel/
+23:26:12 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuSteam/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/RscLoadingText/
+23:26:12 Updating base class ->RscListBox, by a3\ui_f\config.bin/RscIGUIListBox/
+23:26:12 Updating base class ->RscListNBox, by a3\ui_f\config.bin/RscIGUIListNBox/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackground/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUI/
+23:26:12 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUILeft/
+23:26:12 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIRight/
+23:26:12 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIBottom/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUITop/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUIDark/
+23:26:12 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/RscBackgroundLogo/
+23:26:12 Updating base class ->RscMapControl, by a3\ui_f\config.bin/RscMapControlEmpty/
+23:26:12 Updating base class ->RscPicture, by a3\ui_f\config.bin/CA_Mainback/
+23:26:12 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Back/
+23:26:12 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Title_Back/
+23:26:12 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Black_Back/
+23:26:12 Updating base class ->RscTitle, by a3\ui_f\config.bin/CA_Title/
+23:26:12 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/CA_Logo/
+23:26:12 Updating base class ->CA_Logo, by a3\ui_f\config.bin/CA_Logo_Small/
+23:26:12 Updating base class ->RscButton, by a3\ui_f\config.bin/CA_RscButton/
+23:26:12 Updating base class ->CA_RscButton, by a3\ui_f\config.bin/CA_RscButton_dialog/
+23:26:12 Updating base class ->RscActiveText, by a3\ui_f\config.bin/CA_Ok/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image2/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_text/
+23:26:12 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscVignette/
+23:26:12 Updating base class ->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscMapControlTooltip/
+23:26:12 Updating base class RscUnitInfo->RscUnitInfoAirNoWeapon, by a3\ui_f\config.bin/RscInGameUI/RscUnitInfoAir/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_OK/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Cancel/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Clear/
+23:26:12 Updating base class ->RscText, by a3\ui_f\config.bin/RscDisplayCapture/controls/TimeLines/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonAverages/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonSavePreviousData/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonPreviousData/
+23:26:12 Updating base class RscControlsGroup->RscControlsGroupNoHScrollbars, by a3\ui_f\config.bin/RscDisplayMain/controls/ModIcons/
+23:26:12 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/IconPicture/
+23:26:12 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcOwnedIconPicture/
+23:26:12 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcIconPicture/
+23:26:12 Updating base class RscListBox->RscCombo, by a3\ui_f\config.bin/RscDisplayCustomizeController/Steepness/
+23:26:12 Updating base class ->RscStandardDisplay, by a3\ui_f\config.bin/RscDisplayControlSchemes/
+23:26:12 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonCancel/
+23:26:12 Updating base class RscButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonOK/
+23:26:12 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayFileSelectImage/controls/OverviewPicture/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayFieldManual/controls/ButtonCancel/
+23:26:12 Cannot delete class B_KickOff, it is referenced somewhere (used as a base class probably).
+23:26:12 Updating base class RscButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMission/controls/ButtonCancel/
+23:26:12 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonOK/
+23:26:12 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonCancel/
+23:26:12 Updating base class ->RscSubmenu, by a3\ui_f\config.bin/RscMainMenu/
+23:26:12 Cannot update non class from class a3\ui_f\config.bin/RscCallSupport/Items/
+23:26:12 Cannot update non class from class a3\ui_f\config.bin/RscRadio/Items/
+23:26:12 Updating base class RscStandardDisplay->, by a3\ui_f_mp_mark\config.bin/RscDisplayRespawn/
+23:26:12 Updating base class ->GrenadeLauncher, by a3\weapons_f\config.bin/cfgWeapons/UGL_F/
+23:26:12 Updating base class ->Rifle, by a3\weapons_f\config.bin/cfgWeapons/Rifle_Base_F/
+23:26:13 Updating base class ->SlotInfo, by a3\weapons_f_mark\config.bin/UnderBarrelSlot/
+23:26:13 Texture header "a3\missions_f_exp_a\data\img\marksmen_scenario02_overview_ca.paa" already in the manager and new header is different! Removing header from the manager.
+23:26:13 Texture header "a3\missions_f_exp_a\data\img\marksmen_scenario03_overview_ca.paa" already in the manager and new header is different! Removing header from the manager.
+23:26:13 ragdollHitDmgLimit (0.000000) is lower than minimum (0.010000) and it was set to min.
+23:26:13 Initializing Steam Manager
+23:26:13 Steam Manager initialized.
+23:26:13 
+23:26:13 ==== Loaded addons ====
+23:26:13 
+23:26:13 dta\bin.pbo - unknown
+23:26:13 dta\core.pbo - 84186
+23:26:13 dta\languagecore_f.pbo - 90788
+23:26:13 C:\bluefang\servers\server11884\@life_server\addons\life_server.pbo - unknown
+23:26:13 C:\bluefang\servers\server11884\@infiSTAR_A3\addons\a3_infistar.pbo - unknown
+23:26:13 C:\bluefang\servers\server11884\mark\addons\anims_f_mark.pbo - 87643
+23:26:13 C:\bluefang\servers\server11884\mark\addons\characters_f_mark.pbo - 87766
+23:26:13 C:\bluefang\servers\server11884\mark\addons\data_f_mark.pbo - 84958
+23:26:13 C:\bluefang\servers\server11884\mark\addons\dubbing_f_mark.pbo - 81923
+23:26:13 C:\bluefang\servers\server11884\mark\addons\dubbing_f_mp_mark.pbo - 81923
+23:26:13 C:\bluefang\servers\server11884\mark\addons\functions_f_mark.pbo - 89836
+23:26:13 C:\bluefang\servers\server11884\mark\addons\functions_f_mp_mark.pbo - 89727
+23:26:13 C:\bluefang\servers\server11884\mark\addons\languagemissions_f_mark.pbo - 90154
+23:26:13 C:\bluefang\servers\server11884\mark\addons\languagemissions_f_mp_mark.pbo - 90154
+23:26:13 C:\bluefang\servers\server11884\mark\addons\language_f_mark.pbo - 90137
+23:26:13 C:\bluefang\servers\server11884\mark\addons\language_f_mp_mark.pbo - 90137
+23:26:13 C:\bluefang\servers\server11884\mark\addons\missions_f_mark.pbo - 86807
+23:26:13 C:\bluefang\servers\server11884\mark\addons\missions_f_mark_data.pbo - 88838
+23:26:13 C:\bluefang\servers\server11884\mark\addons\missions_f_mark_video.pbo - 81429
+23:26:13 C:\bluefang\servers\server11884\mark\addons\missions_f_mp_mark.pbo - 89854
+23:26:13 C:\bluefang\servers\server11884\mark\addons\missions_f_mp_mark_data.pbo - 90131
+23:26:13 C:\bluefang\servers\server11884\mark\addons\modules_f_mark.pbo - 81710
+23:26:13 C:\bluefang\servers\server11884\mark\addons\modules_f_mp_mark.pbo - 90253
+23:26:13 C:\bluefang\servers\server11884\mark\addons\music_f_mark.pbo - 81958
+23:26:13 C:\bluefang\servers\server11884\mark\addons\music_f_mark_music.pbo - 81930
+23:26:13 C:\bluefang\servers\server11884\mark\addons\sounds_f_mark.pbo - 89184
+23:26:13 C:\bluefang\servers\server11884\mark\addons\static_f_mark.pbo - 84104
+23:26:13 C:\bluefang\servers\server11884\mark\addons\structures_f_mark.pbo - 88393
+23:26:13 C:\bluefang\servers\server11884\mark\addons\supplies_f_mark.pbo - 79552
+23:26:13 C:\bluefang\servers\server11884\mark\addons\ui_f_mark.pbo - 84397
+23:26:13 C:\bluefang\servers\server11884\mark\addons\ui_f_mp_mark.pbo - 89077
+23:26:13 C:\bluefang\servers\server11884\mark\addons\weapons_f_mark.pbo - 89288
+23:26:13 C:\bluefang\servers\server11884\heli\addons\air_f_heli.pbo - 88401
+23:26:13 C:\bluefang\servers\server11884\heli\addons\anims_f_heli.pbo - 80475
+23:26:13 C:\bluefang\servers\server11884\heli\addons\boat_f_heli.pbo - 88261
+23:26:13 C:\bluefang\servers\server11884\heli\addons\cargoposes_f_heli.pbo - 89489
+23:26:13 C:\bluefang\servers\server11884\heli\addons\data_f_heli.pbo - 87643
+23:26:13 C:\bluefang\servers\server11884\heli\addons\dubbing_f_heli.pbo - 75138
+23:26:13 C:\bluefang\servers\server11884\heli\addons\functions_f_heli.pbo - 87176
+23:26:13 C:\bluefang\servers\server11884\heli\addons\languagemissions_f_heli.pbo - 90151
+23:26:13 C:\bluefang\servers\server11884\heli\addons\language_f_heli.pbo - 90135
+23:26:13 C:\bluefang\servers\server11884\heli\addons\missions_f_heli.pbo - 89582
+23:26:13 C:\bluefang\servers\server11884\heli\addons\missions_f_heli_data.pbo - 75977
+23:26:13 C:\bluefang\servers\server11884\heli\addons\missions_f_heli_video.pbo - 75065
+23:26:13 C:\bluefang\servers\server11884\heli\addons\modules_f_heli.pbo - 87759
+23:26:13 C:\bluefang\servers\server11884\heli\addons\music_f_heli.pbo - 87643
+23:26:13 C:\bluefang\servers\server11884\heli\addons\music_f_heli_music.pbo - 87643
+23:26:13 C:\bluefang\servers\server11884\heli\addons\soft_f_heli.pbo - 82564
+23:26:13 C:\bluefang\servers\server11884\heli\addons\sounds_f_heli.pbo - 79398
+23:26:13 C:\bluefang\servers\server11884\heli\addons\structures_f_heli.pbo - 88707
+23:26:13 C:\bluefang\servers\server11884\heli\addons\supplies_f_heli.pbo - 89173
+23:26:13 C:\bluefang\servers\server11884\heli\addons\ui_f_heli.pbo - 76986
+23:26:13 C:\bluefang\servers\server11884\kart\addons\anims_f_kart.pbo - 80475
+23:26:13 C:\bluefang\servers\server11884\kart\addons\characters_f_kart.pbo - 87805
+23:26:13 C:\bluefang\servers\server11884\kart\addons\data_f_kart.pbo - 84958
+23:26:13 C:\bluefang\servers\server11884\kart\addons\languagemissions_f_kart.pbo - 90154
+23:26:13 C:\bluefang\servers\server11884\kart\addons\language_f_kart.pbo - 90135
+23:26:13 C:\bluefang\servers\server11884\kart\addons\missions_f_kart.pbo - 89758
+23:26:13 C:\bluefang\servers\server11884\kart\addons\missions_f_kart_data.pbo - 75687
+23:26:13 C:\bluefang\servers\server11884\kart\addons\modules_f_kart.pbo - 86933
+23:26:13 C:\bluefang\servers\server11884\kart\addons\modules_f_kart_data.pbo - 74588
+23:26:13 C:\bluefang\servers\server11884\kart\addons\soft_f_kart.pbo - 88426
+23:26:13 C:\bluefang\servers\server11884\kart\addons\sounds_f_kart.pbo - 79398
+23:26:13 C:\bluefang\servers\server11884\kart\addons\structures_f_kart.pbo - 88393
+23:26:13 C:\bluefang\servers\server11884\kart\addons\ui_f_kart.pbo - 73106
+23:26:13 C:\bluefang\servers\server11884\kart\addons\weapons_f_kart.pbo - 83573
+23:26:13 C:\bluefang\servers\server11884\curator\addons\data_f_curator.pbo - 84958
+23:26:13 C:\bluefang\servers\server11884\curator\addons\functions_f_curator.pbo - 86837
+23:26:13 C:\bluefang\servers\server11884\curator\addons\language_f_curator.pbo - 90133
+23:26:13 C:\bluefang\servers\server11884\curator\addons\missions_f_curator.pbo - 89107
+23:26:13 C:\bluefang\servers\server11884\curator\addons\modules_f_curator.pbo - 90088
+23:26:13 C:\bluefang\servers\server11884\curator\addons\ui_f_curator.pbo - 90180
+23:26:13 addons\a3.pbo - unknown
+23:26:13 addons\air_f.pbo - 88337
+23:26:13 addons\air_f_beta.pbo - 88256
+23:26:13 addons\air_f_epb.pbo - 86810
+23:26:13 addons\air_f_epc.pbo - 89315
+23:26:13 addons\air_f_gamma.pbo - 89315
+23:26:13 addons\animals_f.pbo - 88948
+23:26:13 addons\animals_f_beta.pbo - 88949
+23:26:13 addons\anims_f.pbo - 90876
+23:26:13 addons\anims_f_bootcamp.pbo - 88948
+23:26:13 addons\anims_f_data.pbo - 90994
+23:26:13 addons\anims_f_epa.pbo - 89360
+23:26:13 addons\anims_f_epc.pbo - 79126
+23:26:13 addons\anims_f_exp_a.pbo - 89148
+23:26:13 addons\armor_f.pbo - 82564
+23:26:13 addons\armor_f_beta.pbo - 86856
+23:26:13 addons\armor_f_epb.pbo - 86110
+23:26:13 addons\armor_f_epc.pbo - 86840
+23:26:13 addons\armor_f_gamma.pbo - 86121
+23:26:13 addons\baseconfig_f.pbo - 73106
+23:26:13 addons\boat_f.pbo - 88259
+23:26:13 addons\boat_f_beta.pbo - 88261
+23:26:13 addons\boat_f_epc.pbo - 89049
+23:26:13 addons\boat_f_gamma.pbo - 88260
+23:26:13 addons\cargoposes_f.pbo - 89336
+23:26:13 addons\characters_f.pbo - 90080
+23:26:13 addons\characters_f_beta.pbo - 87767
+23:26:13 addons\characters_f_bootcamp.pbo - 87769
+23:26:13 addons\characters_f_epa.pbo - 87767
+23:26:13 addons\characters_f_epb.pbo - 87767
+23:26:13 addons\characters_f_epc.pbo - 87767
+23:26:13 addons\characters_f_gamma.pbo - 87766
+23:26:13 addons\data_f.pbo - 91002
+23:26:13 addons\data_f_bootcamp.pbo - 88074
+23:26:13 addons\data_f_exp_a.pbo - 89062
+23:26:13 addons\data_f_exp_b.pbo - 86189
+23:26:13 addons\drones_f.pbo - 88544
+23:26:13 addons\dubbing_f.pbo - 73106
+23:26:13 addons\dubbing_f_beta.pbo - 73106
+23:26:13 addons\dubbing_f_bootcamp.pbo - 87093
+23:26:13 addons\dubbing_f_epa.pbo - 73106
+23:26:13 addons\dubbing_f_epb.pbo - 76110
+23:26:13 addons\dubbing_f_epc.pbo - 87001
+23:26:13 addons\dubbing_f_gamma.pbo - 73106
+23:26:13 addons\dubbing_radio_f.pbo - 89312
+23:26:13 addons\dubbing_radio_f_data_eng.pbo - 89121
+23:26:13 addons\dubbing_radio_f_data_engb.pbo - 89130
+23:26:13 addons\dubbing_radio_f_data_gre.pbo - 89130
+23:26:13 addons\dubbing_radio_f_data_per.pbo - 89130
+23:26:13 addons\dubbing_radio_f_data_vr.pbo - 89130
+23:26:13 addons\editor_f.pbo - 82563
+23:26:13 addons\functions_f.pbo - 90854
+23:26:13 addons\functions_f_bootcamp.pbo - 90131
+23:26:13 addons\functions_f_epa.pbo - 84402
+23:26:13 addons\functions_f_epc.pbo - 84400
+23:26:13 addons\functions_f_exp_a.pbo - 90131
+23:26:13 addons\languagemissions_f.pbo - 90138
+23:26:13 addons\languagemissions_f_beta.pbo - 90138
+23:26:13 addons\languagemissions_f_bootcamp.pbo - 90138
+23:26:13 addons\languagemissions_f_epa.pbo - 90138
+23:26:13 addons\languagemissions_f_epb.pbo - 90139
+23:26:13 addons\languagemissions_f_epc.pbo - 90143
+23:26:13 addons\languagemissions_f_exp_a.pbo - 90145
+23:26:13 addons\languagemissions_f_gamma.pbo - 90148
+23:26:13 addons\language_f.pbo - 90131
+23:26:13 addons\language_f_beta.pbo - 90133
+23:26:13 addons\language_f_bootcamp.pbo - 90133
+23:26:13 addons\language_f_epa.pbo - 90133
+23:26:13 addons\language_f_epb.pbo - 90134
+23:26:13 addons\language_f_epc.pbo - 90135
+23:26:13 addons\language_f_exp_a.pbo - 90135
+23:26:13 addons\language_f_gamma.pbo - 90135
+23:26:13 addons\map_altis.pbo - 90788
+23:26:13 addons\map_altis_data.pbo - 89494
+23:26:13 addons\map_altis_data_layers.pbo - 88773
+23:26:13 addons\map_altis_data_layers_00_00.pbo - 88773
+23:26:13 addons\map_altis_data_layers_00_01.pbo - 88773
+23:26:13 addons\map_altis_data_layers_01_00.pbo - 88773
+23:26:13 addons\map_altis_data_layers_01_01.pbo - 88773
+23:26:13 addons\map_altis_scenes_f.pbo - 73106
+23:26:13 addons\map_data.pbo - 89207
+23:26:13 addons\map_stratis.pbo - 89277
+23:26:13 addons\map_stratis_data.pbo - 89242
+23:26:13 addons\map_stratis_data_layers.pbo - 89343
+23:26:13 addons\map_stratis_scenes_f.pbo - 73106
+23:26:13 addons\map_vr.pbo - 90059
+23:26:13 addons\map_vr_scenes_f.pbo - 82252
+23:26:13 addons\misc_f.pbo - 85025
+23:26:13 addons\missions_f.pbo - 89118
+23:26:13 addons\missions_f_beta.pbo - 90059
+23:26:13 addons\missions_f_beta_data.pbo - 85005
+23:26:13 addons\missions_f_beta_video.pbo - 73106
+23:26:13 addons\missions_f_bootcamp.pbo - 89836
+23:26:13 addons\missions_f_bootcamp_data.pbo - 72362
+23:26:13 addons\missions_f_bootcamp_video.pbo - 75065
+23:26:13 addons\missions_f_data.pbo - 73106
+23:26:13 addons\missions_f_epa.pbo - 90317
+23:26:13 addons\missions_f_epa_data.pbo - 73106
+23:26:13 addons\missions_f_epa_video.pbo - 73106
+23:26:13 addons\missions_f_epb.pbo - 89713
+23:26:13 addons\missions_f_epb_data.pbo - 73106
+23:26:13 addons\missions_f_epb_video.pbo - 73106
+23:26:13 addons\missions_f_epc.pbo - 89644
+23:26:13 addons\missions_f_epc_data.pbo - 84724
+23:26:13 addons\missions_f_epc_video.pbo - 84725
+23:26:13 addons\missions_f_exp_a.pbo - 89975
+23:26:13 addons\missions_f_exp_a_data.pbo - 90131
+23:26:13 addons\missions_f_gamma.pbo - 87683
+23:26:13 addons\missions_f_gamma_data.pbo - 86243
+23:26:13 addons\missions_f_gamma_video.pbo - 73106
+23:26:13 addons\missions_f_video.pbo - 73106
+23:26:13 addons\modules_f.pbo - 88899
+23:26:13 addons\modules_f_beta.pbo - 86933
+23:26:13 addons\modules_f_beta_data.pbo - 80976
+23:26:13 addons\modules_f_bootcamp.pbo - 89147
+23:26:13 addons\modules_f_data.pbo - 85167
+23:26:13 addons\modules_f_epb.pbo - 87643
+23:26:13 addons\modules_f_exp_a.pbo - 88829
+23:26:13 addons\music_f.pbo - 73106
+23:26:13 addons\music_f_bootcamp.pbo - 73106
+23:26:13 addons\music_f_bootcamp_music.pbo - 73106
+23:26:13 addons\music_f_epa.pbo - 73106
+23:26:13 addons\music_f_epa_music.pbo - 73106
+23:26:13 addons\music_f_epb.pbo - 73106
+23:26:13 addons\music_f_epb_music.pbo - 73106
+23:26:13 addons\music_f_epc.pbo - 87643
+23:26:13 addons\music_f_epc_music.pbo - 73106
+23:26:13 addons\music_f_music.pbo - 73106
+23:26:13 addons\plants_f.pbo - 88907
+23:26:13 addons\props_f_exp_a.pbo - 88816
+23:26:13 addons\roads_f.pbo - 88389
+23:26:13 addons\rocks_f.pbo - 88391
+23:26:13 addons\signs_f.pbo - 88240
+23:26:13 addons\soft_f.pbo - 88735
+23:26:13 addons\soft_f_beta.pbo - 89976
+23:26:13 addons\soft_f_bootcamp.pbo - 85752
+23:26:13 addons\soft_f_epc.pbo - 88812
+23:26:13 addons\soft_f_gamma.pbo - 89836
+23:26:13 addons\sounds_f.pbo - 89836
+23:26:13 addons\sounds_f_arsenal.pbo - 90180
+23:26:13 addons\sounds_f_bootcamp.pbo - 82576
+23:26:13 addons\sounds_f_characters.pbo - 90106
+23:26:13 addons\sounds_f_environment.pbo - 88851
+23:26:13 addons\sounds_f_epb.pbo - 88761
+23:26:13 addons\sounds_f_epc.pbo - 86933
+23:26:13 addons\sounds_f_exp_a.pbo - 88829
+23:26:13 addons\sounds_f_sfx.pbo - 88881
+23:26:13 addons\sounds_f_vehicles.pbo - 89294
+23:26:13 addons\sounds_f_weapons.pbo - 84865
+23:26:13 addons\static_f.pbo - 85125
+23:26:13 addons\static_f_beta.pbo - 79398
+23:26:13 addons\static_f_gamma.pbo - 82090
+23:26:13 addons\structures_f.pbo - 89516
+23:26:13 addons\structures_f_bootcamp.pbo - 88393
+23:26:13 addons\structures_f_data.pbo - 88393
+23:26:13 addons\structures_f_epa.pbo - 88393
+23:26:13 addons\structures_f_epb.pbo - 88761
+23:26:13 addons\structures_f_epc.pbo - 88393
+23:26:13 addons\structures_f_exp_a.pbo - 88816
+23:26:13 addons\structures_f_households.pbo - 88393
+23:26:13 addons\structures_f_ind.pbo - 88393
+23:26:13 addons\structures_f_mil.pbo - 89836
+23:26:13 addons\structures_f_wrecks.pbo - 88393
+23:26:13 addons\uifonts_f.pbo - 87643
+23:26:13 addons\uifonts_f_data.pbo - 73106
+23:26:13 addons\ui_f.pbo - 90200
+23:26:13 addons\ui_f_bootcamp.pbo - 76325
+23:26:13 addons\ui_f_data.pbo - 90198
+23:26:13 addons\ui_f_exp_a.pbo - 89891
+23:26:13 addons\weapons_f.pbo - 90180
+23:26:13 addons\weapons_f_beta.pbo - 88797
+23:26:13 addons\weapons_f_bootcamp.pbo - 86841
+23:26:13 addons\weapons_f_epa.pbo - 83667
+23:26:13 addons\weapons_f_epb.pbo - 80958
+23:26:13 addons\weapons_f_epc.pbo - 80374
+23:26:13 addons\weapons_f_gamma.pbo - 89424
+23:26:13 
+23:26:13 =======================
+23:26:13 
+23:26:13 ============================================================================================= List of mods ===============================================================================================
+23:26:13 modsReadOnly = true
+23:26:13 safeModsActivated = false
+23:26:13 customMods = true
+23:26:13 hash = '0B1395AF6F94B56D31A6A9C0D338EA2E8F723FB0'
+23:26:13 hashShort = '3526cde6'
+23:26:13                                               name |               modDir |    default |               origin |                                     hash | hashShort | fullPath
+23:26:13 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+23:26:13                                       @life_server |         @life_server |      false |             GAME DIR | 20eea374a34d9f92ee76564783b7c943a6cde9c5 |  73e01ea1 | C:\bluefang\servers\server11884\@life_server
+23:26:13                                       @infiSTAR_A3 |         @infiSTAR_A3 |      false |             GAME DIR | 1dfeea4239645febf154ebbfb8458ea33c005e33 |  1990cc97 | C:\bluefang\servers\server11884\@infiSTAR_A3
+23:26:13                                            @extDB2 |              @extDB2 |      false |             GAME DIR |                                          |           | C:\bluefang\servers\server11884\@extDB2
+23:26:13                                  Arma 3 DLC Bundle |            dlcbundle |       true |            NOT FOUND |                                          |           | 
+23:26:13                                    Arma 3 Marksmen |                 mark |       true |             GAME DIR | bca3f585133621c38245a861ea0e695aa5f1d151 |  98bd0c48 | C:\bluefang\servers\server11884\mark
+23:26:13                                 Arma 3 Helicopters |                 heli |       true |             GAME DIR | 41e93958bcee08e6e6275a458a506af9d0d25ab6 |   6558b1b | C:\bluefang\servers\server11884\heli
+23:26:13                                       Arma 3 Karts |                 kart |       true |             GAME DIR | 4ec5b8ee3e065dc60dc98d30e948796fc01e89df |  120b6924 | C:\bluefang\servers\server11884\kart
+23:26:13                                        Arma 3 Zeus |              curator |       true |             GAME DIR | 8f6f1df09c4707fa080e397861ca67fb1a7d1f09 |  fef5ffff | C:\bluefang\servers\server11884\curator
+23:26:13                                             Arma 3 |                   A3 |       true |            NOT FOUND |                                          |           | 
+23:26:13 ==========================================================================================================================================================================================================
+23:26:13 InitSound ...
+23:26:13 InitSound - complete
+23:26:13 PhysX3 SDK Init started ...
+23:26:13 PhysX3 SDK Init ended.
+23:26:14 Attempt to override final function - rscminimap_script
+23:26:14 Attempt to override final function - rscdisplayloading_script
+23:26:14 Attempt to override final function - rscdisplayloading_script
+23:26:14 Attempt to override final function - rscdisplayloading_script
+23:26:14 Attempt to override final function - rscdiary_script
+23:26:14 Attempt to override final function - rscdisplaysinglemission_script
+23:26:14 Attempt to override final function - rscdiary_script
+23:26:14 Attempt to override final function - rscdisplayremotemissions_script
+23:26:14 Attempt to override final function - rscdisplayloading_script
+23:26:14 Attempt to override final function - rscdiary_script
+23:26:14 Attempt to override final function - rscdiary_script
+23:26:14 Attempt to override final function - rscdisplaystrategicmap_script
+23:26:14 Attempt to override final function - rscdisplaycommon_script
+23:26:14 Attempt to override final function - rscdisplaygarage_script
+23:26:14 Attempt to override final function - rscdisplayloading_script
+23:26:14 Attempt to override final function - rscdisplaycurator_script
+23:26:14 Attempt to override final function - rscdisplayattributes_script
+23:26:14 Attempt to override final function - rscdisplayattributes_script
+23:26:14 Attempt to override final function - rscdisplayattributes_script
+23:26:14 Attempt to override final function - rscdisplaycommon_script
+23:26:14 Attempt to override final function - rscdisplaydebriefing_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:14 Attempt to override final function - rscunitinfo_script
+23:26:15 Initializing Steam server - Game Port: 21234, Steam Query Port: 21235
+23:26:16 Connected to Steam servers
+23:27:10 Unsupported language English in stringtable
+23:27:10 Unsupported language English in stringtable
+23:27:11 Unrecognized CfgVehicles simulation  in bin\config.bin/CfgVehicles/Sound_BattlefieldExplosions/
+23:27:11 Unrecognized CfgVehicles simulation  in bin\config.bin/CfgVehicles/Sound_BattlefieldFirefight/
+23:27:11 Mission Altis_Life.Altis: Number of roles (115) is different from 'description.ext::Header::maxPlayer' (99)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:13 Server error: Player without identity [AS] Apollo (id 41235304)
+23:27:20 Starting mission:
+23:27:20  Mission file: Altis_Life (__cur_mp)
+23:27:20  Mission world: Altis
+23:27:20  Mission directory: mpmissions\__cur_mp.Altis\
+23:27:28 Attempt to override final function - bis_functions_list
+23:27:28 Attempt to override final function - bis_functions_listpreinit
+23:27:28 Attempt to override final function - bis_functions_listpostinit
+23:27:28 Attempt to override final function - bis_functions_listrecompile
+23:27:28 Attempt to override final function - bis_fnc_missiontaskslocal
+23:27:28 Attempt to override final function - bis_fnc_missionconversationslocal
+23:27:28 Attempt to override final function - bis_fnc_missionflow
+23:27:28 "<infiSTAR.de> 0 - run.sqf - finaled EPOCH_server_isPAdmin: {true}"
+23:27:28 "<infiSTAR.de> 0 - run.sqf - including AntiHack"
+23:27:28 "<infiSTAR.de> VERSION: 15012016 infiSTAR.de AHAT (v0228B)"
+23:27:28 "<infiSTAR.de> 0 - STARTING"
+23:27:28 Attempt to override final function - bis_fnc_call
+23:27:28 Attempt to override final function - bis_fnc_spawn
+23:27:28 Attempt to override final function - bis_fnc_parsenumber
+23:27:28 "<infiSTAR.de> _fnc_RandomGen: {  _fnc_actualGen = {   _abc = ['z','y','x','w','v','u','t','s','r','q','p','o','n','m','l','k','j','i','h','g','f','e','d','c','b','a'];   _gen = _abc select (random ((count _abc)-1));   _arr = ['U','A','U','3','j','Y','m','q','g','p','H','b','c','b','d','g','c','F','n','l','B','9','k','b','w','I','R','C','P','0'];   _randmax = {((round(random _randminval)) + (round(random _randmaxval))) max _randminval};   for '_i' from 0 to (call _randmax)do   {    _gen = _gen + str(round(random 9)) + (_arr select (random ((count _arr)-1)));   };  };  _gen = '';  while{_gen=='' || _gen in _allRandomGenVars}do{   call _fnc_actualGen;  };  _allRandomGenVars pushBack _gen;  _gen }"
+23:27:28 Unable to get file version size: .\ARMA_LOG.dll
+23:27:28 "<infiSTAR.de>RandomVarLog| ----START-LINE----   (15012016-v0228B) (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _adminbox: b3Y7H9H1B8I1c2b19 (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _fnc_mpPackets: f9b1n8F9d6m7c6q5I1g6c2Y8d4U13 (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _FNC_AH1567_KICKLOG: e9H4P1n8b1U6U1w2A (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _FNC_AH1567_KICKLOGSPAWN: b9g8b9q5g6w9l1b2k5b4b2I7q (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _FNC_PVAH_AdminReq: q8A699q7q2U6b9F4j (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _BigTokenArray: h793b6b5b0F893l4B9p4B4c5U (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _connectedArray: s4A7j3b1l5p2C5g1A8q797c3b1q4q8m5Y2j (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _tokenSentArray: m6B0I1A5H0C8F6Y6B8c0U495d6P3n5R3I (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _server_setTokenR: m9g1U7F2w8j8b4Y4j6m3g6Y7w1q2Y4P8A190b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _fnc_pvc_token: w8F9F0m6g5q6p6R7g6B7m1H3U3U6n0c994A0C (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _server_checkTokenR: k132F3b1H730c7A7U3w201U1U2b132I8n9b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _YourPlayerToken: c7q3p2p2b409B7l90 (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _TokenCT: g0R4g8A5n5H1c2c1j6A4U7p3I (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AH_MAIN_BLOCK: h7g2d2g1A4P6U5d4Y4R4I5l6b3w9p0A6p0m6q7j (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AHKickOFF: b4U1w3c1Y2n6c7U3Y0q4b0U5H3A6k6g (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AH1567KICKLOG: i6H7p8d9d892b3w5j (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _FiredCheck: m8H9C6n5w598I7F3q6c4I2w4U8g3j1g (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _clientdo: a7c6b2B1B5C2F3P1c5C6b4j5g8l2g5C7B4P3m1m (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AH_RunCheckENDVAR: j7b2P0c3C104H4F5j2R0c2U2Y2j101P1b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AH_HackLogArrayRND: v8n6q8U9I3A2H7U9k2R131g3b0F7U3H6j09 (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AH_SurvLogArrayRND: q2c6C5l4l6C1l097A (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AH_AdmiLogArrayRND: r9R7q2m8q8g3B6C4q9I4q6q9A8R6d0H (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _TMPBAN: m4q5U2R9Y3F8p7A2R7m1c535b734R8H6g6c7H4U6H4H2m (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _massMessage: x4b837P934U4B5U1d3A7c8n4R2g1F (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _massSysMessage: g8A893H4R5c2j9l6H4l3j9g8w7A4c7p (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AHpos: k3m8c8b1m5w0A2I5b1j4l7A5g5F5b1c3C (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _ninetwo: j5U2g3Y6Y3w7C4q4b5q (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _ninetwothread: k9b2b3A3m6A1k3c002b7p3B2p9A7k5n6R9B7b295j5b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _adminsA: b4F3U1Y1p8U890b8H6n8k4A2U (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _MC: p8H7g7Y9k6d1w505C3d791A9n8c5b8c7b9l (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _MCS: x1w3b6g3c3C5q6R6g4k (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _oneachframe: v3F8q792A5p6c6m1C (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _checkidicheckcheck: q6k1Y7g1b3I8Y6B5U (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _lastshotmade: u7H1p994P1c1B5c5b4g438B6d8A9B5l4g1d6d5b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _dellocveh: v4j4F1c6R6m7j1d1j (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _inCombatTime: d3g4Y2c7q6q3m1d336C2H6b4A5I2q (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _inCombatArray: c1b2F5g5C8k7g5q1F (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _fnc_infiKeyHandler: h6Y4b2b4n4F6b8d8b3C (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _ButtonDownCnt: y5j1P4b73201P3H206m7c3g1F5c8P1j7b2U9j3b4p4A (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _ButtonDownTime: i1b3P0H6w1g5m1b2p (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _clickOnMapTimer: i5R4q7j7I1I1P1b1U (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _clickOnMapCaught: h5P0m6b7p709R9d7c4b3F5F838w932C (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _MAKE_VAR_DUMP_RANDOM: c8H7b8Y8U1b2P306F6U0b3g7m8n0A5c8l1w (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _MAKE_VAR_DUMP_CLIENT: v2d895b7c6w306j8b4U6p3U (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _DUMPINGPLAYERUIDARRAY: c5U4B331B7m5b0g0R7U8g1H8l2U3U5l7p (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _CURRENTLYDUMPING: s6l3H2P4p834j8c5k (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _customcommandingMenu: s634g3m0U5R6B6A3g1B8b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _customcommandingMenuOpen: p2l6Y8Y6B4b9m2c6I3b6C5b3C83 (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _LogicVariable: j3g4b2p9p29237d7A7P69 (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _antiantihack_rndvar: h9C7w5B7R33809c7P1H4Y0A6b307g8p (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t1: a5b6Y2l6b8F3j8j7q2P (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t2: q7b4A5b4H4H3d6Y3C9m6p1P2l3F2C2b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t3: w6j2P8F5U7l19107m4R3c207Y2g8b2Y (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t4: v2A3w4c7g0C1b3c8F (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t5: m632l1j8b7j1F1U5b2c3H (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t6: s2C5U597R5R6R6U8U2P4F4c5m3p2c7g4H9I4k6H604B8p (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t7: b6F9C1Y6w493F7B4b7b3k1F5C (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t8: a3P3c4k6A336F2c7n7H0m6p5n4q7q7c5m6Y6P4p1b8c (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t9: b4j6A7g6q1B1k3c6g608w1g4P8I5C59131w0R7w4g9I (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t10: w3l7b5I897R3g509w (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t11: d5H3U5B7d7b3b6H8p534q (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t12: d5n2m8j1F8m7q5F6c3I1g2p8p2A7w4p7n6d3C5A3w2B49 (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t13: m1A9m7R5g7c5b4H5R7P6w9p7m8I1d6b4I6b (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t14: w6k5c0A9B8R7n8b1j594C5I2P (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t15: g6m6g639j5A3H2H531b3U (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t16: o6c494R4Y8d6H5A9q9m6U4l1k3R131R3A436k6F5F6k (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t17: g7g3g6C8A7P3w8b1P6R0c4I (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _t18: n3b8U4l9U2P1g2P0p6I2C5U (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _AH1567_KICKLOG: PVAHR_1w4l9m5q5j9d2c4w (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| _RequestToken: PVAHR_2q5d0s0j4e (v0228B)"
+23:27:28 "<infiSTAR.de>RandomVarLog| ----END-LINE----   (15012016-v0228B) (v0228B)"
+23:27:28 "<infiSTAR.de> 0 - loading AntiHack.."
+23:27:29 "<infiSTAR.de> 0 - Thread MAIN: starting!"
+23:27:29 "<infiSTAR.de> 0 - Thread MAIN: loading...!"
+23:27:29 "<infiSTAR.de> 0 - Thread MAIN: compiling and/or sending none-threaded code!"
+23:27:29 "<infiSTAR.de> 0 - Thread MAIN: none-threaded code compiled and/or sent!"
+23:27:29 "<infiSTAR.de> 0 - AntiHack loaded!"
+23:27:29 "<infiSTAR.de> 0 - run.sqf - AntiHack included!"
+23:27:29 "<infiSTAR.de> 0 - run.sqf - including AdminTools"
+23:27:29 "<infiSTAR.de> 0 - run.sqf - AdminTools included!"
+23:27:33 No speaker given for Spencer Santorum
+23:27:33 No speaker given for Luke Thompson
+23:27:33 No speaker given for Spencer Davis
+23:27:33 No speaker given for Ashton Cooper
+23:27:33 No speaker given for Wallace Robinson
+23:27:33 No speaker given for Ryan Martin
+23:27:33 No speaker given for Harrison Allen
+23:27:33 No speaker given for Brian Baker
+23:27:33 No speaker given for Ben Brown
+23:27:33 No speaker given for Harrison MacDonald
+23:27:33 No speaker given for Paul Johnson
+23:27:33 No speaker given for Thomas Campbell
+23:27:33 No speaker given for Chad Taylor
+23:27:33 No speaker given for Benjamin Thomson
+23:27:33 No speaker given for Callum Brown
+23:27:33 No speaker given for William Edwards
+23:27:33 No speaker given for Benjamin Moore
+23:27:33 No speaker given for Jake Thomas
+23:27:33 No speaker given for Mike Robinson
+23:27:33 No speaker given for Ryan Turner
+23:27:33 soldier[B_diver_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+23:27:33 No speaker given for Douglas Wilson
+23:27:33 No speaker given for Brian King
+23:27:33 No speaker given for Conor Ward
+23:27:33 No speaker given for Finlay Clarke
+23:27:33 No speaker given for Donnan Moore
+23:27:33 No speaker given for Joseph Blackburn
+23:27:33 No speaker given for Jacob Abbey
+23:27:33 No speaker given for Geoff Newton
+23:27:33 No speaker given for Thomas Jackson
+23:27:34 No speaker given for Zev Sesse-Seko
+23:27:34 No speaker given for Gula Inouyie
+23:27:34 No speaker given for Kyle Harrison
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 1c not found
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 2c not found
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 3c not found
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 4c not found
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 5c not found
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 6c not found
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 7c not found
+23:27:34 Wrong vertex mapping for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Selection 8c not found
+23:27:34 Wrong geometry convex component mapping  for person collision geometry found in a3\characters_f_epc\civil\c_nikos_aged.p3d. Convex component number 3. not found
+23:27:34 No speaker given for Apostolos Petridis
+23:27:34 soldier[B_diver_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+23:27:34 No speaker given for Noah Acker
+23:27:34 No speaker given for Jake Halliwell
+23:27:34 No speaker given for Lucas Clarke
+23:27:34 No speaker given for Ian Lee
+23:27:34 No speaker given for Dumi Osmani
+23:27:34 No speaker given for Kyle Johnson
+23:27:34 No speaker given for Nathan Wright
+23:27:34 No speaker given for Liao Yeung
+23:27:34 No speaker given for Wu Yeung
+23:27:34 No speaker given for Jack Wood
+23:27:34 No speaker given for Ian Wilson
+23:27:34 No speaker given for Oliver Taylor
+23:27:34 No speaker given for Xu Chen
+23:27:34 No speaker given for William Hughes
+23:27:34 No speaker given for Ashton Campbell
+23:27:34 No speaker given for Greer Jackson
+23:27:34 soldier[B_diver_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+23:27:34 No speaker given for Sean Abbey
+23:27:34 No speaker given for Maalik Okadigbo
+23:27:34 No speaker given for Fred Moore
+23:27:34 No speaker given for Xu Chang
+23:27:34 No speaker given for Maalik Igwe
+23:27:34 No speaker given for Muhammad Mbanefo
+23:27:34 No speaker given for Zaim Ekwensi
+23:27:34 No speaker given for Hasan Inouyie
+23:27:34 No speaker given for Idi Ngige
+23:27:34 No speaker given for Gamba Madaki
+23:27:34 No speaker given for Dembe Tinibu
+23:27:34 No speaker given for Liao Wu
+23:27:34 No speaker given for Kirabo Ibori
+23:27:35 Strange convex component322 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+23:27:35 Strange convex component327 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+23:27:35 SW keep height animation used for a3\structures_f_epb\civ\accessories\woodpile_large_f.p3d
+23:27:35 class HitPoints::HitFuel not found in RoadCone_L_F
+23:27:35 class HitPoints::HitFuel not found in Land_Camping_Light_F
+23:27:35 class HitPoints::HitFuel not found in Land_BuoyBig_F
+23:27:36 "<infiSTAR.de> 0 - Thread #1: Server Loop #1 starting now!"
+23:27:36 "<infiSTAR.de> 0 - Thread #1: Server Loop #1 looping now!"
+23:27:36 Error: Object(2 : 211) not found
+23:27:36 Error: Object(2 : 215) not found
+23:27:36 Error: Object(2 : 217) not found
+23:27:36 Error: Object(2 : 219) not found
+23:27:36 Error: Object(2 : 221) not found
+23:27:36 Error: Object(2 : 223) not found
+23:27:36 Error: Object(2 : 225) not found
+23:27:36 Error: Object(2 : 227) not found
+23:27:36 Error: Object(2 : 229) not found
+23:27:36 Error: Object(2 : 231) not found
+23:27:36 Error: Object(2 : 233) not found
+23:27:36 Error: Object(2 : 235) not found
+23:27:36 Error: Object(2 : 237) not found
+23:27:36 Error: Object(2 : 239) not found
+23:27:36 Error: Object(2 : 243) not found
+23:27:36 Error: Object(2 : 245) not found
+23:27:36 Error: Object(2 : 247) not found
+23:27:36 Error: Object(2 : 416) not found
+23:27:36 c:\w\stable\futura\lib\network\networkserver.cpp NetworkServer::OnClientStateChanged:NOT IMPLEMENTED - briefing!
+23:27:37 "extDB: Version: "
+23:27:37 "extDB: Error checked extDB/logs for more info"
+23:29:13 EPE manager release (13|230|0)
+23:29:13 Number of actors in scene after release: 13
+23:29:13 EPE manager release (0|13|0)
+23:29:14 Deinitialized shape [Class: "Underwear_F"; Shape: "a3\characters_f\common\basicbody.p3d";]
+23:29:14 Deinitialized shape [Class: "C_Nikos_aged"; Shape: "a3\characters_f_epc\civil\c_nikos_aged.p3d";]
+23:29:14 Deinitialized shape [Class: "C_Driver_3_F"; Shape: "a3\characters_f_kart\civil\c_driver_f.p3d";]
+23:29:14 Deinitialized shape [Class: "B_soldier_repair_F"; Shape: "a3\characters_f\blufor\b_soldier_01.p3d";]
+23:29:14 Deinitialized shape [Class: "B_Soldier_F"; Shape: "a3\characters_f\blufor\b_soldier_01.p3d";]
+23:29:14 Deinitialized shape [Class: "O_Soldier_F"; Shape: "a3\characters_f\opfor\o_soldier_01.p3d";]
+23:29:14 Deinitialized shape [Class: "o_soldier_unarmed_f"; Shape: "a3\characters_f\opfor\o_soldier_01.p3d";]
+23:29:14 Deinitialized shape [Class: "O_medic_F"; Shape: "a3\characters_f\opfor\o_soldier_01.p3d";]
+23:29:14 Deinitialized shape [Class: "O_officer_F"; Shape: "a3\characters_f\opfor\o_officer.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_hunter_1_F"; Shape: "a3\characters_f\civil\c_hunter_f.p3d";]
+23:29:14 Deinitialized shape [Class: "B_medic_F"; Shape: "a3\characters_f\blufor\b_soldier_02.p3d";]
+23:29:14 Deinitialized shape [Class: "B_soldier_AR_F"; Shape: "a3\characters_f\blufor\b_soldier_02.p3d";]
+23:29:14 Deinitialized shape [Class: "B_RangeMaster_F"; Shape: "a3\characters_f\civil\c_poloshirtpants.p3d";]
+23:29:14 Deinitialized shape [Class: "I_Soldier_repair_F"; Shape: "a3\characters_f_beta\indep\ia_soldier_02.p3d";]
+23:29:14 Deinitialized shape [Class: "I_Soldier_lite_F"; Shape: "a3\characters_f_beta\indep\ia_soldier_02.p3d";]
+23:29:14 Deinitialized shape [Class: "I_Story_Colonel_F"; Shape: "a3\characters_f_beta\indep\ia_officer.p3d";]
+23:29:14 Deinitialized shape [Class: "I_officer_F"; Shape: "a3\characters_f_beta\indep\ia_officer.p3d";]
+23:29:14 Deinitialized shape [Class: "i_soldier_unarmed_f"; Shape: "a3\characters_f_beta\indep\ia_soldier_01.p3d";]
+23:29:14 Deinitialized shape [Class: "I_soldier_F"; Shape: "a3\characters_f_beta\indep\ia_soldier_01.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_p_beggar_F_afro"; Shape: "a3\characters_f\civil\c_poor.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_p_beggar_F"; Shape: "a3\characters_f\civil\c_poor.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_p_fugitive_F_asia"; Shape: "a3\characters_f\civil\c_poor.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_p_fugitive_F"; Shape: "a3\characters_f\civil\c_poor.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_p_fugitive_F_afro"; Shape: "a3\characters_f\civil\c_poor.p3d";]
+23:29:14 Deinitialized shape [Class: "B_diver_F"; Shape: "a3\characters_f\common\diver_slotable.p3d";]
+23:29:14 Deinitialized shape [Class: "C_scientist_F"; Shape: "a3\characters_f\common\coveralls.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_w_worker_F"; Shape: "a3\characters_f\common\coveralls.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_1"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_polo_3_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_polo_6_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_shorts_3_F_euro"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_shorts_3_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_p_shorts_1_F_afro"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_p_shorts_1_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_polo_3_F_afro"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_shorts_4_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_polo_5_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_polo_4_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_polo_1_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 Deinitialized shape [Class: "C_man_polo_2_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+23:29:14 c:\w\stable\futura\lib\network\networkserver.cpp ClearNetServer:NOT IMPLEMENTED - briefing!
+23:29:15 Extensions:
+23:29:15   ARMA_LOG (.\ARMA_LOG.dll) [] []
+
+23:29:15   ARMA_LOAD (.\ARMA_LOAD.dll) [1.0.0.0] [1.0.0.0]
+

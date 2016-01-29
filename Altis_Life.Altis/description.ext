@@ -1,15 +1,28 @@
-#include "infiSTAR_AdminMenu.hpp"
-
-author = "Tonic";
-onLoadName = "Atlanta Entertainment";
-onLoadMission = "An RPG game mode developed by Apollo & Twist";
-joinUnassigned = 1;
-respawn = BASE;
-respawndelay = 5;
+author = "Tonic | DEADP4XEL | Xor";
+onLoadName = "AtlantaEntertainment";
+onLoadMission = "Developed by Tonic modified by DEADP4XEL and the AE Dev Team";
+wreckManagerMode = 1;
+wreckLimit = 0;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+corpseManagerMode = 1;
+corpseLimit = 10;
+corpseRemovalMinTime = 1800;
+corpseRemovalMaxTime = 3600;
+scriptedPlayer = 1;
+joinUnassigned = 0;
 disabledAI = true;
-disableChannels[]={0,1,2};
+allowFunctionsLog = 0;
+disableChannels[]= {2};
 enableDebugConsole = 1;
+forceRotorLibSimulation = 0;
+enableItemsDropping = 0;
 respawnDialog = 0;
+respawn = BASE;
+respawndelay = 15;
+debriefing = 0;
+briefing = 0;
+loadScreen = "logo.jpg";
 
 class Header
 {
@@ -18,28 +31,29 @@ class Header
 	maxPlayers = 99;
 };
 
-wreckLimit = 3;
-wreckRemovalMinTime = 60;
-wreckRemovalMaxTime = 320;
-corpseLimit = 150;
-corpseRemovalMinTime = 999;
-corpseRemovalMaxTime = 9999;
-
-//SpyGlass configuration
-SPY_Enable = true;
-
-#include "Config_Spyglass.hpp"
-#include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.h"
-#include "Config_Master.hpp"
-
-class RscTitles {
+class CfgRemoteExec
+{
+  class Functions
+  {
+    mode = 0;
+    jip = 0;
+  };
+  class Commands
+  {
+  	mode=0;
+  };
+};
+class RscTitles
+{
 	#include "dialog\ui.hpp"
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.h"
+	#include "dialog\statusBar.hpp"
 };
 
-class CfgFunctions {
+class CfgFunctions
+{
 	#include "Functions.h"
 };
 
@@ -52,18 +66,103 @@ class CfgSounds
 		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
 		titles[] = {};
 	};
-
+	
 	class tazersound
 	{
 		name = "Tazersound";
 		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
 		titles[] = {};
 	};
-
+	
 	class flashbang
 	{
 		name = "flashbang";
-		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		sound[] = {"\sounds\flashbang.ogg", 0.75, 1};
+		titles[] = {};
+	};
+	
+	class car_lock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class unlock
+	{
+		name = "unlock";
+		sound[] = {"\sounds\unlock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class cuff
+	{
+		name = "cuff";
+		sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+		titles[] = {};
+	};
+	class empwarn
+	{
+		name = "empwarn";
+		sound[] = {"\sounds\empwarn.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class empacsound
+	{
+		name = "empacsound";
+		sound[] = {"sounds\empac.ogg", db-5, 1};
+		titles[] = {};
+	};
+	class welcome
+	{
+		name = "welcome";
+		sound[] = {"sounds\welcome.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class knockout
+	{
+		name = "knockout";
+		sound[] = {"sounds\knockout.ogg", 1.0, 1};
+		titles[] = {};
+	};
+  	class MedicSirenLong
+	{
+		name = "MedicSirenLong";
+		sound[] = {"sounds\MedicSirenLong.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class speech
+	{
+		name = "speech";
+		sound[] = {"sounds\speech.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class spraycan
+	{
+		name = "spraycan";	
+		sound[] = {"sounds\spraycan.ogg", db-20, 1};
+		titles[] = {};
+	};
+	class alert
+	{
+		name= "alert";
+		sound[] = {"sounds\alert.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class mari
+	{
+		name= "mari";
+		sound[] = {"sounds\mari.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class PhotoSound
+	{
+		name = "PhotoSound";
+		sound[] = {"\sounds\camera_shot.ogg",0.5011872,1.0};
+		titles[] = {};
+	};
+	class caralarm
+	{
+		name= "caralarm";
+		sound[] = {"sounds\caralarm.ogg", 1.0, 1};
 		titles[] = {};
 	};
 };
@@ -72,27 +171,27 @@ class CfgDebriefing
 {
 	class NotWhitelisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are not white-listed to use this slot";
+		title = "Mission Failure";
+		subtitle = "";
 		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
-
+	
 	class Blacklisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are blacklisted from cops";
+		title = "Mission Failure";
+		subtitle = "You are blacklisted from the police";
 		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
-
+	
 	class SpyGlass
 	{
-		title = "The SpyGlass sees you";
+		title = "SpyGlass has detected you";
 		subTitle = "You were detected by the SpyGlass";
 		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
 		pictureBackground = "";
@@ -105,13 +204,13 @@ class CfgNotifications
 {
 	class MedicalRequestEmerg
 	{
-		title = "EMS Requested";
+		title = "Request Medic";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 5;
 		priority = 7;
 	};
-
+	
 	class DeliveryAssigned
 	{
 		title = "Delivery Job Accepted";
@@ -120,7 +219,7 @@ class CfgNotifications
 		duration = 10;
 		priority = 7;
 	};
-
+	
 	class DeliveryFailed
 	{
 		title = "Delivery Job Failed";
@@ -129,7 +228,7 @@ class CfgNotifications
 		duration = 7;
 		priority = 7;
 	};
-
+	
 	class DeliverySucceeded
 	{
 		title = "Delivery Job Completed";
@@ -138,37 +237,37 @@ class CfgNotifications
 		duration = 6;
 		priority = 6;
 	};
-
+	
 	class TextMessage
 	{
-		title = "Received A Text Message";
+		title = "New Text message";
 		iconPicture = "icons\messagenew.paa";
 		description = "%1";
 		duration = 10;
 		priority = 6;
 	};
-
+	
 	class PoliceDispatch
 	{
-		title = "911 Dispatch Center";
+		title = "Police Message";
 		iconPicture = "icons\messagepolice.paa";
 		description = "%1";
 		duration = 10;
 		priority = 6;
 	};
-
+	
 	class AdminDispatch
 	{
-		title = "Admin Dispatch Center";
+		title = "Admin Dispatch";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;
 		priority = 6;
 	};
-
+	
 	class AdminMessage
 	{
-		title = "Admin Message";
+		title = "Admin Messasge";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;

@@ -11,5 +11,5 @@ if(player getVariable "restrained") then
 };
 
 player action ["Eject", vehicle player];
-titleText[localize "STR_NOTF_PulledOut","PLAIN"];
+titleText["You have been pulled out of the vehicle","PLAIN"];
 titleFadeOut 4;

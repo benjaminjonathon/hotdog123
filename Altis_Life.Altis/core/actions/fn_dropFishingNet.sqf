@@ -10,7 +10,7 @@ if(!(vehicle player isKindOf "Ship")) exitWith {};
 _fish = (nearestObjects[getPos vehicle player,["Fish_Base_F"],20]);
 life_net_dropped = true;
 titleText[localize "STR_NOTF_NetDrop","PLAIN"];
-sleep 5;
+uiSleep 5;
 if(count _fish == 0) exitWith {titleText[localize "STR_NOTF_NetDropFail","PLAIN"]; life_net_dropped = false;};
 {
 	if(_x isKindOf "Fish_Base_F") then
@@ -26,7 +26,7 @@ if(count _fish == 0) exitWith {titleText[localize "STR_NOTF_NetDropFail","PLAIN"
 			default {_type = "";};
 		};
 		
-		sleep 3;
+		uiSleep 3;
 		
 		if(([true,_type,1] call life_fnc_handleInv)) then
 		{
@@ -36,6 +36,6 @@ if(count _fish == 0) exitWith {titleText[localize "STR_NOTF_NetDropFail","PLAIN"
 	};
 } foreach (_fish);
 
-sleep 1.5;
+uiSleep 1.5;
 titleText[localize "STR_NOTF_NetUp","PLAIN"];
 life_net_dropped = false;

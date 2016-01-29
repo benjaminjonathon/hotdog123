@@ -1,4 +1,3 @@
-#include "..\..\script_macros.hpp"
 /*
 	File: fn_pardon.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -18,4 +17,4 @@ if(typeName _data != "ARRAY") exitWith {};
 if(count _data == 0) exitWith {};
 
 _uid = _data select 1;
-[_uid] remoteExecCall ["life_fnc_wantedPardon",RSERV];
+[[_uid],"life_fnc_wantedPardon",false,false] spawn life_fnc_MP;
