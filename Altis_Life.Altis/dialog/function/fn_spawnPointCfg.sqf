@@ -24,7 +24,7 @@ switch (_side) do
 			["cop_spawn_Charlie","Charlie","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_Alpha_1","Alpha","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_Echo","Echo","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["cop_spawn_bane","Foxtrot","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+			["cop_spawn_Foxtrot","Foxtrot","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
 	
