@@ -65,7 +65,7 @@ while {true} do
 	_respawnButton ctrlEnable false;
 	_fieldManual ctrlEnable false; //Never re-enable, blocks an old script executor.
 	_fieldManual ctrlShow false;
-	_respawnButton ctrlSetText "NEUES LEBEN";
+	_respawnButton ctrlSetText "Respawn";
 	
 	_usebleCtrl = call _canUseControls;
 	_usebleCtrl spawn _escSync;
