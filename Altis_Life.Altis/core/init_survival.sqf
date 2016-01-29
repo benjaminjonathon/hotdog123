@@ -87,7 +87,7 @@
 		if(life_carryWeight > life_maxWeight && !isForcedWalk player) then {
 			player forceWalk true;
 			player setFatigue 1;
-			hintSilent "You're overloaded ! Please remove some items from your inventory..";
+			hintSilent "You're over weight ! Please remove some items from your inventory..";
 		} else {
 			if(isForcedWalk player) then {
 				player forceWalk false;
