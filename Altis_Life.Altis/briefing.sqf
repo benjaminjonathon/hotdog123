@@ -4,11 +4,7 @@ if(player diarySubjectExists "rules")exitwith{};
 player createDiarySubject ["changelog","Changelog"];
 player createDiarySubject ["serverrules","Server Rules"];
 player createDiarySubject ["policerules","Police Rules"];
-player createDiarySubject ["safezones","SafeZones"];
-//player createDiarySubject ["civrules","Civilian Rules"];
 player createDiarySubject ["illegalitems","Illegal"];
-//player createDiarySubject ["gangrules","Gang Rules"];
-//player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controls","Controls"];
 
 /*  Example
@@ -21,181 +17,23 @@ player createDiarySubject ["controls","Controls"];
 		]
 	];
 */
-	player createDiaryRecord["changelog",
-		[
-			"Official Change Log",
-				"
-					All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
 	
 	player createDiaryRecord["changelog",
 		[
-			"Atlanta Changelog",
+			"General Rules",
 				"
-					All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-
-		player createDiaryRecord ["serverrules",
-		[
-			"Exploits", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord["safezones",
-		[
-			"No Safe Zones",
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-					
-	
-	player createDiaryRecord ["serverrules",
-		[
-			"Bannable Offenses", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["serverrules",
-		[
-			"Cop Interaction", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["serverrules",
-		[
-			"Boats", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["serverrules",
-		[
-			"Aviation", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["serverrules",
-		[
-			"Vehicles", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["serverrules",
-		[
-			"Communication Rules", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["serverrules",
-		[
-			"Random Deathmatching (RDM)", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	player createDiaryRecord ["serverrules",
-		[
-			"New Life Rule", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-
-	player createDiaryRecord ["serverrules",
-		[
-			"Don't Be A Dick!", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
+					All rules are on the forum : http://atlanta-entertainment.com/
 				"
 		]
 	];
 	
 // Police Section
+	
 	player createDiaryRecord ["policerules",
 		[
-			"Crisis Negotiation",
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	player createDiaryRecord ["policerules",
-		[
-			"The Federal Reserve",
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	player createDiaryRecord ["policerules",
-		[
-			"Aviation",
+			"Flying",
 				"
 				Cops may only hover over the city if there is an active police operation going on!
-				"
-		]
-	];
-	
-	player createDiaryRecord ["policerules",
-		[
-			"Illegal Areas", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["policerules",
-		[
-			"Patrolling", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["policerules",
-		[
-			"Checkpoints", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["policerules",
-		[
-			"vehicles", 
-				"
-				All amendments are in Forum : http://atlanta-entertainment.com/
 				"
 		]
 	];
@@ -209,19 +47,10 @@ player createDiarySubject ["controls","Controls"];
 				"
 		]
 	];
-	
+
 	player createDiaryRecord ["policerules",
 		[
-			"assignment", 
-				"
-				All rules you can find in our forum : http://atlanta-entertainment.com/
-				"
-		]
-	];
-	
-	player createDiaryRecord ["policerules",
-		[
-			"Prison and tickets",
+			"Police Rules",
 				"
 				All rules you can find in our forum : http://atlanta-entertainment.com/
 				"
@@ -232,7 +61,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"legal weapons", 
 				"
-				Legalle Civ weapons ( with gun license ) :
+				Legal Civ weapons ( with gun license ) :
 				1. P07
 				3. ACP-C2
 				5. PDW2000
@@ -240,53 +69,24 @@ player createDiarySubject ["controls","Controls"];
 		]
 	];
 	
-	player createDiaryRecord ["policerules",
-		[
-			"Use of weapons",
-				"
-				All rules you can find in our forum !
-				"
-		]
-	];
-
-	player createDiaryRecord ["policerules",
-		[
-			"raids",
-				"
-				All rules you can find in our forum !
-				"
-		]
-	];
 	
 	player createDiaryRecord ["policerules",
 		[
 			"Ranks",
 				"
-				Rangkette:<br/>
-				1. Recruits<br/>
-				2. Police Officers<br/>
-				3. Sheriff<br/>
-				4. Swat<br/>
-				5. ADMINS<br/>
+				Ranks:<br/>
+				Work in progress
 				"
 		]
 	];
+
 	
 	player createDiaryRecord ["policerules",
 		[
-			"Others",
+			"Teamspeak Speak3 ",
 				"
-				All rules you can find in our forum !
-				"
-		]
-	];
-	
-	player createDiaryRecord ["policerules",
-		[
-			"Teamspeak Speak3",
-				"
-				1.All police officers must be on the TeamSpeak WHILE you are logged in as a police officer . 
-				2. To find everything else under Home Page Rules
+				1. All police officers must be on the TeamSpeak WHILE you are logged in as a police officer. 
+				2. All other rules are listed on our website
 				"
 		]
 	];
@@ -296,17 +96,11 @@ player createDiarySubject ["controls","Controls"];
 // Illegal Items Section
 	player createDiaryRecord ["illegalitems",
 		[
-			"rebels rules",
+			"Rebel Rules",
 				"
-				All rules you can find in our forum !
-				"
-		]
-	];
-	player createDiaryRecord ["illegalitems",
-		[
-			"Transitional Rules",
-				"
-				All rules you can find in our forum !
+				All rules are on our forum but some major ones are listed below
+				1. Red Zones are NOT safe and are KOS (NO RP REQUIRED)
+				2. Cops have NLR when killed at Red Zone so report if they come back
 				"
 		]
 	];
@@ -319,18 +113,14 @@ player createDiarySubject ["controls","Controls"];
 				1. Ifrit<br/>
 				2. Speedboat<br/>
 				3. Hunter<br/>
-				4. Police Offroad+<br/>
-				5. Ifrit-HMG+<br/>
-				6. Hunter-HMG+<br/>
-				7. Strider<br/>
-				8. Police Hunter+<br/>
-				9. Police Limo+<br/>
+				4. Police Offroad<br/>
+				5. Strider<br/>
 				"
 		]
 	];
 	player createDiaryRecord ["illegalitems",
 		[
-			"Illegale Weapons",
+			"Illegal Weapons",
 				"
 				1. MX Series<br/>
 				2. Katiba Series<br/>
@@ -349,7 +139,7 @@ player createDiarySubject ["controls","Controls"];
 	];
 	player createDiaryRecord ["illegalitems",
 		[
-			"Illegal Commodities",
+			"Illegal Items",
 				"
 				The following raw materials are illegal:<br/><br/>
 				1. Turtles<br/>
@@ -359,8 +149,7 @@ player createDiarySubject ["controls","Controls"];
 				5. Marijuana<br/>
 				6. Meth<br/>
 				7. Moonshine<br/>
-				8. GoldBarren<br/>
-				9. Uranium<br/>
+				8. Gold Bars<br/>
 				"
 		]
 	];
@@ -372,23 +161,20 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Control",
 				"
-				Z: players menu<br/>
-				U: vehicles<br/>
-				U: Open Houses<br/>
+				Y: Player Menu<br/>
+				U: Unlock<br/>
 				F: Police Siren<br/>
 				T: Vehicle Trunk<br/>
-				O: Police Warning<br/>
-				o: Open Cop Barriers<br/>
+				O: Open Gate<br/>
 				Left Shift + 1:Phone<br/>
-				Left Shift + 2: WantedList<br/>
-				Left Shift + 3: to file charges<br/>
+				Left Shift + 2: Wanted List<br/>
+				Left Shift + 3: File Charges<br/>
 				Left Shift + R: Restrain<br/>
 				Left Shift + G: Surrender<br/>
 				Left Shift + V: Knockout<br/>
-				Left Shift + O: Civ Restrain<br/>
-				Left Shift + Space: Jump<br/>
-				Left Shift + H: Weapon Holster<br/>
-				Left Windows: Action Keys<br/>
+				Left Shift + O: Restrain (Civ)<br/>
+				Left Shift + H: Holster (CTRL+H if not working)<br/>
+				Left Windows Key: Used for actions<br/>
 				"
 		]
 	];
