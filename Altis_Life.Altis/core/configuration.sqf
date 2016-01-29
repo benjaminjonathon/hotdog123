@@ -131,8 +131,6 @@ switch (playerSide) do
 life_vShop_rentalOnly = ["I_MRAP_03_hmg_F"];
 __CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
 
-life_inv_items =
-[
 life_inv_items = 
 [
 	"life_inv_oilu",

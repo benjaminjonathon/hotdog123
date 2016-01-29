@@ -23,15 +23,11 @@ switch (_mode) do
                         hint "You think I'm into guns?";
                     };
                         //Prices
-                            _number = ceil(random 7);
+                            _number = ceil(random 3);
                             if(_number == 0) then { hookerprice = 100;};
                             if(_number == 1) then { hookerprice = 2000;};
                             if(_number == 2) then { hookerprice = 4000;};
                             if(_number == 3) then { hookerprice = 8000;};
-                            if(_number == 4) then { hookerprice = 16000;};
-                            if(_number == 5) then { hookerprice = 32000;};
-                            if(_number == 6) then { hookerprice = 64000;};
-                            if(_number == 7) then { hookerprice = 128000;};
                             _pplayer = _this select 0;
                             
                             //Chance of get some sexualill
