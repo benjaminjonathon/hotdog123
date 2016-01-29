@@ -40,7 +40,7 @@ switch (_side) do
 		if(__GETC__(life_donator) == 3) then 
 		{
 			_return = _return + [
-				["so_spawn_1","Söldner HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["mercenary_spawn_1","Mercenary HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["don_spawn_1","Donator HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
