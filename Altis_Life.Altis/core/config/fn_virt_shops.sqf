@@ -28,5 +28,4 @@ switch (_shop) do
 	case "medic": {["Arztbedarf",["apple","donuts","coffee","battery","redgull","fuelF"]]};
 	case "speakeasy": {["Speakeasy's",["bottledbeer","bottledwhiskey","bottledshine"]]};
 	case "bar": {["The Lounge",["bottles","cornmeal"]]};
-	case "uranium": {["Marchand Uranium",["uranium","puranium"]]};
 };
