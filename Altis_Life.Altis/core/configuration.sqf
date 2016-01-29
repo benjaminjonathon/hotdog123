@@ -26,7 +26,7 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 2; //Scaled in minutes
+life_respawn_timer = 0; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
@@ -91,7 +91,7 @@ life_delivery_in_progress = false;
 life_action_in_use = false;
 life_thirst = 100;
 life_hunger = 100;
-life_battery = 50;
+life_battery = 100;
 __CONST__(life_paycheck_period,10); //Five minutes
 life_cash = 0;
 __CONST__(life_impound_car,2500);
