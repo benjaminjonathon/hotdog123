@@ -5078,7 +5078,7 @@
 			<Portuguese>Jogar Rede de Pesca</Portuguese>
 		</Key>
 		<Key ID="STR_pAct_RobPerson">
-			<Original>Rob Person</Original>
+			<Original>Rob Player</Original>
 			<English>Rob Person</English>
 			<German>Person ausrauben</German>
 			<French>Rob Person</French>
@@ -5088,12 +5088,12 @@
 	</Package>
 		<Package name="Support_Menu">
 		<Key ID="STR_PM_SupportMenu">
-			<Original>Supporter Menü</Original>
+			<Original>Supporter Menu</Original>
 		</Key>
 	</Package>
 	<Package name="Admin_Menu">
 		<Key ID="STR_Admin_Spectate">
-			<Original>Zuschauen</Original>
+			<Original>Spectate</Original>
 			<French>Regarder</French>
 		</Key>
 		<Key ID="STR_Admin_Teleport">
@@ -5107,43 +5107,43 @@
 	</Package>
 		<Package name="Smartphone">
 		<Key ID="STR_PM_Smartphone">
-			<Original>Telefon</Original>
+			<Original>Telephone</Original>
 			<French>Téléphone</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_TITLE">
-			<Original>Telefon SMS</Original>
+			<Original>Telephone SMS</Original>
 			<French>Téléphone SMS</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
-			<Original>Spielerliste</Original>
+			<Original>Contact</Original>
 			<French>Contact</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
-			<Original>Nachrichten  | VON | WANN</Original>
-			<French>Nouvelles  | FR | Quand</French>
+			<Original>Messages</Original>
+			<French>Messages</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
-			<Original>Nachricht zum lesen auswählen</Original>
+			<Original>Select message to read</Original>
 			<French>Sélectionnez un message à lire</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_SCHREIBEN">
-			<Original>Schreiben</Original>
-			<French>Rédiger</French>
+			<Original>Message</Original>
+			<French>Message</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NOTRUF">
-			<Original>Notruf</Original>
-			<French>Appel d'urgence</French>
+			<Original>Emergency</Original>
+			<French>Emergency</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Absenden">
-			<Original>Absenden</Original>
+			<Original>Send</Original>
 			<French>Soumettre</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
-			<Original>Nachricht an:</Original>
+			<Original>Send Message:</Original>
 			<French>Message à :</French>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Notruftitle">
-			<Original>Kostenloser Notruf Dienst</Original>
+			<Original>Call Emergency Services</Original>
 			<French>Service d'urgence gratuit</French>
 		</Key>
 		<Key ID="STR_pInAct_RevokeLicense">
@@ -5184,11 +5184,11 @@
 		</Key>
 		</Package>
 		<Key ID="STR_Civ_LicenseRemove_1a">
-			<Original>Durch Deine wiederholte Überschreitung der Geschwindigkeit, wurde Dir dein Führerschein entzogen.</Original>
+			<Original>Your license have been REVOKED for speeding</Original>
 			<French>Suite à votre dépassement de vitesse répété votre permis de conduite vous a été révoqué.</French>
 		</Key> 
 		<key ID="STR_pInAct_rob">
-			<Original>Ausrauben</Original>
+			<Original>Rpn</Original>
 			<German>Ausrauben</German>
 			<French>Voler</French>
 		</Key>
