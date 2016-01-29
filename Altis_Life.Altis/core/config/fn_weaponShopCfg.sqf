@@ -51,22 +51,16 @@ switch(_shop) do
 						["ItemCompass",nil,10],
 						["ItemGPS",nil,10],
 						["ToolKit",nil,10],
-						["Medikit",nil,10],
 						["NVGoggles_OPFOR",nil,10],
 						["Chemlight_red",nil,10],
-						["Chemlight_yellow",nil,10],
-						["Chemlight_green",nil,10],
 						["Chemlight_blue",nil,10],
 						["acc_flashlight",nil,10],
 						["acc_pointer_IR",nil,10],
-						["B_UavTerminal",nil,10],
 						["Rangefinder",nil,10],
 						["optic_Holosight",nil,10],
 						["optic_ACO_smg",nil,10],
 						["optic_MRCO",nil,10],
-						["optic_LRPS",nil,10],
 						["optic_DMS",nil,10],
-						["optic_NVS",nil,10],
 						["optic_Arco",nil,10],
 						["muzzle_snds_L",nil,10],
 						["muzzle_snds_M",nil,10],
@@ -132,16 +126,18 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"You're not a cop"};
-			case (__GETC__(life_coplevel) < 2): {"You are not a high enough level !"};
+			case (__GETC__(life_coplevel) < 1): {"You are not a high enough level !"};
 			default
 			{
-				["Weapon Shop",
+				["Police Officer Shop",
 					[
-						["arifle_sdar_F","Taser Rifle",10],
 						["hgun_Rook40_F","Taser Rook",10],
-						["hgun_Rook40_snds_F","Taser Rook Silenced",10],
-						["16Rnd_9x21_Mag","16rnd 9mm Mag",10],
-						["20Rnd_556x45_UW_mag","5.56mm 20rnd Mag",10]
+						["SMG_02_F","SMG",10],
+						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["arifle_sdar_F","Taser Rifle",10],
+						["20Rnd_556x45_UW_mag","5.56mm 20rnd Mag",10],
+						["arifle_MXC_F","Taser MXC",10],
+						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",10]
 					]
 				];
 			};
@@ -153,18 +149,20 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"You're not a cop"};
-			case (__GETC__(life_coplevel) < 3): {"Du bist noch kein Kommissar"};
+			case (__GETC__(life_coplevel) < 2): {"You're not a Commissioner"};
 			default
 			{
-				["Sergeant Weapon Shop",
+				["Corporal Weapon Shop",
 					[
+						["hgun_Rook40_F","Taser Rook",10],
+						["SMG_02_F","Taser SMG",10],
+						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["arifle_sdar_F","Taser SDAR",10],
+						["20Rnd_556x45_UW_mag","5.56 20rnd Mag",10],
 						["arifle_MXC_F","Taser MXC",10],
 						["arifle_MX_F","Taser MX",10],
-						["arifle_sdar_F","Taser SDAR",10],
-						["SMG_02_F","Taser SMG",10],
-						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",10],
-						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
-						["20Rnd_556x45_UW_mag","5.56 20rnd Mag",10]
+						["arifle_MXM_Black_F","MXM",10],
+						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",10]
 					]
 				];
 			};
@@ -176,20 +174,23 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"You're not a cop"};
-			case (__GETC__(life_coplevel) < 4): {"Why would you be allowed in here?"};
+			case (__GETC__(life_coplevel) < 3): {"You're not a SWAT office"};
 			default
 			{
-				["High Rank Police Shop",
+				["SWAT Weapons Shop",
 					[
 						["SMG_02_F","SMG",10],
-						["arifle_TRG20_F","TRG",10],
-						["arifle_MX_F","MX",10],
-						["arifle_MXM_Black_F","MXM",10],
-						["arifle_MXC_F","MXC",10],
-						["30Rnd_65x39_caseless_mag","6.5mm 30rnd Caseless Mag",10],
+						["hgun_Rook40_F","Taser Rook",10],
+						["SMG_02_F","Taser SMG",10],
 						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["arifle_sdar_F","Taser SDAR",10],
+						["20Rnd_556x45_UW_mag","5.56 20rnd Mag",10],
+						["arifle_TRG20_F","TRG",10],
 						["30Rnd_556x45_Stanag","5.56 30rnd Mag",10],
-						["SmokeShellOrange","Orange Smoke Shell",10]
+						["arifle_MXC_F","Taser MXC",10],
+						["arifle_MX_F","Taser MX",10],
+						["arifle_MXM_Black_F","MXM",10],
+						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",10]
 					]
 				];
 			};
@@ -201,20 +202,23 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"You're not a cop"};
-			case (__GETC__(life_coplevel) < 5): {"You're not a SWAT officer"};
+			case (__GETC__(life_coplevel) < 4): {"Why would you be allowed in here?"};
 			default
 			{
 				["Swat Weapons Shop",
 					[
 						["SMG_02_F","SMG",10],
-						["arifle_TRG20_F","TRG",10],
-						["arifle_MX_F","MX",10],
-						["arifle_MXM_Black_F","MXM",10],
-						["arifle_MXC_F","MXC",10],
-						["30Rnd_65x39_caseless_mag","6.5mm 30rnd Caseless Mag",10],
+						["hgun_Rook40_F","Taser Rook",10],
+						["SMG_02_F","Taser SMG",10],
 						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["arifle_sdar_F","Taser SDAR",10],
+						["20Rnd_556x45_UW_mag","5.56 20rnd Mag",10],
+						["arifle_TRG20_F","TRG",10],
 						["30Rnd_556x45_Stanag","5.56 30rnd Mag",10],
-						["SmokeShellOrange","Orange Smoke Shell",10]
+						["arifle_MXC_F","Taser MXC",10],
+						["arifle_MX_F","Taser MX",10],
+						["arifle_MXM_Black_F","MXM",10],
+						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",10]					
 					]
 				];
 			};
@@ -226,20 +230,25 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 6): {"You're not in the Spec Ops"};
+			case (__GETC__(life_coplevel) < 5): {"You're not in the UnderCover Force"};
 			default
 			{
-				["Special Ops Shop",
+				["UnderCover Weapons Shop",
 					[
 						["SMG_02_F","SMG",10],
-						["arifle_TRG20_F","TRG",10],
-						["arifle_MX_F","MX",10],
-						["arifle_MXM_Black_F","MXM",10],
-						["arifle_MXC_F","MXC",10],
-						["30Rnd_65x39_caseless_mag","6.5mm 30rnd Caseless Mag",10],
+						["hgun_Rook40_F","Taser Rook",10],
+						["SMG_02_F","Taser SMG",10],
 						["30Rnd_9x21_Mag","9mm 30rnd Mag",10],
+						["arifle_sdar_F","Taser SDAR",10],
+						["20Rnd_556x45_UW_mag","5.56 20rnd Mag",10],
+						["arifle_TRG20_F","TRG",10],
 						["30Rnd_556x45_Stanag","5.56 30rnd Mag",10],
-						["SmokeShellOrange","Orange Smoke Shell",10]
+						["arifle_MXC_F","Taser MXC",10],
+						["arifle_MX_F","Taser MX",10],
+						["arifle_MXM_Black_F","MXM",10],
+						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",10],
+						["srifle_DMR_01_F",nil,100000],
+						["20Rnd_762x51_Mag","MK18 Mag",500]						
 					]
 				];
 			};
@@ -261,7 +270,7 @@ switch(_shop) do
 						["SMG_01_F",nil,60000],
 						["arifle_Katiba_F",nil,75000],
 						["arifle_SDAR_F",nil,90000],
-						["arifle_MXM_F","Xor Cannon",100000],
+						["arifle_MXM_F","MXM",100000],
 						["srifle_DMR_01_F",nil,100000],
 						["srifle_EBR_F",nil,115000],
 						["acc_flashlight",nil,2000],
@@ -274,7 +283,7 @@ switch(_shop) do
 						["optic_DMS",nil,25000],
 						["30Rnd_9x21_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,150],
-						["30Rnd_65x39_caseless_mag","Xor Ammo",200],
+						["30Rnd_65x39_caseless_mag","6,5mm Caseless Mag",200],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_45ACP_Mag_SMG_01",nil,500],
 						["20Rnd_762x51_Mag","MK18 Mag",500],

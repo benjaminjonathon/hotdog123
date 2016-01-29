@@ -48,7 +48,7 @@ switch (_vehicle) do
 			case 5: {_color = "White"};
 			case 6: {_color = "Grey"};
 			case 7: {_color = "Black"};
-			case 8: {_color = "Polizei"};
+			case 8: {_color = "police"};
 		};
 	};
 	
@@ -62,10 +62,9 @@ switch (_vehicle) do
 			case 3: {_color = "Black / White"};
 			case 4: {_color = "Tan"};
 			case 5: {_color = "Green"};
-			case 6: {_color = "SWAT"};
-			case 7: {_color = "Police"};
-			case 8: {_color = "Metallica"};
-			case 9: {_color = "Monster"};
+			case 6: {_color = "Police"};
+			case 7: {_color = "Metallica"};
+			case 8: {_color = "Monster"};
 			
 		};
 	};
@@ -78,17 +77,16 @@ switch (_vehicle) do
 			case 1: {_color = "Police";};
 			case 2: {_color = "Silver";};
 			case 3: {_color = "Orange";};
-			case 4: {_color = "Swat";};
-			case 5: {_color = "Medic";};
-			case 6: {_color = "Polygon";};
-			case 7: {_color = "Camo";};
-			case 8: {_color = "MonsterEnergy";};
-			case 9: {_color = "Civil";};
-			case 10: {_color = "Civil 2";};
-			case 11: {_color = "Batman";};
-			case 12: {_color = "Ferrari";};
-			case 13: {_color = "Skull";};
-			case 14: {_color = "Hello Kitty";};
+			case 4: {_color = "Medic";};
+			case 5: {_color = "Polygon";};
+			case 6: {_color = "Camo";};
+			case 7: {_color = "MonsterEnergy";};
+			case 8: {_color = "Civil";};
+			case 9: {_color = "Civil 2";};
+			case 10: {_color = "Batman";};
+			case 11: {_color = "Ferrari";};
+			case 12: {_color = "Skull";};
+			case 13: {_color = "Hello Kitty";};
 		};
 	};
 	
@@ -177,9 +175,8 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "swat"};
-			case 1: {_color = "Donator"};
-			case 2: {_color = "police"};
+			case 0: {_color = "Hunters"};
+			case 1: {_color = "police"};
 		};
 	};
 
@@ -219,7 +216,6 @@ switch (_vehicle) do
 			case 0: {_color = "Ion"};
 			case 1: {_color = "Dahoman"};
 			case 2: {_color = "Medic"};
-			case 3: {_color = "Swat"};
 		};
 	};
 
@@ -229,7 +225,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "police"};
 			case 1: {_color = "ADAC"};
-			case 2: {_color = "swat"};
+			
 		};
 	};
 	
@@ -254,7 +250,6 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Camo"};
-			case 1: {_color = "swat"};
 		};
 	};
 	case "B_Truck_01_box_F":

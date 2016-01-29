@@ -46,7 +46,7 @@ switch (_shop) do
 			["C_Van_01_fuel_F",30000],
 			["C_Hatchback_01_F",9500],
 			["C_Offroad_01_F",12500],
-			["C_SUV_01_F",35000],
+			["C_SUV_01_F",25000],
 			["C_Van_01_transport_F",40000],
 			["C_Hatchback_01_sport_F",35000]
 		];
@@ -68,10 +68,10 @@ switch (_shop) do
 			["I_Truck_02_transport_F",750000],
 			["I_Truck_02_covered_F",100000],
 			["B_Truck_01_transport_F",200000],
-			["B_Truck_01_covered_F",300000],
+			["B_Truck_01_covered_F",270000],
 			["B_Truck_01_ammo_F",200000],
-			["B_Truck_01_box_F",100000],
-			["O_Truck_03_device_F",625000]
+			["B_Truck_01_box_F",280000],
+			["O_Truck_03_device_F",325000]
 		];	
 	};
 
@@ -81,20 +81,20 @@ switch (_shop) do
 		[
 			["B_Quadbike_01_F",2500],
 			["B_G_Offroad_01_F",15000],
-			["O_MRAP_02_F",1800000],
-			["B_Heli_Light_01_F",325000]
+			["O_MRAP_02_F",580000],
+			["B_Heli_Light_01_F",95000]
 		];
 		
 		if(license_civ_rebel) then
 		{
 			_return set[count _return,
-			["B_G_Offroad_01_armed_F",750000]];
+			["B_G_Offroad_01_armed_F",1050000]];
 			_return set[count _return,
-			["I_Heli_Transport_02_F",2000000]];
+			["I_Heli_Transport_02_F",200000]];
 			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",750000]];
+			["O_Heli_Light_02_unarmed_F",250000]];
 			_return set[count _return,
-			["O_Heli_Transport_04_box_F",1250000]];
+			["O_Heli_Transport_04_box_F",625000]];
 		};
 	};
 
@@ -144,12 +144,12 @@ switch (_shop) do
 		if (__GETC__(life_coplevel) > 3) then
 		{
 			_return set[count _return,
-			["C_Hatchback_01_sport_F",35000]];
+			["C_Hatchback_01_sport_F",25000]];
 		};
 		if (__GETC__(life_coplevel) > 4) then
 		{
 			_return set[count _return,
-			["B_MRAP_01_F",250000]];
+			["B_MRAP_01_F",220000]];
 		};
 		if (__GETC__(life_coplevel) > 5) then
 		{
@@ -162,8 +162,8 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000]
+			["B_Heli_Light_01_F",83000],
+			["O_Heli_Light_02_unarmed_F",1050000]
 		];
 	};
 	
@@ -217,19 +217,11 @@ switch (_shop) do
 			_return set[count _return,
 			["B_Quadbike_01_F",500]];
 			_return set[count _return,
-			["C_Offroad_01_F",2500]];
+			["C_Offroad_01_F",10000]];
 			_return set[count _return,
-			["C_Hatchback_01_sport_F",10000]];
+			["C_Hatchback_01_sport_F",20000]];
 			_return set[count _return,
 			["C_SUV_01_F",20000]];
-			_return set[count _return,
-			["C_Van_01_fuel_F",7500]];
-			_return set[count _return,
-			["B_Heli_Light_01_F",100000]];
-			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",175000]];
-			_return set[count _return,
-			["I_Heli_Transport_02_F",650000]];
 		};
 	};
 	
@@ -238,21 +230,15 @@ switch (_shop) do
 		if(__GETC__(life_donator) == 3) then
 		{
 			_return set[count _return,
-			["I_MRAP_03_F",2000000]];
+			["C_Hatchback_01_sport_F",20000]];
 			_return set[count _return,
-			["O_MRAP_02_F",1800000]];
+			["B_MRAP_01_F",380000]];
 			_return set[count _return,
-			["I_Heli_Transport_02_F",65000]];
+			["B_Heli_Light_01_stripped_F",75000]];
 			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",175000]];
+			["B_G_Offroad_01_F",175000]];
 			_return set[count _return,
-			["B_Heli_Light_01_F",100000]];
-			_return set[count _return,
-			["B_Truck_01_box_F",1100000]];
-			_return set[count _return,
-			["B_MRAP_01_F",200000]];
-			_return set[count _return,
-			["C_Hatchback_01_sport_F",55000]];
+			["I_Heli_light_03_unarmed_F",110000]];
 		};
 	}; 
 	

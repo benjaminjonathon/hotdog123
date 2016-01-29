@@ -30,15 +30,15 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 //Introcam
 [] spawn life_fnc_IntroCam;
 
-//Skins und Backpacks für Cops
+//Skins and Backpacks for Cops
 // CopLevel 1
 [] spawn
 {
 while {true} do
     {
-        waitUntil {uniform player == "U_I_G_Story_Protagonist_F"};
-        player setObjectTextureGlobal [0,""];
-        waitUntil {uniform player != "U_I_G_Story_Protagonist_F"};
+        waitUntil {uniform player == "U_Rangemaster"};
+        player setObjectTextureGlobal [0,"skins\human\cop\Cadet_Uni2.jpg"];
+        waitUntil {uniform player != "U_Rangemaster"};
     };
 };
 // CopLevel 2
@@ -46,9 +46,9 @@ while {true} do
 {
 while {true} do
     {
-        waitUntil {uniform player == "U_B_CombatUniform_mcam_vest"};
-        player setObjectTextureGlobal [0,"skins\human\cop\police_uniform.paa"];
-        waitUntil {uniform player != "U_B_CombatUniform_mcam_vest"};
+        waitUntil {uniform player == "U_Rangemaster"};
+        player setObjectTextureGlobal [0,"skins\human\cop\Officer_Uni3.jpg"];
+        waitUntil {uniform player != "U_Rangemaster"};
     };
 };
 // CopLevel 3+4
@@ -56,9 +56,9 @@ while {true} do
 {
 while {true} do
     {
-        waitUntil {uniform player == "U_MillerBody"};
-        player setObjectTextureGlobal [0,"skins\human\cop\Higher.paa"];
-        waitUntil {uniform player != "U_MillerBody"};
+        waitUntil {uniform player == "U_B_CombatUniform_mcam_vest"};
+        player setObjectTextureGlobal [0,"skins\human\cop\Uniform_Corporal4.jpg"];
+        waitUntil {uniform player != "U_B_CombatUniform_mcam_vest"};
 	};
 };
 // CopLevel 5
@@ -67,7 +67,7 @@ while {true} do
 while {true} do
     {
         waitUntil {uniform player == "U_MillerBody"};
-        player setObjectTextureGlobal [0,"skins\human\cop\Higher.paa"];
+        player setObjectTextureGlobal [0,"skins\human\cop\tigercamo_officer.jpg"];
         waitUntil {uniform player != "U_MillerBody"};
     };
 };
@@ -77,7 +77,7 @@ while {true} do
 while {true} do
     {
         waitUntil {uniform player == "U_MillerBody"};
-        player setObjectTextureGlobal [0,"skins\human\cop\Higher.paa"];
+        player setObjectTextureGlobal [0,"skins\human\tigercamo_officer.jpg"];
         waitUntil {uniform player != "U_MillerBody"};
 	};
 };
