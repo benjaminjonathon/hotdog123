@@ -76,7 +76,7 @@ _announce_adminstate_changed = false;	/* true or false */
 _adminUIDandAccess =
 [
 	[
-		['76561198203109908','76561198045959529','UID3','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
+		['76561198203109908','76561198045959529','76561198091820939','...'],	// Admins with UIDs in this Array have their Access defined in the array below.
 		[
 			'Teleport On Map Click','Teleport - Target To Me','Teleport - Me To Target','Teleport In Facing Direction (10m steps)',
 			'spectating','AdminConsole','Delete Vehicle','FlyUp','EjectTarget','ToggleVehLock','UpgradeBuilding','ShowGear',
