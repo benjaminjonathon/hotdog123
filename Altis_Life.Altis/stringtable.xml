@@ -3456,7 +3456,7 @@
 		<Key ID="STR_License_Driver">
 			<Original>Driver License</Original>
 			<English>Driver License</English>
-			<German>Führerschein</German>
+			<German>Driver License</German>
 			<French>Permis de Conduire</French>
 			<Italian>Licenza di Guida</Italian>
 			<Portuguese>Licença de Motorista</Portuguese>
@@ -3464,7 +3464,7 @@
 		<Key ID="STR_License_Pilot">
 			<Original>Pilot License</Original>
 			<English>Pilot License</English>
-			<German>Pilotenschein</German>
+			<German>Pilot License</German>
 			<French>License de Pilote</French>
 			<Italian>Licenza da Pilota</Italian>
 			<Portuguese>Licença de Piloto</Portuguese>
@@ -3472,7 +3472,7 @@
 		<Key ID="STR_License_Heroin">
 			<Original>Heroin Training</Original>
 			<English>Heroin Training</English>
-			<German>Heroinausbildung</German>
+			<German>Heroin Training</German>
 			<French>Transformation du Pavot</French>
 			<Italian>Processo Eroina</Italian>
 			<Portuguese>Treinamento de Heroina</Portuguese>
@@ -3480,7 +3480,7 @@
 		<Key ID="STR_License_Oil">
 			<Original>Oil Processing</Original>
 			<English>Oil Processing</English>
-			<German>Ölverarbeitung</German>
+			<German>Oil Processing</German>
 			<French>Raffinage de du pétrole</French>
 			<Italian>Processo Olio</Italian>
 			<Portuguese>Refinamento de Petróleo</Portuguese>
@@ -3488,7 +3488,7 @@
 		<Key ID="STR_License_Diving">
 			<Original>Diving License</Original>
 			<English>Diving License</English>
-			<German>Taucherschein</German>
+			<German>Diving License</German>
 			<French>Permis de Plongée</French>
 			<Italian>Licenza di Pesca</Italian>
 			<Portuguese>Licença de Mergulho</Portuguese>
@@ -3496,7 +3496,7 @@
 		<Key ID="STR_License_Boat">
 			<Original>Boating License</Original>
 			<English>Boating License</English>
-			<German>Bootsschein</German>
+			<German>Boating License</German>
 			<French>Permis Bateau</French>
 			<Italian>Licenza Nautica</Italian>
 			<Portuguese>Licença de Barco</Portuguese>
@@ -3504,7 +3504,7 @@
 		<Key ID="STR_License_Firearm">
 			<Original>Firearm License</Original>
 			<English>Firearm License</English>
-			<German>Waffenschein</German>
+			<German>Firearm License</German>
 			<French>Permis de Port d'Arme</French>
 			<Italian>Porto d'Armi</Italian>
 			<Portuguese>Licença de Porte de Armas</Portuguese>
@@ -3512,7 +3512,7 @@
 		<Key ID="STR_License_Swat">
 			<Original>SWAT License</Original>
 			<English>SWAT License</English>
-			<German>SWAT-Lizenz</German>
+			<German>SWAT License</German>
 			<French>License du SWAT</French>
 			<Italian>Licenza SWAT</Italian>
 			<Portuguese>Licença do Bope</Portuguese>
@@ -3520,7 +3520,7 @@
 		<Key ID="STR_License_CG">
 			<Original>Coast Guard License</Original>
 			<English>Coast Guard License</English>
-			<German>Küstenwache</German>
+			<German>Coast Guard License</German>
 			<French>Garde-Cotes</French>
 			<Italian>Licenza Guardia Costiera</Italian>
 			<Portuguese>Licença de Guarda Costeira</Portuguese>
@@ -3528,7 +3528,7 @@
 		<Key ID="STR_License_Rebel">
 			<Original>Rebel Training</Original>
 			<English>Rebel Training</English>
-			<German>Rebellenausbildung</German>
+			<German>Rebel Training</German>
 			<French>Entrainement rebelle</French>
 			<Italian>Licenza da Ribelle</Italian>
 			<Portuguese>Treinamento Rebelde</Portuguese>
@@ -3536,7 +3536,7 @@
 		<Key ID="STR_License_Truck">
 			<Original>Truck License</Original>
 			<English>Truck License</English>
-			<German>LKW-Führerschein</German>
+			<German>Truck License</German>
 			<French>Permis Poids Lourds</French>
 			<Italian>Licenza Camion</Italian>
 			<Portuguese>Licença de Caminhão</Portuguese>
@@ -3544,7 +3544,7 @@
 		<Key ID="STR_License_Diamond">
 			<Original>Diamond Processing</Original>
 			<English>Diamond Processing</English>
-			<German>Diamantenverarbeitung</German>
+			<German>Diamond Processing</German>
 			<French>Taillage des Diamands</French>
 			<Italian>Processo Diamanti</Italian>
 			<Portuguese>Lapidação de Diamante</Portuguese>
@@ -3552,7 +3552,7 @@
 		<Key ID="STR_License_Copper">
 			<Original>Copper Processing</Original>
 			<English>Copper Processing</English>
-			<German>Kupferverarbeitung</German>
+			<German>Copper Processing</German>
 			<French>Fonte du Cuivre</French>
 			<Italian>Processo Rame</Italian>
 			<Portuguese>Processamento de Bronze</Portuguese>
@@ -3560,7 +3560,7 @@
 		<Key ID="STR_License_Iron">
 			<Original>Iron Processing</Original>
 			<English>Iron Processing</English>
-			<German>Eisenverarbeitung</German>
+			<German>Iron Processing</German>
 			<French>Fonte du Fer</French>
 			<Italian>Processo Ferro</Italian>
 			<Portuguese>Processamento de Ferro</Portuguese>
@@ -3568,7 +3568,7 @@
 		<Key ID="STR_License_Sand">
 			<Original>Sand Processing</Original>
 			<English>Sand Processing</English>
-			<German>Sandverarbeitung</German>
+			<German>Sand Processing</German>
 			<French>Traitement du Sable</French>
 			<Italian>Processo Sabbia</Italian>
 			<Portuguese>Processamento de Areia</Portuguese>
@@ -3576,7 +3576,7 @@
 		<Key ID="STR_License_Salt">
 			<Original>Salt Processing</Original>
 			<English>Salt Processing</English>
-			<German>Salzverarbeitung</German>
+			<German>Salt Processing</German>
 			<French>Traitement du Sel</French>
 			<Italian>Processo Sale</Italian>
 			<Portuguese>Processamento de Sal</Portuguese>
@@ -3584,7 +3584,7 @@
 		<Key ID="STR_License_Cocaine">
 			<Original>Cocaine Training</Original>
 			<English>Cocaine Training</English>
-			<German>Kokainausbildung</German>
+			<German>Cocaine Training</German>
 			<French>Transformation de la Coca</French>
 			<Italian>Processo Cocaina</Italian>
 			<Portuguese>Treinamento de Cocaina</Portuguese>
@@ -3592,7 +3592,7 @@
 		<Key ID="STR_License_Marijuana">
 			<Original>Marijuana Training</Original>
 			<English>Marijuana Training</English>
-			<German>Marihuanaausbildung</German>
+			<German>Marijuana Training</German>
 			<French>Traitement du Cannabis</French>
 			<Italian>Processo Marijuana</Italian>
 			<Portuguese>Treinamento de Maconha</Portuguese>
@@ -3600,7 +3600,7 @@
 		<Key ID="STR_License_Cement">
 			<Original>Cement Mixing License</Original>
 			<English>Cement Mixing License</English>
-			<German>Zementmisch-Lizenz</German>
+			<German>Cement Mixing License</German>
 			<French>Fabrication du Ciment</French>
 			<Italian>Processo Cemento</Italian>
 			<Portuguese>Licença de Cimento</Portuguese>
@@ -3608,7 +3608,7 @@
 		<Key ID="STR_License_Home">
 			<Original>Home Owners License</Original>
 			<English>Home Owners License</English>
-			<German>Eigentumsurkunde</German>
+			<German>Home Owners License</German>
 			<French>Droit de Propriété</French>
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
