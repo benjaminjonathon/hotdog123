@@ -7,7 +7,7 @@ waitUntil { time > 0 };
 IL_EV_Count = 0;
 IL_Veh_Array = [];
 
-cutText ["Abschleppseile werden vorbereitet...","PLAIN",2];
+cutText ["Ropes preparing...","PLAIN",2];
 uiSleep (random 30);
 
 _null = [Player] execVM "IgiLoad\IgiLoad.sqf";
@@ -24,7 +24,7 @@ uiSleep (random (IL_Check_Veh_Max - IL_Check_Veh_Min));
 	};
 } forEach (vehicles);
 
-cutText ["Alle Seile und Karabiner sind eingepackt.","PLAIN",2];
+cutText ["All ropes packed.","PLAIN",2];
 
 while {true} do 
 {
